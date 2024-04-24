@@ -1,0 +1,29 @@
+<h2 id = "Blog4" style="text-align: center;">Blog post 4</h2>
+            <h3 style="text-align: center;">IxD Design</h3>
+            <p style="text-align: center;"><em>Keywords: IxD, Design, Semantic Markup</em></p>
+            <p>
+                This entry is a little strange to me, to be honest. As of right now, I have not gotten any comments on github so I'm not sure where my website stands with respect to the assignment,
+                but I assume that at least for now, it's in a workable state. (<b>edit: guess not!</b>) This entry is going to serve as a retrospective of everything I've learned so far and what I intend to
+                change in the future.
+            </p>
+            <p>
+                Well, what have I learned? Honestly it doesn't feel like a lot. I now know how to embed images, do some semantic markup, what and when it might be important in the future
+                to make sure it's there. I know that a ton of the website design will be done with CSS and custom Javascript elements, but I am left wondering how far I would be able
+                to push this with only HTML. From what I understand, even though it's got a reputation for being pretty bland and unimpressive without CSS, there are still <span style="font-family: monospace;"><em>some things</em></span>
+                (read: a lot of things) that you can do with it. Either way, I'm excited to start making this thing look like what my designs are, more than essentially just a placeholder site.
+            </p>
+            <p>
+                Retrospectively, I've been surprised at how difficult it's been to format the site in a way that actually makes sense semantically. Especially with my wanting to add things
+                stylistically, it's been a battle of reeling myself in with trying crazy stuff, mostly because it ends up being something that will be much easier in CSS and a huge timesink
+                otherwise. Beyond that, on the design side, it's been less simple than I thought to think of a cohesive visual language that I'm happy presenting as a full website. I'll
+                show that off more in the design section, but I think it's important to me to realise that, as a portfolio website, I really do need to make something that <strong>looks good.</strong>
+            </p>
+            <p>
+                Going forward, I want to spend more time layering my visuals when we get around to CSS, making the website feel less flat than it is. I want that feeling of depth to come
+                through in opacity changes, clever layouts, and shadowing when it's needed. More than that though, I want to carry on making sure that the website feels intuitive. I want
+                to exploit users' external familiarities as much as possible. I want to make this website unique, but every bit of interaction will follow naturally without too much annoying
+                handholding from me. I'm happy with some of the things I have now, I like my internal bookmarks on this page for example, which make the navigation a little easier, and the 
+                less effort a user needs to interact with the site, the better the experience will be. I also think that my wireframes and designs are solid. So long as I'm able to follow
+                them, I think I should come out of this with something worthwhile.
+            </p>
+            <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>
