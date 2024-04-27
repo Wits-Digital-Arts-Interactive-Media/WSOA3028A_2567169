@@ -5,7 +5,7 @@
             <li><a href="design.html">Design</a></li>*/
 //todo Place the rest of the menu items
 const menuItems = [
-    { name: "Home", href: "index.html" },
+    { name: "Home", href: "home.html" },
     { name: "Blog", href: "blog.html" },
     { name: "Essays", href: "essays.html" },
     { name: "Portfolio", href: "portfolio.html" },

@@ -1,8 +1,3 @@
-//NOT USING NODE.JS FOR NOW, SO EACH FILEPATH MUST BE ADDED MANUALLY
-let file_names = [
-    "/Blogs/Blog 1.txt",
-]
-
 const button_names = [
     "The Rise of AI",
     "Design Wireframes and Plans",
@@ -24,7 +19,7 @@ function initialise_buttons() {
 
 export function initialise() {
     initialise_buttons();
-    read_entry(file_names[0]);
+    read_entry("/Blogs/Blog 1.txt");
 }
 
 export function read_entry(filepath) {
