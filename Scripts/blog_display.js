@@ -21,7 +21,7 @@ function initialise_buttons() {
 
 export function initialise() {
     initialise_buttons();
-    read_entry(`${root}/blogs/Blog 1.txt`);
+    //read_entry(`${root}/blogs/Blog 1.txt`);
 }
 
 export function read_entry(filepath) {
