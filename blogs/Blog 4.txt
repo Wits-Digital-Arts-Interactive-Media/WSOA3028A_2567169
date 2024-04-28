@@ -1,6 +1,7 @@
-<h2 id = "Blog4" style="text-align: center;">Blog post 4</h2>
-            <h3 style="text-align: center;">IxD Design</h3>
+<h2 style="text-align: center;">Blog post 4</h2>
+            <h3 style="text-align: center;" class = "p-name">IxD Design</h3>
             <p style="text-align: center;"><em>Keywords: IxD, Design, Semantic Markup</em></p>
+            <div class = "e-content">
             <p>
                 This entry is a little strange to me, to be honest. As of right now, I have not gotten any comments on github so I'm not sure where my website stands with respect to the assignment,
                 but I assume that at least for now, it's in a workable state. (<b>edit: guess not!</b>) This entry is going to serve as a retrospective of everything I've learned so far and what I intend to
@@ -26,4 +27,5 @@
                 less effort a user needs to interact with the site, the better the experience will be. I also think that my wireframes and designs are solid. So long as I'm able to follow
                 them, I think I should come out of this with something worthwhile.
             </p>
+            </div>
             <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

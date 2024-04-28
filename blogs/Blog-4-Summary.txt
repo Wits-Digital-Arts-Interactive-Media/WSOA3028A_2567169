@@ -1,0 +1,1 @@
+<p class = "p-summary">This post is a retrospective, looking back at site progress as well as future visual and interactivity plans</p>

@@ -1,6 +1,7 @@
-<h2 id="Blog3" style="text-align: center;">Blog post 3</h2>
-            <h3 style="text-align: center;">Semantic Markup and More Plans</h3>
+<h2 style="text-align: center;">Blog post 3</h2>
+            <h3 style="text-align: center;" class = "p-name">Semantic Markup and More Plans</h3>
             <p style="text-align: center;"><em>Keywords: Semantic Markup, website design, html5</em></p>
+            <div class = "e-content">
             <p>
                 First off, I want to acknowledge the fact that this week will be the first in which I'm writing this post on VSCode instead of word.
                 I think this will help readability on the backend and also help me to format the post more for the website instead of on the editor,
@@ -30,4 +31,5 @@
                 believe that this will lead to an incongruity in any of my designs, but that remains to be seen, and it's never too late to discuss design changes down the road. After all,
                 game design is the fusion of those fields in any case, so supplementing my own website with elements from both disciplines is the essence of what I'm studying!
             </p>
+            </div>
             <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

@@ -1,7 +1,8 @@
-<h2 id="Blog2" style="text-align: center;">Blog post 2</h2>
-            <h3 style="text-align: center;">Design Wireframes and Plans</h3>
+<h2 style="text-align: center;">Blog post 2</h2>
+            <h3 style="text-align: center;" class = "p-name">Design Wireframes and Plans</h3>
             <p style="text-align: center;"><em>Keywords: Design, Art, Wireframes</em></p>
 
+            <div class = "e-content">
             <p>This week was spent mostly outlining the wireframes for my eventual website. I want to use this post to go in-depth on the decisions I made and the reasons for making them. I’m going to scan each wireframe into here and talk about how they’re going to work and the possible challenges that might come up with integrating them.</p>
             <p>First is my index/homepage</p>
             <img src = "images/Index_Wireframe.png" alt="A wireframe of the planned look for the homepage">
@@ -15,4 +16,5 @@
             <p>Finally, my portfolio page will serve as an advertisement and gallery.</p>
             <img src="images/Folio_Wireframe.png" alt= "A wireframe of the planned look for the portfolio page">
             <p>On the main part of the portfolio, there will be a large splash image with links to my projects and various pages. Beneath that will be the gallery section, seperated out into distinct tabs for whatever media becomes important to display. The gallery section will simply house images of paintings or renders that I’ve made, laid out quite simply to de-emphasize anything but the artwork itself. The 3D models tab will have the same design philosophy, but with a 3D viewer and a tab to look at all the separate textures and maps that were used to produce the final product.</p>
+            </div>
             <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

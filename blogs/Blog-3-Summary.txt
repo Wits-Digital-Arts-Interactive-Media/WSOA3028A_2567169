@@ -1,0 +1,1 @@
+<p class = "p-summary">This post is talking about the introduction of semantic markup into my posts going forward, as well as intended user experience for this website.</p>

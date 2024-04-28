@@ -1,0 +1,1 @@
+<p class = "p-summary">This post is a dive into the early design wireframes and plans with regards to future website layout.</p>

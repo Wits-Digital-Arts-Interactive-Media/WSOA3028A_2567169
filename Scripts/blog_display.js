@@ -32,6 +32,7 @@ function initialise_buttons() {
 
         let article_holder = document.createElement("article");
         article_holder.id = `Blog_Holder_${index}`;
+        article_holder.classList.add("h-entry")
         button_holder.appendChild(article_holder);
     });
 }
