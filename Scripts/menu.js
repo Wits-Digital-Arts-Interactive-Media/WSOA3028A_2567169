@@ -5,11 +5,11 @@
             <li><a href="design.html">Design</a></li>*/
 //todo Place the rest of the menu items
 const menuItems = [
-    { name: "Home", href: "../index.html" },
-    { name: "Blog", href: "../Pages/blog.html" },
-    { name: "Essays", href: "../Pages/essays.html" },
-    { name: "Portfolio", href: "../Pages/portfolio.html" },
-    { name: "Design", href: "../Pages/design.html" }
+    { name: "Home", href: "/../index.html" },
+    { name: "Blog", href: "/../Pages/blog.html" },
+    { name: "Essays", href: "/../Pages/essays.html" },
+    { name: "Portfolio", href: "/../Pages/portfolio.html" },
+    { name: "Design", href: "/../Pages/design.html" }
 ]
 
 export function initialise(currentPage = "") {
