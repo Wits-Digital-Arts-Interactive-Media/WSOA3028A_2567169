@@ -1,2 +1,1 @@
-<p>ooooooooooooooooooooooooh</p>
-<p>Im blinded by the lightss</p>
+<p>In this blog post, I talk about the Turing Test, how it works, and how it can applied to artificial intelligence, particularly in two cases: The HumanOrNot website and twitter bots.</p>

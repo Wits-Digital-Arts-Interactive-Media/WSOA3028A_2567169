@@ -1,8 +1,8 @@
 const button_names = [
-    "The Rise of AI",
-    "Design Wireframes and Plans",
-    "Semantic Markup and More Plans",
-    "IxD Design",
+    "Blog 1: The Rise of AI\nKeywords: AI, Turing Test, Twitter",
+    "Blog 2: Design Wireframes and Plans\nKeywords: Design, Art, Wireframes",
+    "Blog 3: Semantic Markup and More Plans\nKeywords: Semantic Markup, Website Design, html5",
+    "Blog 4: IxD Design\nKeywords: IxD, Design, Semantic Markup",
 ]
 
 let isOpenArr = [];
@@ -65,6 +65,7 @@ function summary_display(summary_text, index) {
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = summary_text;
 }
+
 //from the async function, we now have the string from the inputted file path
 function checker(file_text, index) {
     //console.log(`We now have ${file_text}`)
@@ -79,7 +80,7 @@ function checker(file_text, index) {
         corresponding_button.innerText = button_names[index];
     } else {
         blog_holder.innerHTML = file_text;
-        corresponding_button.innerText = "Close";
+        corresponding_button.innerText = `Close ${button_names[index]}`;
     }
     isOpenArr[index] = !isOpenArr[index];
 }

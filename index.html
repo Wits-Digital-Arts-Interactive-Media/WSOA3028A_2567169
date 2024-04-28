@@ -22,8 +22,11 @@
 
     <main>
         <h1 style = "text-align: center;">Hey there.</h1>
-        <h2 style = "text-align: center;">I'm <strong>Yoav Lipshitz<strong>.</h2>
+        <h2 style = "text-align: center;">I'm <strong>Yoav Lipshitz</strong>.</h2>
         <h3 style = "text-align: center;">Take a look around.</h3>
+        <article id = "Profile"></article>
     </main>
+
+    <script type="module">import {inject_profile} from "./Scripts/profile_injector.js"; inject_profile("Profile")</script>
 </body>
 </html>
