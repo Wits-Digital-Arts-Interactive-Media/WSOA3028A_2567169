@@ -4,12 +4,15 @@
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="design.html">Design</a></li>*/
 //todo Place the rest of the menu items
+
+const root = "/WSOA3028A_2024";
+
 const menuItems = [
-    { name: "Home", href: "/../index.html" },
-    { name: "Blog", href: "/../Pages/blog.html" },
-    { name: "Essays", href: "/../Pages/essays.html" },
-    { name: "Portfolio", href: "/../Pages/portfolio.html" },
-    { name: "Design", href: "/../Pages/design.html" }
+    { name: "Home", href: root + "/index.html" },
+    { name: "Blog", href: root + "/blogs/index.html" },
+    { name: "Essays", href: root + "/essays/index.html" },
+    { name: "Portfolio", href: root + "/portfolio/index.html" },
+    { name: "Design", href: root + "/design/index.html" }
 ]
 
 export function initialise(currentPage = "") {
