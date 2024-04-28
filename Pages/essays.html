@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = 'language' content="EN">
+    <meta name = 'rating' content="General">
     <meta name = "author" content="Yoav Lipshitz">
     <meta name="description" content="Yoav Lipshitz Essays">
     <script type="module">import {initialise} from "/Scripts/menu.js"; initialise("Essays");</script>
+    <script type = "module">import {initialise} from "/Scripts/essay_display.js"; initialise();</script>
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +20,9 @@
     </header>
 
     <article>
-        <iframe style="width: 1300px; height: 2000px;" src="../Essays/Essay 1 UI and UX.pdf"></iframe>
+        <div id = "buttons"></div>
+        <article id = "pdf_holder"></article>
+        <!-- <iframe style="width: 1300px; height: 2000px;" src="../Essays/Essay 1 UI and UX.pdf"></iframe> -->
     </article>
 </body>
 </html>
