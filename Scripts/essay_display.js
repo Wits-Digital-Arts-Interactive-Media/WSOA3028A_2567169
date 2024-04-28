@@ -11,13 +11,15 @@ let button_names = [
     'Essay 1: UI and UX',
 ]
 
+const root = "/WSOA3028A_2567169";
+
 export function initialise() {
     const button_holder = document.getElementById("buttons");
     button_names.forEach(function (bName, index) {
         let newButton = document.createElement("button");
         newButton.innerText = bName;
         newButton.addEventListener('click', () => {
-            expand_pdf(`/essays/Essay ${index+1}.pdf`);
+            expand_pdf(`${root}/essays/Essay ${index+1}.pdf`);
         })
         button_holder.appendChild(newButton);
     })
