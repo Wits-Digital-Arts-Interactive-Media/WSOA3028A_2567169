@@ -5,13 +5,15 @@ const button_names = [
     "IxD and Design",
 ]
 
+const root = "/WSOA3028A_2567169";
+
 function initialise_buttons() {
     const button_holder = document.getElementById("button_holder");
     button_names.forEach(function (bName, index) {
         let newButton = document.createElement("button");
         newButton.innerText = bName;
         newButton.addEventListener('click', () => {
-                read_entry(`/blogs/Blog ${index + 1}.html`);
+                read_entry(`${root}/blogs/Blog ${index + 1}.html`);
         });
         button_holder.appendChild(newButton);
     });
@@ -19,7 +21,7 @@ function initialise_buttons() {
 
 export function initialise() {
     initialise_buttons();
-    read_entry("/blogs/Blog 1.html");
+    read_entry(`${root}/blogs/Blog 1.html`);
 }
 
 export function read_entry(filepath) {
