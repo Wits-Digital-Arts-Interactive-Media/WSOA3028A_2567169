@@ -17,8 +17,9 @@
         <nav></nav>
     </header>
 
-    <h1 style="text-align: center;"><em>Design Notes</em></h2>
-    <section>
+    <section class = "h-entry">
+        <div class = "e-content">
+        <h1 style="text-align: center;" class = "p-name"><em>Design Notes</em></h1>
         <p>
             For this section, I want to show my design wireframes, flowcharts, intended experience, and the rest of that juicy design stuff. To start off with, I want to talk a bit
             about my design style process. Of course, that starts with my intended audience, which is a creative company that would be investigating me for portfolio purposes.
@@ -26,13 +27,33 @@
             the most incredible website ever created, but showcasing at least some competency in website design will be important for showing companies that I can create what I want
             to create, given enough time. Secondly, I think that user experience will be even more important than that, so I plan to center good semantic markup and clear, accessible 
             content as much as I possibly can. This leads into my wireframes, and I think that it will be best to sort them by page, so I can show inspirations where necessary and 
-            demarkate them legibly.
+            demarkate them legibly. Additionally, I'm not sure what to put in terms of microformats and related things. As an aside, it seems like the software I was using for doing my flowcharts
+            darkened them. I'm not sure what to do about that, so I apologise! However, before speaking about specific pages, I want to talk about my style guide.
         </p>
-
-        <hr>
-        <h2 style="text-align: center;">Homepage</h2>
+        <h2 style = "text-align: center;" class = "p-name"><em>Style Guide</em></h2>
+        <p>
+            The style guide was something I had thought of as endemic to wireframes, but I'm adding it here to do two things:
+            <ul>
+                <li>To show that it has indeed been considered.</li>
+                <li>To expand on parts that are not explored per-page, but rather site-wide.</li>
+            </ul>
+            So with that said, let's talk about colours!
+        </p>
+        <p>
+            I've never been very good at colours. I have a basic understanding of colour theory and I have spent a long time trying to improve, but even with all of that,
+            I don't want to base a website on it, as while I'm confident I can put together something that makes sense, I think it will be a huge timesink. However, I do have a lot
+            more experience with creating based on value. As such, my plan for this website is, essentially, shades of gray. Practically, this means that a dark gray will be used for
+            the backgrounds of pages. White text will be the contrast color that is used, and I plan to manage values so that the proper elements are emphasised at the right time and place.
+            
+        </p>
+        </div>
+    </section>
+    <hr>
+    <section class="h-entry">
+        <h2 style="text-align: center;" class="p-name">Homepage</h2>
+        <div class = "e-content">
         <picture>
-            <img src="images/Steven-Mengin-Homepage.png" title="Steven Mengin's portfolio homepage" width="500" alt="The homepage of a designer named Steven Mengin. It has his name is written in bold letters hovering over a shifting black and white field" style="float: left; padding-right: 1%;">
+            <img src="images/Steven-Mengin-Homepage.png" title="Steven Mengin's portfolio homepage" width="500" alt="The homepage of a designer named Steven Mengin. It has his name written in bold letters hovering over a shifting black and white field" style="float: left; padding-right: 1%;">
         </picture>
         <p>
             For my homepage, I want to create a strong statement piece. Something that says <em>"Here I am! Look at me!"</em> In this design, I am very inspired by this portfolio page that
@@ -43,7 +64,9 @@
         </p>
         <p style="clear: both;">
             <picture>
-                <img src="images/Main-Screen-Wireframe.png" title="Main Screen Wireframe" width="500" alt="The wireframe of the homepage of this website" style="float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
+                <img src="images/Main-Screen-Wireframe-Annotated.png"title="Main Screen Wireframe" width="500" alt="The wireframe of the homepage of this website, with design intentions annotated" style="float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
+                <img src="images/Main-Screen-Flow.png"title="Main Screen Flow Chart" width="500" alt="The wireframe of the homepage of this website, with expected user flow" style="float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
+                <img src="images/Menu-Wireframe-Annotated.png"title="Menu Wireframe" width="500" alt="The wireframe for the menu bar that will appear in every screen when opened" style="float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
             </picture>
             These are my wireframes for the homepage and the different aspect ratios that I want to make it for. Namely, I want to have it work for iPad, iPhone, and desktop.
             I want my landing to be similar to the inspiration image that I showed, however, I want to have some tricks with opacity, where my about page (the grey box and text)
@@ -51,12 +74,19 @@
             The flow diagram is incredibly simple, as the only interactible element is the interaction bar at the top. I expect a user to simply scroll to the bottom then click the bar to
             navigate to other pages from there.
         </p>
+        <p>
+            Included here as well is my wireframe for how I plan for the menu to work. On click, it will open sideways to show each page tab as a clickable object. If one of the categories has 
+            subnavigation, such as for a specific blog or essay, they will display as a scrollable secondary dropdown.
+        </p>
+    </div>
     </section>
     <hr style="clear: both;">
-    <section>
-        <h2 style="text-align: center;">Blog Page</h2>
+    <section class="h-entry">
+        <h2 style="text-align: center;" class="p-name">Blog Page</h2>
+        <div class="e-content">
         <picture>
-            <img src = "images/Blog-Screen-Wireframe.png" title = "Blog Screen Wireframe" width = "500" alt="The wireframe for the blog section of this website" style = "float: left; padding-right: 1%;">
+            <img src = "images/Blog-Screen-Wireframe-Annotated.png" title = "Blog Screen Wireframe" width = "500" alt="The wireframe for the blog section of this website" style = "float: left; padding-right: 1%;">
+            <img src = "images/Blog-Flow.png" title = "Blog Screen Flow Chart" width = "500" alt="The wireframe for the blog section of this website, with expected user flow mapped" style = "float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
         </picture>
         <p>
             For my blog section, I don't want there to be too much to distract the user. I want to center the reading experience and make interacting with blogs simple and intuitive,
@@ -69,15 +99,19 @@
             There is no inspiration for this page beyond keeping the same theming as the homepage and the rest of the website. I will be keeping a close eye on the amount of whitespace
             that it contains, and more importantly, the reading experience that it'll create. Importantly, I want to figure out more easy navigation between blogs, and so will add subnavigation
             to the hamburger bar. If possible, I would also like to add native support for font size changes and possibly plain text versions as well for accessibility purposes.
-            The wireframe for the essay page is currently very similar to this one, but with no hover-over functionality for the dropdowns. In the future, this will probably be updated
-            to reflect the different mood for it.
         </p>
+        <p>
+            For the essay page, I plan to replicate this behaviour, but rather than expanding as text, it will load an embedded pdf, and I also pln to include a download option for that pdf.
+        </p>
+    </div>
     </section>
     <hr style = "clear: both;">
-    <section>
-        <h2 style="text-align: center;">Portfolio Page</h2>
+    <section class="h-entry">
+        <h2 style="text-align: center;" class="p-name">Portfolio Page</h2>
+        <div class = "e-content">
         <picture>
-            <img src = "images/Portfolio-Screen-Wireframe.png" title = "Portfolio Screen Wireframe" width = "500" alt="The wireframe for the portfolio section of this website" style = "float: left; padding-right: 1%;">
+            <img src = "images/Portfolio-Screen-Wireframe-Annotated.png" title = "Portfolio Screen Wireframe" width = "500" alt="The wireframe for the portfolio section of this website" style = "float: left; padding-right: 1%;">
+            <img src = "images/Portfolio-Flow.png" title = "Portfolio Screen Flow Chart" width = "500" alt="The wireframe for the portfolio section of this website, with expected user flow mapped" style = "float: left; padding-right: 1%; padding-top: 0.5%; clear: both;">
         </picture>
         <p>
             For my portfolio, I want to have splash art on the full screen with contact information in the bottom corner, with the position being slightly adjusted for mobile to be
@@ -87,6 +121,7 @@
             probably necessitate a deviation form the wireframe a little bit, so that the navigation bar doesn't interfere with the tabs. Hopefully, I can integrate 3D viewers and include
             textures to a custom element, but that's subject to change in the event that there isn't enough time. I don't expect that to be an issue though.
         </p>
+        </div>
     </section>
 </body>
 </html>
