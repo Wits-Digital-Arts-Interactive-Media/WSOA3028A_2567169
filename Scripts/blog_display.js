@@ -11,7 +11,7 @@ function initialise_buttons() {
         let newButton = document.createElement("button");
         newButton.innerText = bName;
         newButton.addEventListener('click', () => {
-                read_entry(`/WSOA3028A_2024/Blogs/Blog ${index + 1}.txt`);
+                read_entry(`/Blogs/Blog ${index + 1}.txt`);
         });
         button_holder.appendChild(newButton);
     });
@@ -19,7 +19,7 @@ function initialise_buttons() {
 
 export function initialise() {
     initialise_buttons();
-    read_entry("/WSOA3028A_2024/Blogs/Blog 1.txt");
+    read_entry("/Blogs/Blog 1.txt");
 }
 
 export function read_entry(filepath) {

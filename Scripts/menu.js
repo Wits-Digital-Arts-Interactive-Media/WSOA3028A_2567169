@@ -5,7 +5,7 @@
             <li><a href="design.html">Design</a></li>*/
 //todo Place the rest of the menu items
 
-const root = "/WSOA3028A_2567169/WSOA3028A_2024";
+const root = "/WSOA3028A_2567169";
 
 const menuItems = [
     { name: "Home", href: `${root}/index.html` },

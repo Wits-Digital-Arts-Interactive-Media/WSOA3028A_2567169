@@ -17,7 +17,7 @@ export function initialise() {
         let newButton = document.createElement("button");
         newButton.innerText = bName;
         newButton.addEventListener('click', () => {
-            expand_pdf(`/WSOA3028A_2024/essays/Essay ${index+1}.pdf`);
+            expand_pdf(`/essays/Essay ${index+1}.pdf`);
         })
         button_holder.appendChild(newButton);
     })
