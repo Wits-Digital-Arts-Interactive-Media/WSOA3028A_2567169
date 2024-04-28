@@ -8,11 +8,11 @@
 const root = "/WSOA3028A_2024";
 
 const menuItems = [
-    { name: "Home", href: root + "/index.html" },
-    { name: "Blog", href: root + "/blogs/index.html" },
-    { name: "Essays", href: root + "/essays/index.html" },
-    { name: "Portfolio", href: root + "/portfolio/index.html" },
-    { name: "Design", href: root + "/design/index.html" }
+    { name: "Home", href: `${root}/index.html` },
+    { name: "Blog", href: `${root}/blogs/index.html` },
+    { name: "Essays", href: `${root}/essays/index.html` },
+    { name: "Portfolio", href: `${root}/portfolio/index.html` },
+    { name: "Design", href: `${root}/design/index.html` }
 ]
 
 export function initialise(currentPage = "") {
