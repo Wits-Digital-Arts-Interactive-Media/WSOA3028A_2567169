@@ -1,47 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name = 'language' content="EN">
-    <meta name = 'rating' content="General">
-    <meta name = "author" content="Yoav Lipshitz">
-    <meta name="description" content="Yoav Lipshitz Blog posts">
-    <title>Blogs</title>
-    <script type="module"> import {initialise} from "../Scripts/menu.js"; initialise("Blog")</script>
-    <script type ="module">import {initialise} from "../Scripts/blog_display.js"; initialise()</script>
-</head>
-<body>
-    <header>
-        <h1></h1>
-        <nav>
-            
-        </nav>
-        <hr>
-    </header>
-
-    <main>
-        <nav id="blog_jumper">
-            <p>Jump to a specific post:</p>
-        </nav>
-        <h2>Blogs</h2>
-        <article id = "button_holder" class = "h-feed">
-        </article>
-
-        <!--duplicate this to write posts in-editor with preview before migrating them to txt files; the rest of the microformats are embedded on script injection -->
-        <!-- <div class="WIP-writings">
-            <h2 style="text-align: center;">Blog post *</h2>
-            <h3 style="text-align: center;", class="p-name"></h3>
-            <p style="text-align: center;"><em>Keywords:</em></p>
-            <div class="e-content">
-                
-            </div>
-        </div> -->
-        
-        <!-- <div class="WIP-writings">
-            <h2 style="text-align: center;">Blog post 8</h2>
+<h2 style="text-align: center;">Blog post 8</h2>
             <h3 style="text-align: center;", class="p-name">A Close Reading on a Feminist Internet</h3>
-            <p style="text-align: center;"><em>Keywords:</em></p>
+            <p style="text-align: center;"><em>Keywords: Feminism, Gender equality, Social justice, Social media</em></p>
             <div class="e-content">
                 <p>
                     I've been staring at this screen for about 2 hours now. Truthfully, even after watching through our lectures again, I still
@@ -95,15 +54,3 @@
                     for everyone.
                 </p>
             </div>
-        </div> -->
-
-        <!--Until CSS is added, this is padding so that you can scroll low enough to see the summaries of blogs at the bottom of the page-->
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </main>
-</body>
-</html>

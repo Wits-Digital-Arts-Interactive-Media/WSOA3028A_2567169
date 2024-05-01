@@ -28,4 +28,3 @@
                 them, I think I should come out of this with something worthwhile.
             </p>
             </div>
-            <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

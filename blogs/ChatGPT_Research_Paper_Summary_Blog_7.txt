@@ -1,0 +1,1280 @@
+For the rest of this conversation or until I say otherwise, I will be sending long pieces of writing. As a response, return the summarised version of what I send.
+ChatGPT:
+Got it! I'll provide a summarized version of the long pieces of writing you send. Feel free to start whenever you're ready.
+
+Information has always had geography. It is from somewhere; about somewhere; it evolves and is transformed
+somewhere; it is mediated by networks, infrastructures, and technologies: all of which exist in physical, material
+places. These geographies of information about places matter because they shape how we are able to find and
+understand different parts of the world. Places invisible or discounted in representations are invisible in practice to
+many people. In other words, geographic augmentations are much more than just representations of places: they
+are part of the place itself; they shape it rather than simply reflect it. This fusing of the spatial and informational
+augmentations that are immutable means that annotations of place emerge as sites of political contestation: with
+different groups of people trying to impose different narratives on informational augmentations. This paper therefore
+explores how information geographies have their own geographic distributions: geographies of access, of
+participation, and of representation. The paper offers a deliberately broad survey of a range of key platforms that
+mediate, host, and deliver different types of geographic information. It does so using a combination of existing
+statistics and bespoke data not previously mapped or analysed. Through this effort, the paper demonstrates that in
+addition to the geographies of uneven access to contemporary modes of communication, uneven geographies of
+participation and representation are also evident and in some cases are being amplified rather than alleviated. In
+other words, the paper comprehensively shows one important facet of contemporary information geographies: that
+geographic information itself is characterised by a host of uneven geographies. The paper concludes that there are
+few signs that global informational peripheries are achieving comparable levels of participation or representation with
+traditional information cores, despite the hopes that the fast-paced spread of the internet to three billion people
+might change this pattern.
+
+ChatGPT:
+The text highlights how information has geographical aspects, shaping our understanding of the world. It emphasizes that 
+geographic augmentations aren't just representations but integral parts of places, subject to political contestation. 
+The paper examines geographies of access, participation, and representation in information platforms, revealing uneven distributions. 
+Despite internet expansion, global informational peripheries still lag behind traditional cores in participation and representation.
+
+Information has always had geography. It is from
+somewhere; about somewhere; it evolves and is
+transformed somewhere; it is mediated by networks,
+infrastructures, and technologies: all of which exist in
+physical, material places. Information has also always
+been mobile. Even one of the most commonly used
+definitions of information – ‘the imparting of knowl-
+edge’ (Oxford English Dictionary 2015) – emphasizes
+the transmission and movement of information in an
+ongoing and dynamic process. In short, information –
+ranging from standardized measurements to instruction
+manuals to stories and legends – emerges from, engages
+with and is adapted to a range of local contexts and
+geographies. The current era is no different and this
+article surveys a range of contemporary information
+geographies to access patterns of mutability, mobility
+and underlying power relations relative to historical
+arrangements in the production and use of information.
+
+ChatGPT:
+The text underscores the geographical nature of information, highlighting its origin, transmission, and adaptation in various contexts. 
+It explores contemporary information geographies to understand how information moves, changes, and relates to power dynamics compared to historical patterns.
+
+It is precisely this mobility and adaptability of infor-
+mation that provides the motivation to constrain the
+mutability of information through the creation of what
+Latour (1986) refers to as ‘immutable mobiles’: or
+information that can be transported without significant
+change to its inherent characteristics or meaning.
+The printing press, for instance, made it relatively
+cheap to create and transport information in the
+container of printed paper while simultaneously limiting
+how its form could change. As ICT-based non-proximate
+communication emerged and was adopted by govern-
+ments and companies, the ability to create ‘immutable
+mobiles’ or shared understandings of information by
+non-proximate and asynchronous populations became
+vital. Information and power thus became intimately
+intertwined as people capitalised on the value associated
+with epistemic control: information represented ‘this’
+and not ‘that’ (Schech 2002; Foucault 2000).
+A key characteristic of immutable mobiles is their
+ability to crystallise informational layers of places in a
+moveable container; to create particular ‘geographies
+of information’ (Wilson 2015). A map, a tourist guide,
+or a postcard all annotate a bounded part of the world
+tied to a relatively immutable form that can be
+physically moved around the world. Thus, immutable
+mobiles impact representations of places that are
+used both in the locales referenced and in other parts
+of the world (Dodge and Kitchin 2007; Kitchin et al.
+2011). Information about any location can be ab-
+stracted from it and placed in the relatively immutable
+form of printed paper: thus simultaneously fixing
+information to a physical object and untethering it to a
+locale, as this form can be easily moved through space.
+In the era of print, the geography of immutable mobiles
+such as maps or books largely defined the geography of
+codified and geographically referenced information.
+ICTs have also facilitated an evolution of informa-
+tion beyond immutable mobiles through the creation
+of ‘(im)mutable augmentations’ characterised by the
+layering of dynamic information across and over
+geographic space. Thus, not only does information
+have particular geographies, but geography itself is
+layered, defined, and augmented by information that
+is more or less immutable [i.e. both mutable and
+immutable: or (im)mutable] depending upon the
+institutions and practices associated with it (Perkins
+2014). The Sydney Opera House, for instance, is not
+just a building made from bricks and mortar. Nor is
+it simply represented by guidebook entries, postcards
+and other immutable mobiles that are trapped within
+their containers. It is also overlaid with digital
+images, videos, descriptions, reviews about tours
+and past performances, as well as innumerable
+stories told about experiences associated with it that
+are stored in online maps, annotations and websites.
+All of those things are informational, but are also
+part of the place itself; they are part of how we enact
+and bring the place into being 1 (Graham et al. 2013;
+Graham 2013; Floridi 2011). The advent of the (im)
+mutable augmentations and mobile tools that allow
+us to access this information while in situ (for shop-
+ping, wayfinding, driving, sightseeing, protesting,
+and many other geographic activities) places an ever
+greater value in the epistemic control to fix informa-
+tional layers of place (Graham et al. 2013).
+These (im)mutable augmentations of information
+about places matter because they shape how we are
+able to find and understand different parts of the world
+(Shelton et al. 2014). Places invisible or discounted in
+representations are equally invisible in practice to many
+people. A restaurant omitted from a map can cease to
+be a restaurant if nobody finds it. Likewise, how places
+are presented within informational augmentations
+fundamentally affects how they are used or brought into
+being (Graham and Zook 2013). In other words,
+geographic augmentations are much more than just
+representations of places: they are part of the place
+itself; they shape it rather than simply reflect it; and
+the map again becomes part of the territory (Pickles
+2004; Floridi 2014). This fusing of the spatial and infor-
+mational augmentations that are immutable can result
+in high stakes as annotations of place emerge as sites
+of political contestation: with different groups of people
+trying to impose different narratives on informational
+augmentations (Zook and Graham 2007).
+In short: the ‘geography of information’ – the
+geographic distribution of information either as a phe-
+nomenon in its own right or as representative of some
+other underlying process (Wilson 2015) – has long been
+a key means of control and power formation. The rise
+of ‘information geographies’ – informational augmen-
+tations to places – represents a key and emerging area
+of inquiry for scholars of information and this article
+seeks to provide an initial starting point for this
+research. After a brief review of pre-digital geogra-
+phies of information, this paper explores how information
+geographies have their own geographic distributions:
+geographies of access, of participation, and of
+representation.
+
+ChatGPT:
+The text discusses the concept of "immutable mobiles," emphasizing their role in preserving information's characteristics during transport.
+It explores how information, tied to relatively immutable forms like maps or books, impacts representations of places.
+Additionally, it delves into "(im)mutable augmentations," dynamic information layered over geographic space, shaping how we perceive and interact with places.
+These augmentations are seen as part of the place itself and can be sites of political contestation. 
+The article highlights the significance of understanding information geographies, focusing on access, participation, and representation.
+
+In the pre-digital age, the affordances of technologies
+and associated socio-technical systems for collecting,
+storing and disseminating information meant that infor-
+mation was both scarce and geographically embedded.
+For instance, at the dawn of the nineteenth century
+the tools for collating encyclopaedic information about
+places (e.g. compasses, paper, sextants) were concen-
+trated in only a few hands and places; making the ability
+to engage in large-scale data collection relatively rare.
+Even more so, because the required propinquity to the object of measurement inherent in collecting informa-
+tion about places, entailed a scale of organisation not
+widely available. Likewise, the state of the art for
+containing information – the book – required specific
+points of access to codified content for its production.
+Books were also constrained by a particular form –
+two-dimensional printed material of pre-specified
+dimensions, usually part of a linear reading trajectory
+from start to finish – and method of physical storage
+in particular places.
+Other key bottlenecks in the processing of informa-
+tion included the availability of requisite skillsets to
+manage, validate, merge, modify, classify, sort, analyse
+and manipulate information into particular forms and
+formats. The institutions that emerged to meet this
+challenge – universities, associations, and guilds –
+required resources (which, in turn, often needed to be
+‘spatially fixed’) and, as a result, formalised education
+in information handling practices were necessarily place
+bound and concentrated in specific locales. These
+geographic centres of calculation meant that the ability
+to access codified information, let alone contribute to it
+(i.e. the professionalisation of knowledge work) was
+also highly constrained.
+Although the affordances of pre-digital technologies
+(and their associated systems of governance,
+economisation, and socialisation) allowed for move-
+ments of codified information (shifted from its point
+of creation to other locations), it could never
+transcend the innate materiality of its medium or the
+world. In short, the frictions of mobility associated
+with transmitting and storing information, the place-
+bound rules and forms of governance, and the
+availability of requisite technologies that have all
+shaped the geographies of information in this era. In
+practice, these constraints manifest into hegemonic
+representations and hegemonic modes of participation
+(cf Gramsci 1971) and because knowledge and codi-
+fied information are always produced under conditions
+of power (Crampton 2008; Pickles 1994), control over
+hegemonic representations has been a way of exerting
+economic, social, and political power (Laclau and
+Mouffe 1985).
+Books, newspapers, and patents, for instance, were
+all far more likely to be published from (and about)
+the global North: with the global South playing a rela-
+tively minor role in producing, using, and controlling
+codified information (Zhang et al. 2013; Graham et al.
+2011; Thompson and Fox-Kean 2005). 2 This informa-
+tion power and power over information manifests into
+distinct spatial patterns and almost all traditional
+mediums of information are characterised by significant
+spatial inequalities leading Castells (1999, 3) to con-
+clude that ‘most of Africa is being left in a technological
+apartheid’. Castells (2010) goes on to characterise the
+systemic and uneven relationship between information
+production/use and socio-economic exclusion and
+marginalisation as the ‘black holes of informational
+capitalism’.
+
+ChatGPT:
+In the pre-digital era, information was scarce and tied to specific geographical locations due to limitations in technology and organizational structures. 
+Tools for collecting information were concentrated in few hands, and access to formal education in information handling practices was limited to specific locales. 
+Despite movements of codified information, it remained bound by the materiality of its medium and governance structures, 
+leading to hegemonic representations and participation modes. Publications were predominantly from the global North, marginalizing the global 
+South in information production and control. This spatial inequality led to systemic socio-economic exclusion and marginalization, 
+characterized as the "black holes of informational capitalism" by Castells.
+
+Against this backdrop, the past decades have seen a sea
+change in the availability of information. The terms
+‘information revolution’ (Floridi 2014) and ‘data revo-
+lution’ (Kitchin 2014) signify the radical changes in
+the ways that information is produced and used: imply-
+ing that we are now in an age of post-information scar-
+city. This transformation has been brought about by the
+proliferation of new socio-technical systems of the so-
+called information age. These systems are underpinned
+by greater accessibility to computers that can readily
+receive and transmit information non-proximately via
+those machines, as well as a host of associated social,
+economic, and political practices. As a result, many of
+the barriers to the production, processing, and proli-
+feration of information in the pre-digital era have been
+drastically lowered.
+Some have argued that this emerging digital age of-
+fers a potentially radically different political economy
+of information (Benkler 2007; Bruns 2008; Jenkins
+2006). Tapscott and Williams (2006) and Shirky (2011)
+highlight the ways that digitally mediated participation
+and representation is broad based, circumventing tradi-
+tional mediators of information, and allowing citizens
+to play a more significant role in shaping the content
+and augmentations that play key roles in their lives
+(see also Sui and Goodchild 2011). Harvard Law
+Professor Lawrence Lessig, a key scholar of the effects
+of information systems on property rights, has also
+made some particularly hopeful observations on the
+democratic power of the internet. At the World Summit
+on the Information Society, he pointed to the significant
+possibilities afforded by the Web: ‘[f]or the first time in
+a millennium, we have a technology to equalize the op-
+portunity that people have to access and participate in
+the construction of knowledge and culture, regardless
+of their geographic placing’ (Lessig 2003). Lessig’s
+characterisation is not unique; such sentiments also
+infuse the world of policy and business. In 2012 the
+Secretary-General of the International Telecommuni-
+cation Union claimed that once internet connectivity
+arrives, ‘all the world’s citizens will have the poten-
+tial to access unlimited knowledge, to express
+themselves freely, and to contribute to and enjoy
+the benefits of the knowledge society’ (Touré 2012).
+Echoing a similar line of rhetoric, Wikipedia seeks
+to ‘contain the sum of all human knowledge’; and
+Google’s stated core mission is to ‘organize the
+world’s information and make it universally accessi-
+ble and useful’ (Google 2015).
+
+ChatGPT:
+The past decades have witnessed a significant increase in information availability, often referred to as the "information revolution" or "data revolution." 
+This transformation, facilitated by new socio-technical systems of the digital age, has lowered barriers to information production, processing, 
+and dissemination. Scholars argue that the digital age offers a potentially different political economy of information, 
+allowing broad-based participation and representation, circumventing traditional mediators. 
+Optimistic views highlight the internet's democratizing potential, emphasizing equal access to knowledge and culture regardless of geographic location. 
+Such sentiments are echoed in policy and business spheres, emphasizing the potential for unlimited knowledge access and contribution to the knowledge society.
+
+These are powerful statements, and permeate all
+levels of discourse about ICTs and development. While
+we are disposed to be suspicious of such totalising
+claims, to date, the existing work on global geographies
+of information (see Zook 2001; Malecki 2002;
+Devriendt et al. 2011) has tended to use single indica-
+tors rather than a comparison of a range of variables
+to more completely capture the totality associated with
+the changing political-economy of information. To be
+sure, the macro-picture is one of extreme connectivity
+– currently there are 3 billion people and 25 billion
+devices attached to the global network – but how has
+this altered the political economy or geographies of
+information? Has the proliferation of access altered
+participation or representation? Are changing socio-
+technical systems, identified by scholars, policy-makers
+and corporations, changing information geographies?
+In other words, because people can, in theory, create
+and access information about and from almost any-
+where on earth, are we seeing different geographies of
+participation and representation, or new layers of
+digital augmentations (i.e. data shadows; Graham
+2010) that are associated with places?
+To answer these questions we engage in a broad-scale
+survey of the contemporary geographies of key digital
+and internet-mediated processes and platforms. We
+divide our work into three categories:
+• geographies of access and enablement (i.e. an explora-
+tion of who has access to the technologies and
+services essential for digital communication, partici-
+pation, and representation);
+• geographies of participation (i.e. where digital infor-
+mation is generated); and
+• geographies of representation (i.e. for which parts of
+the world is content created and not created).
+Within each of those categories we produce a series
+of mappings based on the most definitive sources avail-
+able. Some data come from established informants
+(such as the International Telecommunications Union)
+that provide relevant indicators of information use (as
+a result, these data have been fairly widely dissemi-
+nated). In contrast, much of the data used in this paper
+were generated using bespoke data collection tools and
+are tightly focused on the geography of one particular
+manifestation of information (and therefore rarely, if
+ever, used previously). Rather than describing each
+dataset in a single methods section, discussions of data
+types, sources, and limitations are presented in the
+paper as relevant. For this article we limit ourselves to
+the scale of the country, an admittedly problematic
+construct given the diversity of country sizes, numerous
+border and definitional issues and, perhaps most signif-
+icantly, the obscuring of the fundamental urban nature
+of information generation. However, due to the variety
+of datasets we have drawn upon, many of which only
+have national level metrics, we have prioritised the
+standardisation of comparability between maps and
+leave the key questions on the multi-scalar dimension
+of information for future research.
+Given the diverse range of data sources, this analysis
+raises far more questions than it answers, but this is our
+intent. A broad survey of geographies of digital partici-
+pation and representation provides a baseline from
+which we hope much further work can build. To fully
+explore the implications of many local-scale geographic
+patterns identified here requires in-depth qualitative or
+statistical analysis in order to contextualise the patterns
+in the political economy, governance and social
+practices in terms of both the online platforms used
+and the places they augment. However, we maintain that
+bringing together such a diverse range of sources adds
+an aggregated value not possible with a focus solely on
+a single data source.
+
+ChatGPT:
+The text questions the totalizing claims about the transformative power of ICTs and development. 
+It critiques existing work on global geographies of information for often using single indicators rather 
+than comparing a range of variables to fully capture the changing political economy of information. 
+To address this, the authors conduct a broad-scale survey of contemporary geographies of digital processes and platforms, 
+focusing on geographies of access, participation, and representation. They use various data sources, including 
+established informants and bespoke data collection tools, to create mappings at the national level. 
+The analysis aims to raise questions for further research and provides a baseline for future exploration of the 
+implications of local-scale geographic patterns in digital participation and representation.
+
+Understanding geographies of access and enablement
+provides important insights into the distribution of
+technologies and services that are essential for digital
+communication, participation, and representation.
+Specifically, internet access is a prerequisite for most
+types of digital engagement, and thus it is key to illustrate
+global patterns of (dis)connectivity. Figure 1 uses 2011
+data3 on internet users and total population datasets from
+the World Bank, which has tracked internet users and
+internet connections per country since the 1990s. In
+the remainder of the paper, the terms ‘internet
+population’ and ‘internet users’ refer to the segment
+of the population of a country that has access to the
+internet. This is calculated using the internet penetra-
+tion of a country (according to definitions and data
+from the World Bank).
+The data are visualised with a hexagon-shaped
+cartogram in which the size of each country deter-
+mined by its population of internet users (with each
+hexagon representing a third of a million internet
+users). Countries with fewer than 333 333 users are
+not on the map. The shading of each country reflects
+its internet penetration rate: darker shades indicate
+higher levels of per capita internet usage in the popu-
+lation. The distortion in the cartogram highlights the
+country level concentrations of users, with China
+possessing the world’s largest internet population at
+over half a billion and the United States, India and
+Japan following as the next most populous nations of
+internet users.
+This listing also highlights two important trends.
+First, the emergence of Asia as the largest component
+of the world’s internet population with 42% of the
+world’s internet users, which in other terms means that the combination of China, India and Japan has more
+internet users than Europe and North America
+combined. Second, few countries with large numbers
+of users fall into the top quintile (80+%) of internet
+penetration and some, such as India, are in the lowest
+category with less than 20% of its population on the
+internet. In other words, in many of the world’s largest
+internet nations, there is still substantial room for
+growth.
+Another key geographic pattern of internet penetra-
+tion is that all but four of the countries (Canada, New
+Zealand, Qatar and South Korea) with penetration
+rates greater than 80% are in Europe. In contrast, Latin
+America, which as a whole now hosts almost as many
+internet users as the Unites States, has 40–60% pene-
+tration rates. The case of Africa is the most varied, with
+some countries experiencing high growth, whereas
+other have seen little change. Almost all North African
+countries doubled their population of internet users
+(Algeria is a notable exception) in the last three years,
+and Kenya, Nigeria and South Africa also saw massive
+growth. However, over 20 sub-Saharan African coun-
+tries have an internet penetration of less than 10% with
+little growth in recent years. It is thus key to remember
+that despite the massive role of the internet in everyday
+life in Western Europe – where this paper was written
+and published – most people on our planet remain
+without access.
+
+ChatGPT:
+The text explores geographies of access by analyzing global patterns of internet connectivity. 
+It visualizes data on internet users and penetration rates using a hexagon-shaped cartogram. 
+The visualization highlights concentrations of internet users, with China having the largest population 
+of internet users followed by the United States, India, and Japan. Asia emerges as the largest component 
+of the world's internet population, surpassing Europe and North America combined. 
+However, many countries with large populations still have low internet penetration rates, indicating room for growth. 
+In Europe, most countries with high penetration rates are concentrated, while Latin America and Africa show varied 
+penetration rates, with some countries experiencing significant growth and others lagging behind. 
+The analysis underscores the continued lack of internet access for a significant portion of the global population, 
+despite its pervasive role in Western Europe.
+
+Broadband affordability
+In addition to unevenness in the geography of internet ac-
+cess, the relative cost of access varies greatly across
+places. Figure 2 illustrates this point by mapping the costs
+of fixed broadband subscription charges published by the
+International Telecommunication Union (ITU 2013)4
+relative to the gross national income per capita5
+.
+Figure 2 highlights one of the core themes of the
+global digital divide: the relative cost of being con-
+nected to the internet. Europe and North America have
+high absolute costs, ranging between about US$10 and
+40 a month, but have some of the lowest relative costs
+in the world: a couple of hours of work a month is
+sufficient for an average worker to afford the cost of
+connectivity. This, in part, helps to explain some of
+the patterns shown in Figure 1: such as the fact that
+the cost of a broadband connection in most parts of
+Africa is prohibitive for most people since in much of
+the continent the cost ranges between 10% and 250%
+of average income. In contrast, North and South
+American and European users can obtain broadband
+connections for less than (and often much less than)
+10% of their incomes, a distinction shared by only five
+sub-Saharan African countries.
+The issue is more the low average incomes of
+Africans rather than high broadband costs. Indeed,
+thanks to a series of cables laid around the African
+continent in 2009, the average cost of an African inter-
+net connection is now half of what it was 4 years ago.
+Kenya and Nigeria, for instance, have 2011 broadband
+costs that are 21% and 8% of 2008 levels (ITU 2013):
+figures that have undoubtedly contributed to the signif-
+icant growth in the number of internet users in both
+countries. Of course, it is not simply a market mecha-
+nism at work as the regulatory regimes under which
+broadband is made available also shape the conditions
+under which users gain access.
+
+ChatGPT:
+The text examines broadband affordability across different regions, highlighting the relative cost of fixed broadband 
+subscription charges in relation to gross national income per capita. Europe and North America have high absolute costs 
+but relatively low relative costs compared to much of Africa, where broadband costs are prohibitive for most people. 
+Despite the decreasing average cost of internet connections in Africa due to infrastructure improvements, 
+low average incomes remain a barrier to affordability. Regulatory regimes also play a role in shaping access conditions.
+
+Costs, however, remain a key barrier in many places,
+such as Eritrea, where a yearly subscription costs the
+equivalent of almost 50 years of an average salary: an
+entire life of work for a year of broadband internet
+access. Even countries with tremendous drops in broad-
+band cost such as Burkina Faso (from US$1700 a month
+in 2008 to US$55 a month in 2011) face the situation
+where broadband access represents 100% of the salary
+of an average worker in the country; a situation shared
+by 14 other sub-Saharan African countries as well
+Afghanistan and Tajikistan. In contrast, India and Sri
+Lanka have the cheapest broadband access prices, with
+costs as little as US$6 a month.
+The data presented in Figures 1 and 2 are some of
+the most important in understanding current informa-
+tion geographies. Without the ability and means to
+connect, any chance to participate in or contribute to
+representations of their localities is simply impossible.
+Yet, despite these uneven geographies, it is important
+to remember that there are now almost 3 billion
+internet users who do have some form of access. With
+this in mind, this paper explores the relative propensity
+of those users to both create and share content, and
+represent and annotate our world.
+
+ChatGPT:
+The text underscores the significant barrier of cost in accessing broadband internet in many places, 
+such as Eritrea, where the yearly subscription costs almost 50 years of an average salary. 
+Even in countries with substantial drops in broadband costs like Burkina Faso, broadband access can represent 
+100% of the average worker's salary. However, some countries like India and Sri Lanka offer relatively cheap broadband access. 
+Despite these challenges, the paper highlights the importance of understanding current information geographies, 
+emphasizing that access is essential for participation and contribution to representations of localities.
+
+To understand the geographies of participation, we
+explore three different variables: domain names (as an
+indication of content produced on the open Web),
+Github users (as a measure of contributions to the
+world’s largest open software repository), and Wikipedia
+edits (as a measure of contributions to the world’s largest
+open encyclopaedia). While all three measures are
+shaped in part by local cultural practices, e.g. how and
+what types of domains are incorporated (or not) into
+marketing or the awareness and interest in contributing
+to Github or Wikipedia, they also represent global
+communities of practice that transcend the particularise
+of any one place. By analysing and comparing three
+important (yet different) indicators of content creation
+on the web, we are able to highlight possible common
+patterns in participation while also highlighting the ways
+that difference in platform and purpose shape users’
+involvement.
+
+ChatGPT:
+The text delves into geographies of participation by examining three variables: domain names (indicating content produced on the open Web), 
+Github users (measuring contributions to the world's largest open software repository), and Wikipedia edits (measuring contributions 
+to the world's largest open encyclopedia). These measures are influenced by local cultural practices but also represent global 
+communities of practice. By analyzing and comparing these indicators, common patterns in participation can be highlighted, 
+while also recognizing how differences in platform and purpose shape users' involvement.
+
+Domains are useful providing a proxy for the location of
+digital content since they are employed as a key ‘build-
+ing block’ of the internet (Zook 2001) as they provide a
+key means by which users navigate. Although data
+transverse the internet via IP addresses (such as
+91.198.174.1926
+) these numerical addresses are difficult
+for people to remember, which led to the creation of
+the domain name system in the 1980s. While other
+channels exist for distributing content online, e.g. free
+domains featuring advertising banners or social media
+platforms, domain names remain in high demand by
+business, civil society organisations and individuals
+from around the world seeking to make their material
+findable. This is amply evidenced by the expansion of
+several hundred new generic top-level domains by the
+Internet Corporation of Assigned Names and Numbers
+(ICANN) in 2014.
+Figure 3 shows the distribution of the two principle
+types of domain names: generic Top-Level Domains
+(gTLDs) such as .com or .org and country code
+Top-Level Domains (ccTLDs) associated with specific
+countries (for instance, .de for Germany and .ke for
+Kenya). Both types of domain names require formal
+registration and information gathered during the pro-
+cesses (such as country location) is accessible through
+a variety of internet utilities such as whois or dig which
+were utilised to construct this dataset. Building on pre-
+vious work that shows that the registration location for
+domains is a good indicator for level of online content
+production (Zook 2000 2001) we established country
+level locations for all 144.5 million registered gTLDs
+after removing large holdings of domains by single enti-
+ties that are the product of speculative holdings or pay
+per click advertising. Because ccTLDs are strongly asso-
+ciated with particular countries, Figure 3 assumes that
+in contrast to gTLDs, ccTLDs (with a number of key ex-
+ceptions 7
+) are registered and used by people in the
+country associated with it, i.e. most .fr domains are used
+in France and most .za domains are used in South
+Africa. By using both types of domain names we can also
+account for local differences in domain name registration
+practices tied to varying registration policies between
+ccTLDs. For example, Scandinavian registries tend towards
+more restrictive regimes and in reaction have a relatively
+higher use of gTLD domains than countries with less re-
+strictive policies such as the United Kingdom or Germany.
+
+ChatGPT:
+The text discusses domain names as a proxy for the location of digital content, 
+highlighting their importance in navigation on the internet. While data traverse the internet via IP addresses, 
+domain names are more user-friendly. The distribution of domain names is shown in Figure 3, 
+distinguishing between generic Top-Level Domains (gTLDs) like .com and country code Top-Level Domains (ccTLDs) 
+associated with specific countries. Both types require formal registration, with information accessible through 
+internet utilities like whois or dig. Domain registration location serves as an indicator of online content production,
+with gTLDs and ccTLDs used to account for local differences in registration practices.
+
+The cartogram in Figure 3 depicts any country that is
+home to more than 10 000 gTLD and ccTLD domains
+as a red circle. The area of each circle is sized according
+to the number of domain names registered in that coun-
+try and the shading of each circle indicates the internet
+population of a country used in Figure 1. Therefore, a
+small, dark circle (like India or .in) indicates that the
+country is home to a large population of internet users,
+but a relatively small number of domains. In contrast, a
+larger, light circle (like Sweden, .se) indicates that a
+country is home to a relatively small internet popula-
+tion, but many domain names.
+Figure 3 shows that the majority of domains (78%)
+are registered in Europe or North America: a finding
+that highlights the dominance of those two regions in
+terms of internet content production. Asia, in contrast,
+is home to only 13% of the world’s domains while Latin
+America (5%), Oceania (3%), and the Middle East and
+Africa combined (2%) have even smaller shares of the
+world’s websites. This disparity has recently become a
+policy issue for ICANN, which in March 2015 released
+a call for proposals to help expand the use of domain
+names in the Middle East Region (ICANN 2015).
+Globally, there are approximately 10 internet users
+for every registered domain but this number comes with
+a bipartite relationship and a significant standard
+variance. The United States has about one domain
+name for every three internet users, which is a higher
+rate than western Europe in general – with five internet
+users per domain – although this can vary significantly
+for specific countries, e.g. the Netherlands and
+Switzerland have as few as two internet users per
+domain. China 8
+, in contrast, boasts the world’s largest
+internet population, but has only one registered domain
+for every 40 internet users. In fact, there are fewer do-
+mains registered in China than in the United Kingdom:
+with about one-tenth of China’s internet population. In
+most of the Middle East and Africa this ratio is even
+smaller, with one domain per over 50 internet users.
+
+ChatGPT:
+Figure 3 illustrates countries with more than 10,000 gTLD and ccTLD domains as red circles, 
+sized according to the number of registered domain names, and shaded based on the internet population. 
+The majority of domains (78%) are registered in Europe or North America, emphasizing their dominance in internet content production. 
+Asia has only 13% of the world's domains, while Latin America, Oceania, and the Middle East/Africa combined have smaller shares. 
+Globally, there are approximately 10 internet users for every registered domain, but this ratio varies significantly across regions. 
+The United States has about one domain for every three internet users, while China has only one registered domain for every 40 internet users. 
+In the Middle East and Africa, this ratio is even smaller, with one domain per over 50 internet users.
+
+It is important to note that Asian countries tend to have
+relatively low numbers of registered domains compared
+with European countries with similar internet populations.
+Japan is home to twice the number of internet users as the
+United Kingdom, but hosts less than one-third of the
+number of British websites. Italy and Vietnam have almost
+the same internet populations, but Italy is home to more
+than seven times the number of websites. Uzbekistan has
+more internet users than Switzerland, but not even 1%
+of the number of Swiss domains (suggestive of the exten-
+sive internet censorship in operation in the country).
+A key take-away from this geography of content
+production is that large internet populations do not
+automatically translate into large numbers of domain
+registrations (e.g. India or China). In other words, there
+appears to be large differences between access to infor-
+mation and participating in its creation and distribution
+with Western Europe and North America far more
+likely to be home to producers of digital content than
+anywhere else in the world.
+
+ChatGPT:
+Asian countries tend to have relatively fewer registered domains compared to European countries with similar internet populations. 
+For instance, Japan has twice the number of internet users as the United Kingdom but hosts less than one-third of the number of British websites. 
+Similarly, Italy and Vietnam have comparable internet populations, but Italy has over seven times more websites. 
+Even though Uzbekistan has more internet users than Switzerland, it has less than 1% of the number of Swiss domains, 
+indicating extensive internet censorship. This highlights that large internet populations do not necessarily lead to a proportionate 
+number of domain registrations. Thus, there are significant differences between accessing information and participating in its
+creation and distribution, with Western Europe and North America being more likely to produce digital content compared to other regions.
+
+Of course, domain names are but one possible metric
+for participation and thus it is important to also review
+other possible indicators of content production. GitHub
+is the largest code hosting service in the world, con-
+taining 17 million repositories and having 3.5 million
+registered users (as well as countless more unregistered
+users). Programmers can use GitHub to publish their
+code for others to download and use, and to collabora-
+tively work on shared projects, tracking changes and
+contributions. No other code hosting service has
+remotely the same number of users, making GitHub a
+useful proxy for the extent to which internet users
+create and share code.
+Data for the map of GitHub users and commits
+(i.e. contributions of software or code for others to
+use) in Figure 4 come from the GitHub archive (GitHub
+2015) and include all public events logged by the service.
+The data contain over 65 million commits made by
+about 1.1 million users active in 2013. Users are able
+to specify their home location as a string of text, and
+26% of users’ entries were geolocatable using the
+Unlock Places (2015) web service at the University of
+Edinburgh. Another 2% of entries were given in non-
+geographic terms (e.g. ‘Internet’, ‘127.0.0.1’, ‘Planet
+Earth’, or ‘Everywhere’), with the remaining 72% of
+profile entries empty. The 26% of locatable users
+account for over 44% of the commits. While this is a
+relatively small percentage of all users, we are not aware
+of any systemic bias that would significantly over- or
+under-count contributions from particular countries.
+Figure 4 shows the number of Github users and
+commits by these users relative to the number of inter-
+net users from Figure 1. While internet penetration
+explains about one-third of the variability in the number
+of GitHub users per country, there remain large differ-
+ences in the rate at which people from different parts
+of the world contribute. North America and Europe each
+account for over one-third of the total number of
+GitHub users and the rate of participation, respectively
+34 and 21 GitHub users per 100 000 internet users (here-
+after referenced as G per 100 K) contrasts with the global
+average of 11.4G per 100 K, albeit less dramatically than
+seen with domain names. The platform is particularly
+popular in Northern and Eastern Europe, Iceland and
+Sweden; each have more than 50G per 100 K as well as
+New Zealand and Australia with about 35G per 100 K.
+
+ChatGPT:
+GitHub serves as a significant indicator of participation in content creation, particularly in the realm of 
+coding and software development. With 17 million repositories and 3.5 million registered users, 
+GitHub allows programmers to share their code, collaborate on projects, and track contributions. 
+The data for the map of GitHub users and commits in Figure 4 are sourced from the GitHub archive, encompassing over 
+65 million commits made by approximately 1.1 million users in 2013.
+
+Figure 4 illustrates the number of GitHub users and commits relative to the number of internet users from Figure 1. 
+While internet penetration explains a portion of the variability in the number of GitHub users per country, 
+significant differences in participation rates persist across regions. North America and Europe collectively 
+account for over one-third of GitHub users, with participation rates of 34 and 21 GitHub users per 100,000 internet users, 
+respectively. This contrasts with the global average of 11.4 GitHub users per 100,000 internet users. 
+Particularly high rates of participation are observed in Northern and Eastern Europe, Iceland, Sweden, New Zealand, 
+and Australia, with rates exceeding 35 GitHub users per 100,000 internet users in these regions.
+
+A majority of the remaining third of GitHub users
+(17% of the total) are located in Asia, including:
+Singapore (27G per 100 K) and Taiwan (10G per
+100 K), which are the two biggest per capita users. In
+absolute terms, China is home to 5.6% of Github users
+but has fewer than 3 Github users per 100 K. The
+Middle East, North Africa and sub-Saharan Africa
+stand out with the lowest levels of participation and
+combined the regions are home to fewer than 1% of
+GitHub users and commits and are comparable to the
+level of activity from Switzerland.
+In addition to being the home to a majority of users,
+North America and Europe also contribute at higher
+rates than the rest of the world. For example, the
+United States is home to 31% of users but they contrib-
+ute 35% of commits. The same figures for users/
+commits for other standout countries include the
+Netherlands (1.7/2.4) and Switzerland (0.9/1.4). The
+opposite pattern is evident in much of the rest of the
+world, with India accounting for 3.6% of users, but only
+1.7% of commits; Brazil for 3.7% of users, and only
+2.5% of commits; and South Africa consisting of
+0.46% of users, but only 0.36% of all commits.
+In sum, just as domain names were disproportionally
+concentrated within Europe and North America, this
+more direct measure of content creation and distribu-
+tion is also skewed. While not as dramatic, it is arguably
+more profound given the nature of the contributions,
+not simply websites but software, the lifeblood of the in-
+formation age. This analysis of Github shows that these
+regions are significantly more involved in collaborative
+code development than other parts of the world: with
+Africa and the Middle East containing considerably
+fewer people accessing or contributing software than
+would be expected given the level of internet access.
+
+ChatGPT:
+The distribution of GitHub users and commits reveals significant disparities in participation across regions. 
+While North America and Europe account for the majority of GitHub users, they also contribute at higher rates compared 
+to the rest of the world. For instance, although the United States comprises 31% of GitHub users, they contribute 35% of commits. 
+Similar patterns are observed in countries like the Netherlands and Switzerland.
+
+Conversely, regions such as Asia, the Middle East, North Africa, and sub-Saharan Africa exhibit lower levels of participation in GitHub. 
+While Singapore and Taiwan stand out as the biggest per capita users in Asia, China has fewer than 3 GitHub users per 100,000 internet users. 
+The Middle East, North Africa, and sub-Saharan Africa combined contribute to fewer GitHub users and commits compared to countries like Switzerland.
+
+This imbalance underscores a profound skew in content creation and distribution, 
+particularly in collaborative code development. The analysis of GitHub data highlights that Europe and North America are 
+significantly more engaged in software development compared to other regions. This discrepancy indicates that regions like 
+Africa and the Middle East have fewer individuals accessing or contributing to software development despite having internet access.
+
+Geographies of Wikipedia contributions
+While code is central to the functioning of contempo-
+rary societies, its creation is a particularly specialised
+endeavour. In contrast, Wikipedia – an open platform
+that allows all internet users to contribute – offers an
+indicator of a more generalised level of content crea-
+tion and contribution. Not only is Wikipedia by far the
+world’s largest and most used encyclopaedia (1600
+times larger than the Encyclopaedia Britannica), it is
+also extremely popular; more than 15% of internet
+users accessing it on any given day and it is one of the
+top 20 most accessed websites in 95% of the world’s
+countries (Graham et al. 2014). Part of its popularity
+can be tied to its existence in 282 languages, with 40
+of those language versions containing more than 100
+000 articles. In other words, edits to Wikipedia have
+tremendous power to shape content accessed by the
+majority of internet users around the world.
+Wikipedia’s approach to contributions, in theory, al-
+lows anyone with an internet connection to contribute
+(the platform’s strapline is ‘the free encyclopedia that
+anyone can edit’). However, using the number of edits
+to every language version of Wikipedia coming from
+all countries and territory over a 2-year period (2010–
+2011)9
+, Figure 5 shows that the geography of participa-
+tion on Wikipedia is highly uneven.
+Stark inequalities are readily apparent: over a million
+edits each quarter come from users located in the
+United States, Germany, the United Kingdom and
+France. In contrast, only a few thousand edits per
+quarter are registered from most of Africa and the
+Middle East. In fact, contributions from Africa are so
+low that there are actually more edits that originate in
+Hong Kong than the whole continent combined. While
+some of these disparities can be explained by the total
+number of internet users in a country, even normalising
+by the percent of the population online results in Africa
+still registering far fewer edits than would be expected
+(see Graham et al. 2014 for detailed statistical analyses
+on the topic).
+A key way that these geographies of participation
+matter is tied to how content and locales or places is
+created in different parts of the world. In Figure 6 we
+have calculated the percentage of local edits to articles
+that reference places within their own country. In other
+words, this map illustrates the percentage of edits about
+a country (i.e. articles that fall within the boundary of a
+country) that come from users within that country. In
+this specific instance, we were only able to use data
+about the English version of Wikipedia because the
+method of geolocating user profiles involved parsing
+unstructured English-language text. While many places
+have a high percentage of content created by local
+people (for instance 85% and 78% of content about
+the United States and the United Kingdom comes from
+users located there), the percentages in Africa are much
+lower. Only 16% of Nigerian content and 9% of Kenyan
+content is created by locals and in much of the rest of
+the continent less than 5% of content is generated locally.
+In sum, this section shows the spatial distribution of
+three modes of participation in contemporary digitally
+mediated societies. While each data source has its
+own idiosyncrasies and displays different patterns
+(to be explored in future research), the general refrain
+remains consistent: the global North is characterised by
+the greatest levels of participation and is creating the bulk
+of digital content, while the global South contributes very
+little. Africa, in particular, is almost entirely omitted from
+these processes of digital generativity. Moreover, as
+Figure 7 shows, these distributions stand in marked con-
+trast to the geographies of internet users. While this is
+cause for concern in a number of arenas, we now turn
+to the most direct impact of these differences, namely in
+the ways in which places are represented (or not) within
+information geographies.
+
+ChatGPT:
+The distribution of Wikipedia contributions reflects stark inequalities in participation across different regions of the world. 
+While Wikipedia theoretically allows anyone with internet access to contribute, the data from 2010-2011 reveal that edits are 
+highly concentrated in certain countries. For instance, the United States, Germany, the United Kingdom, and France collectively 
+account for over a million edits each quarter, whereas contributions from most of Africa and the Middle East are significantly lower. 
+In fact, the number of edits originating from Hong Kong surpasses those from the entire African continent. Even when normalized by 
+the percentage of the population online, Africa still registers far fewer edits than expected.
+
+Furthermore, analyzing the percentage of local edits to articles about a country reveals significant disparities. While a high 
+percentage of content about countries like the United States and the United Kingdom is generated locally, Africa demonstrates 
+much lower percentages. For instance, only 16% of Nigerian content and 9% of Kenyan content is created by locals, with less 
+than 5% of content generated locally in many other African countries.
+
+Overall, these findings underscore the unequal distribution of participation in digitally mediated societies, with the global 
+North contributing the bulk of digital content while the global South, particularly Africa, contributes very little. 
+This discrepancy raises concerns regarding the representation of places within information geographies and highlights the need 
+for further exploration and understanding of these dynamics.
+
+To better understand the contours of representation
+within the (im)mutable augmentations of the world we
+analyse the geographies of a series of different digital
+representations: Google Search (the world’s most used
+search engine), OpenStreetMap (the world’s largest
+open map), and the Semantic Web as defined by Free-
+base (one of the largest collaborative ‘knowledge
+bases’10
+) and Geonames (the world’s largest open
+gazetteer). In all of these cases, the popularity and
+openness of these systems provide useful ways to gauge
+the spatial differences in digital representation.
+
+ChatGPT:
+Analyzing the geographies of Google Search, OpenStreetMap, and the Semantic Web using Freebase and Geonames 
+offers valuable insights into the contours of representation within digital augmentations of the world.
+
+Google Search: As the world's most widely used search engine, Google Search provides a window into how information 
+is accessed and represented online. Analyzing the geographic patterns of search queries and results can reveal 
+disparities in digital representation across different regions.
+OpenStreetMap (OSM): OSM is the world's largest open map, created and maintained by volunteers. By examining the 
+distribution of mapping activity and contributions from different regions, we can gain insights into how places 
+are represented in digital maps and the level of detail provided for various locations.
+Semantic Web: The Semantic Web encompasses structured data and knowledge representation on the internet. 
+Platforms like Freebase and Geonames serve as collaborative knowledge bases and gazetteers, respectively. Analyzing 
+the geographic coverage and contributions to these platforms can shed light on the representation of places and concepts in the digital realm.
+By studying these different digital representations, we can uncover spatial differences in the availability, accuracy, 
+and richness of information about various locations. This analysis helps to understand how different regions are portrayed 
+and represented within the digital landscape, contributing to discussions about digital equity, cultural representation, 
+and information accessibility.
+
+Google searches
+Google is the world’s most used search engine and thus the
+geographic content that it either contains or omits can
+have significant impacts on the representation of places.
+One way of measuring content in Google is to simply
+search for mentions of country names. Given the different
+names used for countries in various languages (Germany
+vs Deutschland vs Alemania) we conducted searches of
+each country’s name in each of up to 23 languages11
+collected using the Google Custom Search API. We sup-
+plemented this list of official names (such as ‘United States
+of America’) with commonly used names (such as ‘United
+States’), and common acronyms (such as ‘USA’).
+Figure 8 presents the results in a ‘tree map,’ where the
+area of each rectangle reflects the number of retrieved
+pages mentioning that country. Each country is assigned
+a colour corresponding to its world region. A country is
+given a darker shade if it has a relatively high number of
+web pages per internet user (and a lighter shade if it has
+a relatively low number of web pages per internet user).
+The most interesting result from this analysis is that
+Google indexes a relatively large number of pages about
+even the smallest and most sparsely populated territories.
+Even the Pitcairn Islands (a group of islands in the Pacific
+with a population of 56 people) are mentioned in over 10
+million web pages. Of course, it is important to point out
+that Google claims that the number of results they return
+is an estimate: so, in some cases, our results may be
+overestimating the amount of content about a place.
+The United States has the largest total number of men-
+tions in Google’s index, followed by Japan, China, and
+the United Kingdom. Excluding micro-states and small
+island nations, the country that has the most database
+entries per internet user is Chad (with over 400 per user).
+While Google’s indexing is not characterised by the
+massive geographic inequalities seen in access, partici-
+pation, or other platforms, there is still a very selective
+representation of our planet. The strong correlation
+between mentions of countries and internet users com-
+pared with total population, unsurprisingly, indicates
+that Google is simply reflecting the broader uneven in-
+formation inequalities that make up the web.
+ChatGPT:
+Analyzing Google searches provides valuable insights into the representation of places on the internet. By searching for mentions of country names in multiple languages, we can understand how different regions are depicted in Google's index of web pages.
+
+In Figure 8, each rectangle in the tree map represents the number of web pages mentioning a specific country, with darker shades indicating a higher number of pages per internet user. The results reveal that even the smallest territories are indexed by Google, with mentions of places like the Pitcairn Islands appearing in millions of web pages.
+
+The United States tops the list with the largest number of mentions, followed by Japan, China, and the United Kingdom. Interestingly, Chad stands out for having a high number of database entries per internet user, suggesting a relatively strong representation of the country compared to its population size.
+
+While Google's indexing does not exhibit the stark geographic inequalities seen in other digital platforms, such as access or participation, it still reflects broader information inequalities on the web. The correlation between mentions of countries and internet users underscores the uneven representation of our planet in digital spaces.
+
+Mapping OpenStreetMap
+OpenStreetMap (OSM) is the world’s largest roadmap,
+and because it is free and open source it is used as a
+base map for thousands of other digital platforms and
+services. Therefore it is important to understand how
+much content OSM contains about different parts of
+the world 12
+. Figure 9 is based on a download from
+GeoFabrik.de in December 2013 containing all 2 billion
+nodes (i.e. elements used to represent any point fea-
+ture) in OSM at that time. The number of nodes in each
+cell of 0.1° grid were tallied and mapped. The node
+density was then calculated for square area units with
+side length of 10 km, and a neighbourhood radius of
+25 km. The United States accounts for the largest total
+amount of content, hosting 21% of all nodes present
+in OSM, followed by France, Canada, Germany and
+Russia, each containing more than 100 million nodes.
+These five countries alone comprise 58% of all the con-
+tent in OSM and the group of high-income OECD
+countries contains almost 80% of nodes.
+The Netherlands has the highest density of content,
+with an average of over 1000 nodes per square
+kilometre, followed by Belgium with over 700 nodes
+per square kilometre. Germany, the Czech Republic,
+Switzerland and France all have about 400 nodes per
+square kilometre. In contrast to the high density in
+Europe, the southern hemisphere is far more sparsely
+covered. Africa and Latin America are each repre-
+sented by less than 5% of the world’s content in OSM.
+In contrast, California alone accounts for almost as
+much content as the whole continent of Africa, and
+Iceland has as much content as Egypt, despite being a
+tenth the size and having 1/250 the population.
+ChatGPT:
+Mapping OpenStreetMap (OSM) provides valuable insights into the coverage of geographic information in different parts of the world. Figure 9 depicts the distribution of OSM content based on a dataset containing all 2 billion nodes in OSM as of December 2013.
+
+The United States hosts the largest amount of OSM content, accounting for 21% of all nodes, followed by France, Canada, Germany, and Russia. Together, these five countries represent 58% of all content in OSM, with high-income OECD countries contributing almost 80% of nodes.
+
+The Netherlands boasts the highest density of content, with over 1000 nodes per square kilometer, followed by Belgium, Germany, the Czech Republic, Switzerland, and France. In contrast, the southern hemisphere is relatively sparsely covered, with Africa and Latin America each representing less than 5% of the world's content in OSM.
+
+Notably, California alone contributes almost as much content as the entire continent of Africa, highlighting the geographic disparities in digital mapping. Despite its smaller size and population, Iceland also hosts a significant amount of content, comparable to that of Egypt.
+
+The contours of the semantic web: Freebase
+and Geonames
+The semantic web is a movement to make the web more
+efficient by creating common frameworks that allow
+data to be easily shared and reused across sites, services
+and places. Google, for instance, has recently employed
+what they term their ‘Knowledge Graph’ as a way of
+reacting to user queries. Instead of displaying a simple
+list of links to websites as a result of a search query,
+the search engine looks for implicit meaning embedded
+in a request (such as ‘what is the capital of France’) and
+then displays structured information about that query
+on the right-hand side of the search page (e.g. the word
+‘Paris’, the population of Paris, etc.). Because Google is
+the primary interface to web for approximately 67.6%
+of Americans and over 90% of Europeans (European
+Commission 2013), information in their Knowledge
+Graph plays an important role in how hundreds of
+millions of people interpret the world.
+Information contained in the semantic web (such as
+the answer that Paris is the capital of France) is derived
+from centralised databases that feed ‘facts’ into services
+like Google, Bing, Facebook, and many other internet ser-
+vices. Two of the most important back-end databases for
+the semantic web are Freebase and GeoNames. Freebase
+is a general-purpose knowledge base, containing a data-
+base of tens of millions of entities (including many geo-
+graphic ones), and Geonames, is the world’s largest and
+probably most-used gazetteer or directory of place names.
+The data collected from Freebase contains over 43
+million entities from which we identified 478 000 place
+names through an algorithmic review of Freebase’s
+RDF triples, structures that relate database objects via
+statements in the form subject-verb-object. The survey
+collected all entities associated with latitude–longitude
+coordinates; that is, subjects of triples associated with
+the verb ‘has latitude’ and ‘has longitude’. Figure 10
+illustrates the distribution of these place names and
+illustrates that Freebase entities are overwhelmingly
+concentrated in North America and Europe.
+ChatGPT:
+The semantic web, aimed at making the web more efficient by facilitating easy data sharing and reuse, relies on central databases like Freebase and GeoNames. Freebase is a comprehensive knowledge base containing tens of millions of entities, including geographic ones. Meanwhile, GeoNames is the largest gazetteer or directory of place names globally.
+
+Analyzing Freebase data, we identified 478,000 place names associated with latitude-longitude coordinates. Figure 10 showcases the distribution of these place names, revealing a significant concentration in North America and Europe. This concentration underscores the dominance of these regions in contributing to the semantic web's knowledge base.
+
+The United States has the largest concentration in
+Freebase – 45% of placenames – even though it con-
+tains less than 5% of the world’s population, and 10%
+of the world’s internet users. As a result, the average
+of Freebase in the US – one place name for every
+1500 people – vastly outstrips the rest of the world.
+For example, there are even more place names for
+Massachusetts in Freebase than all of India which only
+has one place name for every 137 000 inhabitants. A
+third of all Freebase place names are in Europe, with
+the United Kingdom possessing 7% of place names,
+Poland with 6%, and France with just over 5%. Most
+of Africa, Asia, Latin America and the Caribbean are
+similarly underrepresented. Nigeria, for instance, con-
+tains less than 0.1% of place names in the dataset,
+despite being home to 2.5% of the world’s population.
+The second backend database we explored was
+Geonames – a combination of freely available national gaz-
+etteers and datasets13
+, as well as volunteered geographic
+information – constructed so that anybody, in theory, with
+an internet connection is able to enter or edit data. We
+obtained data from the gazetteer’s ‘data dump’14 and
+Figures 11 and 12 illustrate the density of placenames listed
+in the gazetteer. In this map, darker colours indicate higher
+numbers of placenames per square kilometre.
+As with Freebase, the geography of Geonames is not
+a simple reflection of the distribution of population,
+although it is less skewed, with the United States
+accounting for 25% (rather than 45%) of the entire da-
+tabase. Although this is less concentrated, there is still
+more content about the United States than all of Asia,
+which contains only 23% of placenames or Europe with
+19% of placenames. India is by far the most under-
+represented country in the world, with only 0.6% of
+the collection (Figure 12 shows the relationship between
+population and geographic content in more detail).
+ChatGPT:
+The distribution of place names in Freebase and Geonames reveals significant geographic disparities. In Freebase, the United States dominates with 45% of place names despite having less than 5% of the world's population. This results in an average of one place name for every 1500 people in the US, far surpassing the rest of the world. Conversely, regions like Africa, Asia, Latin America, and the Caribbean are underrepresented, with Nigeria, for example, having less than 0.1% of place names despite its significant population share.
+
+In Geonames, although the United States still accounts for a considerable portion (25%) of the database, the distribution is less skewed compared to Freebase. However, disparities persist, with India being notably underrepresented with only 0.6% of the collection despite its large population. Overall, these findings highlight the unevenness in digital representation across different regions of the world.
+
+Intriguingly, the standard patterns of concentrations
+in the global North and absences in the global South
+are also accompanied by some less expected patterns.
+Nepal, for instance, has more content than all but 10
+other countries and contains more placenames than In-
+dia and the United Kingdom together. We suspect this
+is tied to the significant efforts of a 2001 project funded
+by the European Union (Budhathoki and Chhatkuli
+2004) to create a geographical information infrastructure
+in Nepal. Also noteworthy is that Iran is augmented by
+almost as many placenames as Germany, and that North
+Korea and Sri Lanka are referenced in almost as much
+detail as Austria. It is likely that some of these patterns
+appear because many of the placenames for locations
+outside of North America and Europe are sourced from
+the US National Geospatial-Intelligence Agency and
+therefore reflect the interests of the US intelligence ser-
+vices. We also note that there are indications that a sig-
+nificant amount of content has been created by ‘crisis
+mappers’ (Zook et al. 2010); Haiti, for instance, is anno-
+tated by more content than Denmark: likely a result of
+work done following the 2010 earthquake in the country
+(for more details about the efforts of crisis mappers in
+Haiti, see Meier 2015).
+Because Freebase and GeoNames are now essential
+components of many contemporary semantic web
+services (for instance, the geocoding of social media),
+the presences and absences outlined here have the
+potential to have a significant impact on how we under-
+stand, interact with, and use other digital information.
+Freebase and Geonames may seem like small corners
+of the web, but the imbalances noted here can have
+large reverberations throughout broader information
+ecosystems.
+As demonstrated in the section about participation,
+this section has demonstrated that there are broad pat-
+terns of unevenness throughout different platforms that
+facilitate the representation of places (see Figure 13).
+Although each platform is characterised by its own
+idiosyncrasies, some parts of the world are massively
+over-represented (North America and Europe) and
+the rest of the world is severely under-represented.
+ChatGPT:
+The patterns of concentration and absence in digital representations are not only observed in the expected global North and South divide but also reveal some unexpected patterns. For example, Nepal has more content than all but 10 other countries, likely due to significant efforts funded by the European Union to develop geographical information infrastructure. Iran has a comparable amount of content to Germany, and North Korea and Sri Lanka are referenced in detail similar to Austria. These patterns may result from various factors, including data sources such as the US National Geospatial-Intelligence Agency and contributions from crisis mapping initiatives following events like the 2010 Haiti earthquake.
+
+Given that Freebase and Geonames are integral to many semantic web services, their imbalances in representation can significantly impact how we perceive and utilize digital information. While these databases may seem like small corners of the web, their disparities can have widespread repercussions across broader information ecosystems.
+
+Overall, this section, along with the previous exploration of participation, underscores the pervasive unevenness across different platforms facilitating the representation of places. North America and Europe emerge as massively overrepresented, while the rest of the world remains severely underrepresented.
+
+Conclusions: towards a study of
+information geographies
+This paper offers a review of key geographies of access,
+participation and representation using a combination of
+existing statistics and bespoke data not previously
+mapped or analysed. Through this effort, the paper
+demonstrates that in addition to uneven geographies
+of access to contemporary modes of communication,
+uneven geographies of participation and representation
+are also evident and are in some cases being amplified
+rather than alleviated.
+In short, there are few signs that global informational
+peripheries are achieving comparable levels of partici-
+pation or representation with traditional information
+cores, despite the hopes of policy makers. Other slices
+of information geographies such as book publishing or
+academic journal article production, for instance, reveal
+similar broad-scale patterns: with the global North pro-
+ducing, and being the subject of, exponentially more
+content than the global South (cf. Dicken 2010;
+Graham et al. 2011). Even the fast-paced spread of the
+internet to 3 billion people worldwide has done little to
+change this basic pattern.
+Despite this rather gloomy summation, we see this
+work as a beginning rather than an end as well as part
+of an effort to confront these stubborn realities. This
+paper offers an initial broad-scale survey of the contem-
+porary geographies of the production and representation
+of information. Future work needs to better understand
+the contextual causes of these uneven geographies (using
+inferential statistics and in-depth qualitative research)
+and attempt to better explicate some of the contextual
+nuances (why certain types of information on certain
+platforms are more or less likely to be produced in certain
+places) of these uneven geographies. Moreover, we need
+to focus more attention on the impacts of post-colonial
+modes of informational governance, the culturally contin-
+gent ways through which participation and representation
+take place, shifts in the political economy of control of
+geographic information (Leszczynski 2012), the affor-
+dances of platforms and infrastructures of connectivity,
+the constraints of explicit and implicit censorship,
+gendered or classed constraints to access or production,
+and the availability or absence of a broader information
+ecosystem of geographic content. This paper is but a first
+step but important step: showing that global uneven geog-
+raphies of information are not simply an outcome of the
+idiosyncrasies in particular platforms.
+As information is ever more infused into urban
+environments through (im)mutable augmentations that
+layer everyday places, the question of what and where is
+represented and who is able to participate in the
+creation of those representations becomes absolutely
+fundamental. But at this moment in which geographic
+information is augmenting our urban environments, it
+is not just our cities that are being transformed, but also
+information itself. In order for Google, Wikipedia,
+OSM and many other types of geographic information
+to be able to augment cities, geographic content needs
+to be unfixed from its containers (e.g. books or univer-
+sities) and then simultaneously fixed or tethered to
+specific locations, accessible to those in situ armed with
+the right technological affordances: a seeming paradox
+that both unfixes and fixes geographic information. This
+process mostly plays out behind the scenes through
+linked data, appropriate file formats and databases,
+and a broader move towards a more semantic web. In-
+formation about places is thus no longer simply mutable
+and ephemeral, nor is it immutable but fixed within its
+containers. Instead it is (im)mutable to varying degrees
+and tethered to locations via digital augmentations.
+The result of these changes is a world in which it is
+increasingly difficult to ask and answer questions about
+information geographies and the political economy of
+geographic information. Changing who gets to speak
+from, and about, any particular place is now more com-
+plex than seizing control of a radio or TV station, the
+classic move of a revolutionary movement or coup.
+This paper has aimed to be a beginning: offering a
+deliberately broad survey of a range of key platforms that
+mediate, host and deliver different types of geographic
+information. In doing so, we show one important facet
+of contemporary information geographies: that geo-
+graphic information itself is characterised by a host of
+uneven geographies. We have demonstrated some of
+the possibilities of digital data; demonstrated that we
+can be mapping geographies of access, production and
+use (as well as the relationships between those practices);
+and demonstrated that we can focus on content at both
+the front- and back-ends of informational value chains.
+Thus, efforts to understand the information geogra-
+phies and the geographies of information must there-
+fore be redoubled. This will need to involve examining
+not just the platforms that face end-users (such as
+Google), but also the back-end geographic databases
+(such as Freebase or Geonames) that play important
+ontological roles in contemporary information ecosys-
+tems. It will entail deconstructing, disentangling the
+mutability and immutability of information, mapping,
+and interrogating the geographies of information and
+asking critical questions about power over what is made
+visible and invisible within information geographies:
+What is shown? Where is it shown? To whom is it shows?
+And how do we ultimately bring about more inclusive,
+less uneven, and more just information geographies?
+ChatGPT:
+This paper provides a comprehensive examination of the geographies of access, participation, and representation in the digital realm, highlighting significant disparities across various platforms. Despite the expansion of internet access to billions of people globally, there is little evidence of comparable levels of participation or representation in digital content production from traditionally marginalized regions.
+
+The study acknowledges the persistent imbalance between global informational cores and peripheries, challenging the notion that increased internet connectivity would necessarily lead to more equitable participation. It emphasizes the need for further research to delve into the contextual causes of these disparities, employing both inferential statistics and qualitative methods to elucidate the nuances of uneven geographies.
+
+Moreover, the paper calls attention to the impacts of post-colonial informational governance, cultural factors influencing participation and representation, shifts in the political economy of geographic information, and constraints such as censorship and access barriers. It underscores the importance of understanding these factors in shaping information geographies and advocating for more inclusive and just representations.
+
+As geographic information becomes increasingly intertwined with urban environments through digital augmentations, questions arise about who controls and contributes to these representations. The emergence of linked data and the semantic web complicates the dynamics of information, challenging traditional notions of fixity and mutability.
+
+In conclusion, the paper asserts that efforts to understand and address information geographies must intensify, encompassing both user-facing platforms and backend databases. It advocates for critical inquiry into power dynamics shaping information visibility and invisibility, with the ultimate goal of fostering more inclusive and equitable information geographies.

@@ -32,4 +32,3 @@
                 game design is the fusion of those fields in any case, so supplementing my own website with elements from both disciplines is the essence of what I'm studying!
             </p>
             </div>
-            <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

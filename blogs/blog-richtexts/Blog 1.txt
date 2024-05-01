@@ -34,4 +34,3 @@
         Of course, my prompt could be workshopped, hammered into a shape that fits more perfectly with the rest of this blog, but I think leaving it as is highlights that 
         we’re not free falling just yet, but we’re on the precipice of a chasm. A precipice that needs railings, desperately.</p>
         </div>
-        <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

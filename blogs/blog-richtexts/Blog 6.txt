@@ -1,0 +1,53 @@
+<h2 style="text-align: center;">Blog post 6</h2>
+            <h3 style="text-align: center;", class="p-name">Racial Justice, Gender Equality, and the Internet</h3>
+            <p style="text-align: center;"><em>Keywords: Social Justice, Internet Access, Systemic Bias</em></p>
+            <div class="e-content">
+                <blockquote cite="https://www.weforum.org/agenda/2019/04/digital-equality-interview-nanjira-sambuli">
+                    &quot;...it's about equality in the digital age... and ultimately striving to ensure that we do not widen
+                    inequalities through digital technologies.&quot; - Nanjira Sambuli
+                </blockquote>
+                <p>
+                    For this week, we have been tasked with going through some material and responding to some readings about digital inclusion. 
+                    First, I went through the page for the <a href="https://www.internetjustsociety.org/digitalinclusion" target="_blank" rel="noopener noreferrer">Institute for Internet &amp; the Just Society</a>.
+                    This was a very eye-opening read. I was, of course, aware of the challenges faced by marginalised people in our current society, but I 
+                    hadn't realised both the extent of it and the severity. According to the numbers on this site, in 2019 there were 3.6 Billion people on earth that
+                    don't have internet access. That's almost half of all people alive right now.
+                </p>
+                <p>
+                    As an extension to this point, they talk about intersectional approaches to solving this problem, tackling how marginalised statuses also contribute
+                    to a lack of access, which of course leads to further marginalisation in the all-too-familiar cycle of oppression that seems to pop up in almost
+                    every socio-economic discussion. I want to go more in-depth on this aspect in particular with regards to the readings so that I can gain a greater
+                    understanding as to the depth of this problem, and more importantly, what can and is being done to solve it.
+                </p>
+                <p>
+                    Linking back to my first blog post, one of the primary issues I see with AI is its ability to act convincingly human in many scenarios. One of the
+                    most worrying is that of facial recognition and analysis. To give a quick background before I talk about the reading I chose, there are already
+                    <a href="https://www.aclu.org/news/racial-justice/how-artificial-intelligence-might-prevent-you-from-getting-hired" target="_blank" rel="noopener noreferrer">many workplaces</a> 
+                    that employ AI as an assistive tool for hiring. However, these AI are often trained using the hiring history of those same companies. This means that
+                    they have the propensity and indeed often seem to amplify the same discriminatory hiring practices that they were expected to solve. To look into this further, I selected the reading <a href="https://proceedings.mlr.press/v81/buolamwini18a.html" target="_blank" rel="noopener noreferrer">&quot;Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.&quot;</a>
+                    &lbbrk;This is the original site the reading was published on, not the ulwazi link.&rbbrk; 
+                </p>
+                <p>
+                    The first thing to note about this report is that they narrow down gender categories to male and female, as well as using skin type as their primary 
+                    phenotypical signifier. To condense the rationale given, these are often the most common criteria that AI hirers use, and as such these are the most
+                    data-rich signifiers to investigate for the purposes of uncovering biases in facial recognition. They made use of the six Fitspatrick skin types in
+                    accordance with the current facial recognition benchmark from the NIST, as well as including the Adience gender classification benchmark for training.
+                    I do want to note here that the exclusion of non-binary gender identities is not inherently problematic in this study specifically, as bias towards them
+                    is of course prevalent, but in the context of this study, since they are not accounted for in existing facial recognition algorithms, it is not helpful
+                    to include them here. That being said, though, they should be accounted for, and the fact that they aren't is a huge issue.
+                </p>
+                <p>
+                    So finally, let's talk about the research outcomes. First off, as a surprise to no one, all classifiers in production perform substantially better on male
+                    faces than female ones, better on lighter faces than darker ones, and intersectionally, best on lighter male faces and worst on darker female faces when
+                    referencing the classifiers used by IBM and Microsoft. In the worst cases, the difference in error in classification was more than a third of the time, at 34.4%
+                </p>
+                <p>
+                    What does this actually tell us? Well, as we thought previously, the datasets that facial recognition classifiers are being trained off of are not complete,
+                    and the margin of error for, well, marginalised identities is so much worse than that of the prevalent socio-economic identities. Systematically, this is
+                    yet another piece of evidence of biases present in all parts of life, but for us, it stands as yet another piece of evidence that we need to do more work
+                    as the developers of these systems to account for these marginalised identities and to work to create models that are accurate, unbiased, and fair to all 
+                    participants in our workplaces and living spaces, as well as those that we can't see, those that live in the areas that don't have the same abilities as we 
+                    do. In an ever-evolving world, we must take steps to ensure that we do not leave behind those who haven't yet had the chance to join us. Those 3.6 Billion 
+                    people that do not have access to the internet deserve it just as much as any of us, and as such, we must do everything in our power to secure justice for them.
+                </p>
+            </div>

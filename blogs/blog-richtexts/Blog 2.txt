@@ -17,4 +17,3 @@
             <img src="images/Folio_Wireframe.png" alt= "A wireframe of the planned look for the portfolio page">
             <p>On the main part of the portfolio, there will be a large splash image with links to my projects and various pages. Beneath that will be the gallery section, seperated out into distinct tabs for whatever media becomes important to display. The gallery section will simply house images of paintings or renders that I’ve made, laid out quite simply to de-emphasize anything but the artwork itself. The 3D models tab will have the same design philosophy, but with a 3D viewer and a tab to look at all the separate textures and maps that were used to produce the final product.</p>
             </div>
-            <nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>

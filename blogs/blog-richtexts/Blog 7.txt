@@ -1,0 +1,38 @@
+<h2 style="text-align: center;">Blog post 7</h2>
+            <h3 style="text-align: center;", class="p-name">Web Dev as a South African</h3>
+            <p style="text-align: center;"><em>Keywords: Social Justice, Internet Access, Systemic Bias, AI</em></p>
+            <div class="e-content">
+                <p>
+                    For this week, we were tasked to do some readings and reflect on how they relate and impact our thinking about web development as a South African.
+                    Before I get into the analysis, I want to discuss my research methodology for the <a href="https://rgs-ibg.onlinelibrary.wiley.com/doi/full/10.1002/geo2.8" target="_blank" rel="noopener noreferrer">first reading</a>, as it was incredibly dense for me. After trying 
+                    unsuccessfully for an hour or so to get through the first of 18 pages, I looked unsuccessfully for a screen reader that I could use, then eventually
+                    settled on using artificial intelligence. What I did was have ChatGPT 3.5 summarise whatever I sent to it, then sent the paper in sections. I've linked
+                    the full conversation <a href="https://chat.openai.com/share/2207eeca-90c3-4f48-93bb-c84247bd9072" target="_blank" rel="noopener noreferrer">here</a>. If the 
+                    link becomes depreciated at some point, you can also view the transcript <a href="ChatGPT_Research_Paper_Summary_Blog_7.txt" target="_blank">here</a>. I also
+                    read &quot;<a href="https://www.internetjustsociety.org/internet-access-is-a-fundamental-rights-especially-amidst-a-pandemic" target="_blank" rel="noreferrer noopener">Internet access is a fundamental right</a>&quot; 
+                    by Spyros Kasapis. I'm going to use that second reading as the basis for my response, while referring to information in the first one to back up
+                    my words, then talk about how everything I've talked about in the last few weeks fits together and how it impacts my outlook as a web designer.
+                </p>
+                <p>
+                    To be honest, internet access as a fundamental human right in this day and age seems, well, fundamental to participating in the global discussion.
+                    More importantly, I want to hone in on the concept of information access. As I write this, I am the subject of uncountable priviliges, even if they
+                    are not visible to me. I'm white, cisgender, and the only disability I can speak of is ADHD. So long as I don't mention my religion or sexuality
+                    in certain places, I'm relatively safe in most parts of society. Above immediate danger, however is something that I didn't even realise before 
+                    reading the research paper. I, and everyone taking this course, are part of an incredibly lucky group of people. Especially in Africa, where
+                    costs for internet broadband are prohibitively expensive for a large portion of the population. Further than that, though, I and those in the course
+                    with me are in an even smaller group, considering that, according to the conglomerated GitHub data from the research, 
+                    <q>South Africa consisting of 0.46% of users, but only 0.36% of all commits.</q>
+                </p>
+                <p>
+                    Now, how does all of this fit together? What do all these bleak numbers actually mean for me as a South African web designer?
+                    Well, especially when talking about this and last week's blog, we can see a theme starting to emerge that the global south is sorely
+                    underrepresented in the online content creation space. The internet as it exists now may be incredible, but access to it is worse than could ever
+                    be predicted. Newer websites like Temu, the one I spoke about in my essay, are able to run rampant in this climate due to global negligence
+                    towards education and financial equality. Furthermore, the people who are even able to get caught up in advertising are already in the slim majority
+                    of privilege. As to what it means, it will be different to everyone. That's the point of decolonialisation. But to me, it tells me that I have a 
+                    job to do. As someone in a privileged position, I need to advocate for those who can't. I need to be one of those who creates the space for the voiceless
+                    to speak. This doesn't mean the far fringes of Twitter leftism to me, it means conscious and considered advocacy, pushing where I can with what 
+                    I can in order to affect as much change from the inside as I can. While the system itself can't be changed by a single person in my position,
+                    it can be modified. It can be added to. It can be developed.
+                </p>
+            </div>
