@@ -85,8 +85,19 @@ function initialise_buttons() {
 
 function clear_text(index) {
     if (is_open_arr[index]) return;
+    //getting current scroll position
+    let windowPosition = window.scrollY + 0;
+
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = "";
+    //console.log(`Current scroll position is ${window.scrollY}`);
+    //Slightly adjusting the scroll position to fix weird positioning bug when content is collapsed
+    if (windowPosition !== window.scrollY) 
+    {
+        //console.log("The position of the scroll changed");
+        scrollBy(0, -0.00001);
+    }
+    //scrollBy(0, -0.00001);
 }
 
 //async function, executes when it can find the file at the specified filepath
@@ -106,18 +117,29 @@ function read_summary(filepath, index) {
 function summary_display(summary_text, index) {
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = summary_text;
+    //console.log(`Current scroll position is ${window.scrollY}`);
 }
 
 //from the async function, we now have the string from the inputted file path
 function checker(file_text, index) {
     //console.log(`We now have ${file_text}`)
 
-    //TODO: Fix issue of mouseover events breaking when the user gets pushed upwards due to a blog being collapsed?
+    //TODO: Fix issue of mouseover events breaking when the user gets pushed upwards due to a blog being collapsed - DONE
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     let corresponding_button = document.getElementById(`blog_button_${index}`);
     if (is_open_arr[index]) {
+        //getting current scroll position
+        let windowPosition = window.scrollY + 0;
+
         blog_holder.innerHTML = "";
         corresponding_button.innerText = `${button_names[index]}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
+
+        //checking if the new scroll position is different from the one before
+        if (windowPosition !== window.scrollY) {
+        //console.log("The position of the scroll changed");
+        //manually doing a small scroll to solve the issue, not sure why this works but it does
+        scrollBy(0, -0.00001);
+        }
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
         corresponding_button.innerText = `Close ${button_names[index]}`;
