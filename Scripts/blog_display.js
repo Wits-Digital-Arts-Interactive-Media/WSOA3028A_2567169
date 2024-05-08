@@ -43,6 +43,12 @@ function initialise_buttons() {
     const button_menu = document.createElement("menu");
     nav_bar.appendChild(button_menu);
 
+    const close_all_button = document.createElement("button");
+    close_all_button.innerText = "Close all";
+    close_all_button.addEventListener('click', () => close_all());
+    button_holder.appendChild(close_all_button);
+    button_holder.appendChild(document.createElement("br"));
+
     button_names.forEach(function (bName, index) {
         is_open_arr.push(false);
         let new_button = document.createElement("button");
@@ -99,7 +105,15 @@ function clear_text(index) {
         //console.log("The position of the scroll changed (summary collapse)");
         scrollBy(0, -0.00001);
     }
-    //scrollBy(0, -0.00001);
+}
+
+function close_all() {
+    //console.log("Closing all blogs");
+    is_open_arr.forEach(function(is_open, index) {
+        if (is_open) {
+            checker("", index);
+        }
+    });
 }
 
 //async function, executes when it can find the file at the specified filepath

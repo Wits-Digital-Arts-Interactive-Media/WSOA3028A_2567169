@@ -14,7 +14,7 @@ function expand_pdf(pdf_path, article_location, array_check_location) {
         article_holder.replaceChildren("")
     } else {
         const pdf_frame = document.createElement("iframe");
-        pdf_frame.setAttribute('style', "width: 1300px; height: 1000px;")
+        pdf_frame.setAttribute('style', "width: 100%; height: 80vh;")
         pdf_frame.setAttribute('src', pdf_path);
         article_holder.replaceChildren(pdf_frame);
     }
