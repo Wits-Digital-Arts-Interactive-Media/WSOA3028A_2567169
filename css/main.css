@@ -32,3 +32,18 @@ article {
     border-width: 2px;
     border-color: #79766D;
 }
+
+a:link {
+    color: #f0ead6;
+    text-decoration-color: #c191ff;
+}
+
+a:visited {
+    color: #f0ead6;
+    text-decoration-color: #c191ff;
+}
+
+a[href]:hover {
+    color: #010203;
+    background-color: #c191ff;
+}
