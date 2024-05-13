@@ -1,13 +1,15 @@
 let profile_rich_html =
-    `<h1>Profile</h1>
+    `<div class = 'container'>
+    <h1 class = "profile_header">Profile:_</h1>
     <p class = "h-card">
-        <img class="u-photo" src="/WSOA3028A_2567169/portfolio/images/Self_portrait.png" alt="A self portrait of Yoav" title="Yoav Lipshitz"><br>
-        <span class="p-name">Yoav Lipshitz</span><br>
-        <a class="u-email" href="mailto:2567169@students.wits.ac.za">2567169@students.wits.ac.za</a><br>
-        <span class="p-org">University of the Witwatersrand</span><br>
-        <span class="p-locality">Johannesburg</span><br>
-        <span class="p-country-name">South Africa</span>
-    </p>`;
+        <img class="pfp u-photo" src="/WSOA3028A_2567169/portfolio/images/Self_portrait.png" alt="A self portrait of Yoav" title="Yoav Lipshitz">
+        <span class="item"><span class="dBlue">Name</span> : <span class="lBlue p-name">Yoav Lipshitz</span></span>
+        <a class="item" href="mailto:2567169@students.wits.ac.za"><span class="dBlue u-email">Email</span> : <span class="lBlue">2567169@students.wits.ac.za</span></a>
+        <span class="item"><span class="dBlue">Location</span> : <span class="lBlue p-org">University of the Witwatersrand</span></span>
+        <span class="item"><span class="dBlue">City</span> : <span class="lBlue p-locality">Johannesburg</span></span>
+        <span class="item"><span class="dBlue">Country</span> : <span class="lBlue p-country-name">South Africa</span></span>
+    </p>
+    </div>`;
 
 function inject_profile(location_id) {
     const container = document.getElementById(location_id);

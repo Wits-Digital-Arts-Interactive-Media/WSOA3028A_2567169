@@ -1,0 +1,33 @@
+h3 {
+    padding-bottom: 60vh;
+}
+
+.container {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272625;
+}
+
+.profile_header {
+    display: flex;
+    color: #39cc8f;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+}
+
+.pfp {
+    display: flex;
+}
+
+.dBlue{
+    color: #6c95eb;
+}
+
+.lBlue{
+    color: #66c3cc;
+}

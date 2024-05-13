@@ -13,6 +13,7 @@ const button_names = [
     "Blog 6: Racial Justice, Gender Equality, and the Internet",
     "Blog 7: Web Dev as a South African",
     "Blog 8: A Close Reading on a Feminist Internet",
+    "Blog 9: Colonialism and Modernity: How can they be reconciled?"
 ];
 
 const button_keywords = [
@@ -24,6 +25,7 @@ const button_keywords = [
     'Social Justice, Internet Access, Systemic Bias, AI',
     'Internet Access, Systemic Bias, Human Rights',
     'Feminism, Gender equality, Social justice, Social media',
+    'Decoloniality, Social Justice',
 ];
 
 let is_open_arr = [];
@@ -53,6 +55,7 @@ function initialise_buttons() {
         is_open_arr.push(false);
         let new_button = document.createElement("button");
         new_button.id = `blog_button_${index}`;
+        new_button.className = "bordered_entry";
         new_button.innerText = `${bName}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
 
         // Add event listeners for each button after they have been created and appended to the DOM
@@ -98,6 +101,7 @@ function clear_text(index) {
 
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = "";
+    blog_holder.classList.remove("bordered_entry")
     //console.log(`New scroll position is ${window.scrollY}`);
     //Slightly adjusting the scroll position to fix weird positioning bug when content is collapsed
     if (windowPosition !== window.scrollY) 
@@ -133,6 +137,7 @@ function read_summary(filepath, index) {
 function summary_display(summary_text, index) {
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = summary_text;
+    blog_holder.classList.add("bordered_entry")
 }
 
 //from the async function, we now have the string from the inputted file path
@@ -145,9 +150,11 @@ function checker(file_text, index) {
     if (is_open_arr[index]) {
         blog_holder.innerHTML = "";
         corresponding_button.innerText = `${button_names[index]}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
+        blog_holder.classList.remove("bordered_entry")
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
         corresponding_button.innerText = `Close ${button_names[index]}`;
+        blog_holder.classList.add("bordered_entry")
     }
     is_open_arr[index] = !is_open_arr[index];
 }
