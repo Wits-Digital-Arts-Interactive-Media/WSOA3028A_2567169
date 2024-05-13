@@ -41,14 +41,9 @@ article {
 /* Targeting buttons whose class includes bordered entry */
 button[class~="bordered_entry"] {
     cursor: pointer;
-};
-
-a:link {
-    color: #f0ead6;
-    text-decoration-color: #c191ff;
 }
 
-a:visited {
+a:link, a:visited {
     color: #f0ead6;
     text-decoration-color: #c191ff;
 }
