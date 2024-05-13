@@ -31,7 +31,17 @@ article {
     border-style: solid;
     border-width: 2px;
     border-color: #79766D;
+    margin-top: 2vh;
 }
+
+.bordered_entry.sub_entry {
+    margin-top: 0.5vh;
+}
+
+/* Targeting buttons whose class includes bordered entry */
+button[class~="bordered_entry"] {
+    cursor: pointer;
+};
 
 a:link {
     color: #f0ead6;

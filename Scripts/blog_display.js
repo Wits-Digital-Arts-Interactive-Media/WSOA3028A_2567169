@@ -47,6 +47,7 @@ function initialise_buttons() {
 
     const close_all_button = document.createElement("button");
     close_all_button.innerText = "Close all";
+    close_all_button.classList.add("bordered_entry")
     close_all_button.addEventListener('click', () => close_all());
     button_holder.appendChild(close_all_button);
     button_holder.appendChild(document.createElement("br"));
@@ -101,7 +102,8 @@ function clear_text(index) {
 
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = "";
-    blog_holder.classList.remove("bordered_entry")
+    blog_holder.classList.remove("bordered_entry");
+    blog_holder.classList.remove("sub_entry");
     //console.log(`New scroll position is ${window.scrollY}`);
     //Slightly adjusting the scroll position to fix weird positioning bug when content is collapsed
     if (windowPosition !== window.scrollY) 
@@ -138,6 +140,7 @@ function summary_display(summary_text, index) {
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
     blog_holder.innerHTML = summary_text;
     blog_holder.classList.add("bordered_entry")
+    blog_holder.classList.add("sub_entry")
 }
 
 //from the async function, we now have the string from the inputted file path
@@ -150,11 +153,13 @@ function checker(file_text, index) {
     if (is_open_arr[index]) {
         blog_holder.innerHTML = "";
         corresponding_button.innerText = `${button_names[index]}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
-        blog_holder.classList.remove("bordered_entry")
+        blog_holder.classList.remove("bordered_entry");
+        blog_holder.classList.remove("sub_entry");
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
         corresponding_button.innerText = `Close ${button_names[index]}`;
-        blog_holder.classList.add("bordered_entry")
+        blog_holder.classList.add("bordered_entry");
+        blog_holder.classList.add("sub_entry");
     }
     is_open_arr[index] = !is_open_arr[index];
 }
