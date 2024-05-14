@@ -20,6 +20,7 @@ export function initialise(currentPage = "") {
     const nav = document.querySelector("header > nav");
     //Changed from ul to menu because it is more semantically accurate
     const ul = document.createElement("menu");
+    ul.classList.add("nav_menu");
 
     //populating list of pages with entries from menuItems array
     for (let menuItem of menu_items) {

@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 1</h2>
         <h3 style="text-align: center;" class = "p-name">The Rise of AI</h3>
-        <p style="text-align: center;"><em>Keywords: AI, Turing Test, Twitter</em></p>
+        <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> AI, Turing Test, Twitter</em></h4>
 
         <div class = "e-content">
         <p>This last week, the reading that I selected was the 1950 paper by Alan Turing on the subject of artificial intelligence, the test he devised to call an AI intelligent, 

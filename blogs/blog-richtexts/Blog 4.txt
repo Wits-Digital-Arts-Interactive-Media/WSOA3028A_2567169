@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 4</h2>
             <h3 style="text-align: center;" class = "p-name">IxD Design</h3>
-            <p style="text-align: center;"><em>Keywords: IxD, Design, Semantic Markup</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> IxD, Design, Semantic Markup</em></h4>
             <div class = "e-content">
             <p>
                 This entry is a little strange to me, to be honest. As of right now, I have not gotten any comments on github so I'm not sure where my website stands with respect to the assignment,

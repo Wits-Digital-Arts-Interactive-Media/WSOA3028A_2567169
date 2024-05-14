@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 9</h2>
             <h3 style="text-align: center;", class="p-name">Colonialism and Modernity: How can they be reconciled?</h3>
-            <p style="text-align: center;"><em>Keywords: Decoloniality, Social Justice</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Decoloniality, Social Justice</em></h4>
             <div class="e-content">
                 <p>
                     For this week, I was reading the first assigned text when I noticed a practice that was being engaged in which I don't fully agree with.
@@ -17,6 +17,8 @@
                             On Decoloniality Concepts, Analytics, Praxis - Introduction
                         </cite>
                     </figure>
+                </p>
+                <p>
                     Now, on the surface of this quote, there doesn't seem to be much objectionable content. The authors assert that coloniality is a core
                     part of the concept of modernity, and thus they use the words interchangeably in the rest of the paper.
                 </p>

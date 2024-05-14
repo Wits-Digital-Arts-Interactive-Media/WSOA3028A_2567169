@@ -1,6 +1,5 @@
 html, 
 body {
-    padding-left: 0;
     margin: 10;
     font-size: 12pt;
     line-height: 15pt;
@@ -31,7 +30,37 @@ article {
     border-style: solid;
     border-width: 2px;
     border-color: #79766D;
+    border-radius: 1vh;
+}
+
+.seperated_entry{
     margin-top: 2vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
+}
+
+.sub_entry h2,
+.purple{
+    color: #c191ff;
+}
+
+.sub_entry .p-name,
+.green {
+    color: #39cc8f;
+}
+
+.sub_entry h4,
+.lightBlue {
+    color: #66c3cc;
+}
+
+.darkBlue {
+    color: #6c95eb;
+}
+
+.bordered_entry p{
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 .bordered_entry.sub_entry {

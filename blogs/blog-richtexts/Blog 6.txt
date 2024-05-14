@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 6</h2>
             <h3 style="text-align: center;", class="p-name">Racial Justice, Gender Equality, and the Internet</h3>
-            <p style="text-align: center;"><em>Keywords: Social Justice, Internet Access, Systemic Bias</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:<span> Social Justice, Internet Access, Systemic Bias</em></h4>
             <div class="e-content">
                 <blockquote cite="https://www.weforum.org/agenda/2019/04/digital-equality-interview-nanjira-sambuli">
                     &quot;...it's about equality in the digital age... and ultimately striving to ensure that we do not widen

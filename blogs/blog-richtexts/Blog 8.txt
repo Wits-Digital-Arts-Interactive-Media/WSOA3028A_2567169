@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 8</h2>
             <h3 style="text-align: center;", class="p-name">A Close Reading on a Feminist Internet</h3>
-            <p style="text-align: center;"><em>Keywords: Feminism, Gender equality, Social justice, Social media</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Feminism, Gender equality, Social justice, Social media</em></h4>
             <div class="e-content">
                 <p>
                     I've been staring at this screen for about 2 hours now. Truthfully, even after watching through our lectures again, I still

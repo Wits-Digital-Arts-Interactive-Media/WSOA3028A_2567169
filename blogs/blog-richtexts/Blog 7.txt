@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 7</h2>
             <h3 style="text-align: center;", class="p-name">Web Dev as a South African</h3>
-            <p style="text-align: center;"><em>Keywords: Social Justice, Internet Access, Systemic Bias, AI</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Social Justice, Internet Access, Systemic Bias, AI</em></h4>
             <div class="e-content">
                 <p>
                     For this week, we were tasked to do some readings and reflect on how they relate and impact our thinking about web development as a South African.

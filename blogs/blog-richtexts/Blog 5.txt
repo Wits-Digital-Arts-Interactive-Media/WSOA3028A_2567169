@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 5</h2>
             <h3 style="text-align: center;", class="p-name">Sites for UI and UX analysis</h3>
-            <p style="text-align: center;"><em>Keywords: UI, UX, IxD, Design Analysis</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> UI, UX, IxD, Design Analysis</em></h4>
             <div class="e-content">
                 <p>
                     Okay, so for this post, I want to go over all of the candidate sites for my UI/UX essay, what I think will be interesting about them to talk about,
@@ -12,9 +12,11 @@
                         <li>Temu - we could talk about how incredibly predatory everything on the site is, both in UI and UX</li>
                     </ul>
                 </p>
+                <p>
                 <strong>Twitch</strong>
                 <br>
                 <img src="images/Website Analysis/Twitch-Homepage.jpg" width="80%" title="Twitch Homepage" alt="A screenshot of the twitch homepage as displayed to me when I open it">
+                </p>
                 <p>
                     As background, twitch is a video streaming platform used by millions of people. It's primarily used for games, but recently more experimental
                     content is being made to push the boundaries of what Twitch can be. Here, you can find cooking streams, musicians, artists and more. Even then, the
@@ -28,9 +30,11 @@
                         <li>Con: I am not very familiar with how this site works. As such, it might be harder to do accurate research and be confident in my results.</li>
                     </ul>
                 </p>
+                <p>
                 <strong>D&amp;DBeyond</strong>
                 <br>
                 <img src="images/Website Analysis/D&DBeyond-Homepage.jpg" width="80%" title="D&DBeyond Homepage" alt="A screenshot of D&DBeyond's homepage as displayed to me">
+                </p>
                 <p>
                     D&amp;DBeyond is the most popular site for dungeons and dragons character creation and play that I'm aware of. To me, one of the most unrealised features
                     in this site is the homebrew editor. In an essay I'd love to go into detail as to why this is, what elements of the UX design make it unappealing to me,
@@ -42,9 +46,11 @@
                         <li>Con: Because of the nature of the essay this would create, it would be very hard to find good studies to back up the points that I make.</li>
                     </ul>
                 </p>
+                <p>
                 <strong>Temu</strong>
                 <br>
                 <img src="images/Website Analysis/Temu-Homepage.png" width="80%" title="Temu Homepage" alt="A screenshot of the Temu Homepageas displayed in an incognito browser">
+                </p>
                 <p>
                     Temu is an up-and-coming e-commerce site that I was made aware of recently by my family. I think it is incredibly predatory in both its marketing
                     and in how it implements pretty much every part of it's UI and UX. Going into how it uses underhanded tactics to force consumers into spending more

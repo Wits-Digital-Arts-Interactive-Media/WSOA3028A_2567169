@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 3</h2>
             <h3 style="text-align: center;" class = "p-name">Semantic Markup and More Plans</h3>
-            <p style="text-align: center;"><em>Keywords: Semantic Markup, website design, html5</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Semantic Markup, website design, html5</em></h4>
             <div class = "e-content">
             <p>
                 First off, I want to acknowledge the fact that this week will be the first in which I'm writing this post on VSCode instead of word.

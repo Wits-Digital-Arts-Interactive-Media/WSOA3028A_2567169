@@ -56,7 +56,8 @@ function initialise_buttons() {
         is_open_arr.push(false);
         let new_button = document.createElement("button");
         new_button.id = `blog_button_${index}`;
-        new_button.className = "bordered_entry";
+        new_button.classList.add("bordered_entry");
+        new_button.classList.add('seperated_entry');
         new_button.innerText = `${bName}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
 
         // Add event listeners for each button after they have been created and appended to the DOM
@@ -82,6 +83,7 @@ function initialise_buttons() {
         let article_holder = document.createElement("article");
         article_holder.id = `Blog_Holder_${index}`;
         article_holder.classList.add("h-entry");
+        article_holder.classList.add('seperated_entry');
         button_holder.appendChild(article_holder);
 
         let corresponding_nav = document.createElement("li");

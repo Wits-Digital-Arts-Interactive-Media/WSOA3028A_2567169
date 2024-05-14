@@ -1,6 +1,6 @@
 <h2 style="text-align: center;">Blog post 2</h2>
             <h3 style="text-align: center;" class = "p-name">Design Wireframes and Plans</h3>
-            <p style="text-align: center;"><em>Keywords: Design, Art, Wireframes</em></p>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Design, Art, Wireframes</em></h4>
 
             <div class = "e-content">
             <p>This week was spent mostly outlining the wireframes for my eventual website. I want to use this post to go in-depth on the decisions I made and the reasons for making them. I’m going to scan each wireframe into here and talk about how they’re going to work and the possible challenges that might come up with integrating them.</p>
