@@ -1,13 +1,70 @@
+h1, 
+h2,
 h3 {
-    padding-bottom: 60vh;
+    text-align: center;
+}
+
+/* h3 {
+    margin-bottom: 50rem;
+} */
+
+.intros {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+.intros h1, 
+.intros h2,
+.intros h3,
+.intros strong {
+    font-weight: 300;
 }
 
 .container {
-    height: fit-content;
+    /* height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #272625; */
+    display: flex;
+    align-items: center;
+    margin-left: 25vw;
+    animation: fade linear;
+}
+
+.profile_holder {
+    display: flex;
     background-color: #272625;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.pfp {
+    width: 26vh;
+}
+
+.profile_info {
+    display: flex;
+    align-items: center;
+}
+
+.profile_info img {
+    margin-right: 20px;
+}
+
+.text_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-bottom: 10px;
 }
 
 .profile_header {
@@ -15,13 +72,42 @@ h3 {
     color: #39cc8f;
 }
 
-.item {
-    display: flex;
-    justify-content: center;
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+        transform: translate(0px);
+    }
+    50% {
+        opacity: 1;
+        transform: translate(500px);
+    }
+    100% {
+        transform: translate(0px);
+    }
 }
 
-.pfp {
-    display: flex;
+/* Add this CSS to fade out the main content when scrolling down */
+.fade-out {
+    opacity: 0; /* Adjust opacity as needed */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add this CSS to move the article holder up and increase opacity for its subelements */
+.scroll-effect {
+    transform: translateY(-50px); /* Move the article holder up by 50px */
+}
+
+/* Add this CSS to increase opacity for the subelements of the article holder */
+.profile_holder .profile_info,
+.profile_holder .profile_header {
+    opacity: 1; /* Increase opacity for the subelements */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
 }
 
 .dBlue{
