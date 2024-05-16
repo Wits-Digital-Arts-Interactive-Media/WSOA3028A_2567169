@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-size: 12pt;
     line-height: 15pt;
-    font-family: 'JetBrains mono';
+    font-family: JetBrains mono;
     background-color: #010203;
     color: #f0ead6;
 }
@@ -23,7 +23,7 @@ article {
 }
 
 .bordered_entry {
-    font-family: 'JetBrains mono';
+    font-family: JetBrains mono;
     font-size: 12pt;
     color: #f0ead6;
     background-color: #272625;
