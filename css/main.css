@@ -1,14 +1,15 @@
-@font-face {
+/* @font-face {
     font-family: JetBrains mono;
     src: url('./fonts/jetbrains_mono/');
-}
+} */
 
 html, 
 body {
     margin: 0;
     font-size: 12pt;
     line-height: 15pt;
-    font-family: JetBrains mono;
+    font-family: "JetBrains mono", monospace;
+    font-style: normal;
     background-color: #010203;
     color: #f0ead6;
 }
@@ -28,7 +29,8 @@ article {
 }
 
 .bordered_entry {
-    font-family: JetBrains mono;
+    font-family: "JetBrains mono", monospace;
+    font-style: normal;
     font-size: 12pt;
     color: #f0ead6;
     background-color: #272625;
