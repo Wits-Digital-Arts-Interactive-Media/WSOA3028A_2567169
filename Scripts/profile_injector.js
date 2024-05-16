@@ -41,23 +41,113 @@ function add_spans(mailto_link = document.createElement('a')) {
 
 function doDomSetup() {
     inject_profile("profile_holder");
-    document.addEventListener('wheel', (e) => fadeElements(e))
+    document.addEventListener('wheel', (e) => fadeElements(e));
+    document.addEventListener('touchstart', (e) => record_start(e));
+    document.addEventListener('touchmove', (e) => record_touch_move(e));
 }
 
-function fadeElements(e) {
-    const profileHolder = document.getElementsByClassName('container')[0];
-    //document.documentElement.clientHeight + window.scrollY >= (document.documentElement.scrollHeight || document.documentElement.clientHeight)
-    let scrollTop = document.documentElement.clientHeight + window.scrollY;
-    console.clear();
-    console.log(scrollTop);
+let start_y = 0;
+function record_start(e) {
+    start_y = e.touches[0].clientY;
+    //console.log(`start value:${start_y}`);
+}
+
+let current_y = 0;
+let is_swiping_up = false;
+function record_touch_move(e) {
+    let endY = e.touches[0].clientY;
+    let deltaY = start_y - endY;
+    let checker_flag = false;
+    if (current_y > 0) {
+        is_swiping_up = true;
+        checker_flag = true;
+    } else if (current_y < 0) {
+        is_swiping_up = false;
+        checker_flag = true;
+    }
+
+    if (checker_flag) {
+        if (is_swiping_up && current_y-deltaY > 0) {
+            start_y = e.touches[0].clientY;
+            deltaY = 0;
+        }
+
+        if (!is_swiping_up && current_y-deltaY < 0) {
+            start_y = e.touches[0].clientY;
+            deltaY = 0;
+        }
+    }
+    let inputted_val
+    if (deltaY !== 0) {
+        inputted_val = deltaY - current_y;
+    } else {
+        inputted_val = 0;
+    }
+    current_y = deltaY;
+    //console.log(`change value:${inputted_val}`);
+    fadeElements({ touch_y: inputted_val }, true)
+}
+
+function fadeElements(e, is_touch = false) {
+    const sub_container = document.getElementsByClassName('container')[0];
+    const main_container = document.getElementById('profile_holder');
+    const intros_container = document.getElementById('intros');
 
     // Check if the user has scrolled down
-    if (e.wheelDeltaY > 0) {
-        profileHolder.style.opacity = 0.5;
+    // if (e.wheelDeltaY < 0) {
+    //     //This container has a style of 'some number'vh, so we must deformat that,
+    //     //then add an amount, then reformat it
+    //     //main_container.style.bottom += '10vh';
+    //     let raw_height = add_view_height(main_container.style.bottom, e.wheelDeltaY*scroll_sensitivity);
+    //     let new_element_height = `${raw_height}vh`;
+    //     main_container.style.bottom = new_element_height;
+    //     //console.log(map(raw_height, -100, 0, 0, 1));
+    //     sub_container.style.opacity = map(raw_height, -50, 0, 0, 1);
+    //     intros_container.style.opacity = map(raw_height, -100, -50, 1, 0);
+    // } else {
+    //     //scrolled down
+    //     sub_container.style.opacity = 1;
+    //     let raw_height = add_view_height(main_container.style.bottom, e.wheelDeltaY*scroll_sensitivity);
+    //     let new_element_height = `${raw_height}vh`;
+    //     main_container.style.bottom = new_element_height;
+    //     //console.log(map(raw_height, -100, 0, 0, 1));
+    //     sub_container.style.opacity = map(raw_height, -50, 0, 0, 1);
+    //     intros_container.style.opacity = map(raw_height, -100, -50, 1, 0);
+    // }
+    let move_amount = 0
+    let scroll_sensitivity = 0.1;
+    let touch_scroll_sensitivity = 0.1;
+    if (!is_touch) {
+        move_amount = -e.wheelDeltaY * scroll_sensitivity;
     } else {
-        profileHolder.style.opacity = 1;
+        move_amount = e.touch_y * touch_scroll_sensitivity;
+        console.log(`moving by ${move_amount}`)
     }
+    let raw_height = add_view_height(main_container.style.bottom, move_amount);
+    let new_element_height = `${raw_height}vh`;
+    main_container.style.bottom = new_element_height;
+    //console.log(map(raw_height, -100, 0, 0, 1));
+    sub_container.style.opacity = map(raw_height, -50, 0, 0, 1);
+    intros_container.style.opacity = map(raw_height, -100, -50, 1, 0);
 }
+
+//https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
+function map(number, inMin, inMax, outMin, outMax) {
+    return (number - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
+}
+
+function add_view_height(current_amount = "", add_amount = 0, upper_limit = 0, lower_limit = -100) {
+    let no_vh = parseInt(current_amount.substring(0, current_amount.indexOf('v')));
+    let return_val = no_vh + add_amount;
+    if (return_val > upper_limit) {
+        return_val = upper_limit;
+    } else if (return_val < lower_limit) {
+        return_val = lower_limit
+    }
+    return return_val;
+}
+
+
 
 //racer function
 if (document.readyState === "loading") {
