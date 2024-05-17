@@ -18,6 +18,45 @@ h6 {
     text-align: center;
 }
 
+.svg-bars {
+    padding-bottom: 0.3rem;
+    padding-inline: 0.2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 30pt;
+    margin: 2.5vh 0 0 2.5vw;
+    color: #f0ead6;
+    background-color: #272625;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f0ead6;
+    border-radius: 10px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 3;
+}
+
+.nav_menu {
+    line-height: 90px;
+    margin-left: 7rem;
+    position: fixed;
+    z-index: 3;
+}
+
+.nav_menu li {
+    display: inline;
+    padding-right: 5vw;
+}
+
+#navigation_checkbox {
+    display: none;
+}
+
+#navigation_checkbox:checked ~ .nav_menu,
+#navigation_checkbox:checked ~ .nav_menu a {
+    color: blue;
+}
+
 article {
     font-size: 12pt;
     line-height: 15pt;
