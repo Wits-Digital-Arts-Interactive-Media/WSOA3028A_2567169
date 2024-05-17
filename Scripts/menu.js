@@ -2,9 +2,9 @@ const root = "/WSOA3028A_2567169";
 
 const menu_items = [
     { name: "Home", href: `${root}/index.html` },
-    { name: "Blog", href: `${root}/blogs/index.html` },
-    { name: "Essays", href: `${root}/essays/index.html` },
     { name: "Portfolio", href: `${root}/portfolio/index.html` },
+    { name: "Blogs", href: `${root}/blogs/index.html` },
+    { name: "Essays", href: `${root}/essays/index.html` },
     { name: "Design", href: `${root}/design/index.html` }
 ];
 
@@ -59,6 +59,7 @@ export function initialise(currentPage = "") {
         } else {
             const a = document.createElement("a");
             a.innerText = menuItem.name;
+            li.setAttribute('class', 'current_page_button');
             li.appendChild(a);
         }
         ul.appendChild(li);

@@ -24,9 +24,9 @@ h6 {
     width: 4.5rem;
     height: 4.5rem;
     font-size: 30pt;
-    margin: 2.5vh 0 0 2.5vw;
+    margin: 0.5vh 0 0 2.5vw;
     color: #f0ead6;
-    background-color: #272625;
+    background-color: #79766d70;
     border-width: 2px;
     border-style: solid;
     border-color: #f0ead6;
@@ -34,18 +34,57 @@ h6 {
     cursor: pointer;
     position: fixed;
     z-index: 3;
+    top:21px;
+    backdrop-filter: blur(5px);
+}
+
+.svg-bars:hover {
+    background-color: #27262570;
 }
 
 .nav_menu {
-    line-height: 90px;
-    margin-left: 7rem;
+    top:21px;
+    padding-left: 0;
+    line-height: 80px;
+    margin-left: 8rem;
+    margin-top: 0.4vh;
     position: fixed;
     z-index: 3;
+    background-color: #272625;
+    border-color: #79766D;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: 0.3s;
+}
+
+.nav_menu li:first-child{
+    margin-left: 1rem;
+}
+
+.nav_menu li:last-child{
+    margin-right: 1rem;
 }
 
 .nav_menu li {
     display: inline;
-    padding-right: 5vw;
+    padding-inline: 0.55rem;
+    padding-block: 1.2rem;
+    border-radius: 0.5rem;
+    margin-inline: 0.2rem;
+}
+
+.nav_menu li.current_page_button {
+    background-color: #010203;
+    color: #66c3cc;
+}
+
+.nav_menu li a {
+    text-decoration: none;
+    font-size: 17pt;
+    pointer-events: visible;
 }
 
 #navigation_checkbox {
@@ -54,7 +93,9 @@ h6 {
 
 #navigation_checkbox:checked ~ .nav_menu,
 #navigation_checkbox:checked ~ .nav_menu a {
-    color: blue;
+    /*color: blue;*/
+    opacity: 1;
+    visibility: visible;
 }
 
 article {
@@ -118,6 +159,7 @@ a:link, a:visited {
     text-decoration-color: #c191ff;
 }
 
+li:has(a[href]:hover),
 a[href]:hover {
     color: #010203;
     background-color: #c191ff;
