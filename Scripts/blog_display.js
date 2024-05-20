@@ -60,7 +60,7 @@ function initialise_buttons() {
         new_button.id = `blog_button_${index}`;
         new_button.classList.add("bordered_entry");
         new_button.classList.add('seperated_entry');
-        new_button.innerText = `${bName}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
+        new_button.innerHTML = `<span class='green'>${bName}</span><br>${(index < button_keywords.length) ? `<span class='darkBlue'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
 
         populate_summary(`${root}/blogs/blog-summaries/Blog-${index + 1}-Summary.txt`);
 
@@ -76,7 +76,7 @@ function initialise_buttons() {
                 read_summary(index);
                 //console.log(`Current scroll position is ${window.scrollY}`);
             });
-    
+
             new_button.addEventListener('mouseleave', function (e) {
                 clear_text(index);
             });
@@ -112,8 +112,7 @@ function clear_text(index) {
     blog_holder.classList.remove("sub_entry");
     //console.log(`New scroll position is ${window.scrollY}`);
     //Slightly adjusting the scroll position to fix weird positioning bug when content is collapsed
-    if (windowPosition !== window.scrollY) 
-    {
+    if (windowPosition !== window.scrollY) {
         //console.log("The position of the scroll changed (summary collapse)");
         scrollBy(0, -0.00001);
     }
@@ -121,7 +120,7 @@ function clear_text(index) {
 
 function close_all() {
     //console.log("Closing all blogs");
-    is_open_arr.forEach(function(is_open, index) {
+    is_open_arr.forEach(function (is_open, index) {
         if (is_open) {
             checker("", index);
         }
@@ -163,12 +162,13 @@ function checker(file_text, index) {
     let corresponding_button = document.getElementById(`blog_button_${index}`);
     if (is_open_arr[index]) {
         blog_holder.innerHTML = "";
-        corresponding_button.innerText = `${button_names[index]}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
+        //corresponding_button.innerText = `${button_names[index]}${(index < button_keywords.length) ? `\nKeywords: ${button_keywords[index]}` : ``}`;
+        corresponding_button.innerHTML = `<span class='green'>${button_names[index]}</span><br>${(index < button_keywords.length) ? `<span class='darkBlue'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
         blog_holder.classList.remove("bordered_entry");
         blog_holder.classList.remove("sub_entry");
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
-        corresponding_button.innerText = `Close ${button_names[index]}`;
+        corresponding_button.innerHTML = `<span class='purple'>Close ${button_names[index]}</span>`;
         blog_holder.classList.add("bordered_entry");
         blog_holder.classList.add("sub_entry");
     }

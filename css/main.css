@@ -132,12 +132,12 @@ article {
     margin-right: 13vw;
 }
 
-.sub_entry h2,
 .purple{
     color: #c191ff;
 }
 
 .sub_entry .p-name,
+.sub_entry h2,
 .green {
     color: #39cc8f;
 }
