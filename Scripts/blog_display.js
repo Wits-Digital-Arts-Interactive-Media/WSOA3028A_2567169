@@ -28,6 +28,8 @@ const button_keywords = [
     'Decoloniality, Social Justice',
 ];
 
+let richtexts_arr = [];
+
 let is_open_arr = [];
 
 //right now only redirects, but can have other functionality added later
@@ -60,6 +62,8 @@ function initialise_buttons() {
         new_button.classList.add('seperated_entry');
         new_button.innerText = `${bName}${(index<button_keywords.length)? `\nKeywords:${button_keywords[index]}` : ``}`;
 
+        populate_summary(`${root}/blogs/blog-summaries/Blog-${index + 1}-Summary.txt`);
+
         // Add event listeners for each button after they have been created and appended to the DOM
         // This approach ensures that event listeners are added only after the buttons are available in the DOM,
         // avoiding null reference errors that may occur when trying to access elements before they are created.
@@ -69,7 +73,7 @@ function initialise_buttons() {
 
         if (!is_mobile_check) {
             new_button.addEventListener('mouseenter', function (e) {
-                read_summary(`${root}/blogs/blog-summaries/Blog-${index + 1}-Summary.txt`, index);
+                read_summary(index);
                 //console.log(`Current scroll position is ${window.scrollY}`);
             });
     
@@ -131,16 +135,21 @@ function read_entry(filepath, index) {
         .then(text => checker(text, index));
 }
 
-function read_summary(filepath, index) {
-    if (is_open_arr[index]) return;
+function populate_summary(filepath) {
     fetch(filepath)
         .then(response => response.text())
-        .then(text => summary_display(text, index));
+        .then(text => push_text(text));
 }
 
-function summary_display(summary_text, index) {
+function push_text(text) {
+    richtexts_arr.push(text);
+}
+
+//Overhauled to pre-load summaries for embedding
+function read_summary(index) {
+    if (is_open_arr[index]) return;
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
-    blog_holder.innerHTML = summary_text;
+    blog_holder.innerHTML = richtexts_arr[index];
     blog_holder.classList.add("bordered_entry")
     blog_holder.classList.add("sub_entry")
 }

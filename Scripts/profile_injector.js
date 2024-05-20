@@ -3,7 +3,7 @@ let profile_rich_html =
         <div class = "h-card profile_info">
             <img class="pfp u-photo" src="/WSOA3028A_2567169/portfolio/images/Self_portrait.png" width=100vw alt="A self portrait of Yoav" title="Yoav Lipshitz">
             <div class = "text_info">
-                <h1 class = "profile_header">Profile:_</h1>
+                <h1 class = "profile_header">Profile:<span class="flashing">_</span></h1>
                 <span class="item"><span class="dBlue">Name</span>&nbsp;:&nbsp;<span class="lBlue p-name">Yoav Lipshitz</span></span>
                 <a class="item" id = "mailto_link" href="mailto:2567169@students.wits.ac.za"><span class="dBlue u-email">Email</span>&nbsp;:&nbsp;<span class="lBlue">2567169@students.wits.ac.za</span></a>
                 <span class="item"><span class="dBlue">Location</span>&nbsp;:&nbsp;<span class="lBlue p-org">University of the Witwatersrand</span></span>
@@ -93,27 +93,6 @@ function fadeElements(e, is_touch = false) {
     const main_container = document.getElementById('profile_holder');
     const intros_container = document.getElementById('intros');
 
-    // Check if the user has scrolled down
-    // if (e.wheelDeltaY < 0) {
-    //     //This container has a style of 'some number'vh, so we must deformat that,
-    //     //then add an amount, then reformat it
-    //     //main_container.style.bottom += '10vh';
-    //     let raw_height = add_view_height(main_container.style.bottom, e.wheelDeltaY*scroll_sensitivity);
-    //     let new_element_height = `${raw_height}vh`;
-    //     main_container.style.bottom = new_element_height;
-    //     //console.log(map(raw_height, -100, 0, 0, 1));
-    //     sub_container.style.opacity = map(raw_height, -50, 0, 0, 1);
-    //     intros_container.style.opacity = map(raw_height, -100, -50, 1, 0);
-    // } else {
-    //     //scrolled down
-    //     sub_container.style.opacity = 1;
-    //     let raw_height = add_view_height(main_container.style.bottom, e.wheelDeltaY*scroll_sensitivity);
-    //     let new_element_height = `${raw_height}vh`;
-    //     main_container.style.bottom = new_element_height;
-    //     //console.log(map(raw_height, -100, 0, 0, 1));
-    //     sub_container.style.opacity = map(raw_height, -50, 0, 0, 1);
-    //     intros_container.style.opacity = map(raw_height, -100, -50, 1, 0);
-    // }
     let move_amount = 0
     let scroll_sensitivity = 0.1;
     let touch_scroll_sensitivity = 0.1;

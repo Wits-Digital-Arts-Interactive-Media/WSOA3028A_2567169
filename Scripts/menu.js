@@ -45,8 +45,11 @@ export function initialise(currentPage = "") {
     nav.appendChild(label);
 
     //Changed from ul to menu because it is more semantically accurate
-    const ul = document.createElement("menu");
-    ul.classList.add("nav_menu");
+    const menu = document.createElement("menu");
+    menu.classList.add("nav_menu");
+    menu.addEventListener('mouseleave', () => {
+        icon_checkbox.click()
+    })
 
     //populating list of pages with entries from menuItems array
     for (let menuItem of menu_items) {
@@ -62,10 +65,10 @@ export function initialise(currentPage = "") {
             li.setAttribute('class', 'current_page_button');
             li.appendChild(a);
         }
-        ul.appendChild(li);
+        menu.appendChild(li);
     }
 
-    nav.appendChild(ul);
+    nav.appendChild(menu);
 }
 
 function toggle_open() {

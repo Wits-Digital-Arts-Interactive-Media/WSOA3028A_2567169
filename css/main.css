@@ -26,7 +26,7 @@ h6 {
     font-size: 30pt;
     margin: 0.5vh 0 0 2.5vw;
     color: #f0ead6;
-    background-color: #79766d70;
+    background-color: #79766dc0;
     border-width: 2px;
     border-style: solid;
     border-color: #f0ead6;
@@ -39,7 +39,7 @@ h6 {
 }
 
 .svg-bars:hover {
-    background-color: #27262570;
+    background-color: #272625c0;
 }
 
 .nav_menu {
@@ -50,7 +50,8 @@ h6 {
     margin-top: 0.4vh;
     position: fixed;
     z-index: 3;
-    background-color: #272625;
+    background-color: #272625c0;
+    backdrop-filter: blur(5px);
     border-color: #79766D;
     border-width: 1px;
     border-style: solid;
@@ -58,6 +59,16 @@ h6 {
     opacity: 0;
     visibility: hidden;
     transition-duration: 0.3s;
+}
+
+.flashing {
+    animation: opacity_flip 1s infinite steps(1);
+}
+
+@keyframes opacity_flip {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 .nav_menu li:first-child{
