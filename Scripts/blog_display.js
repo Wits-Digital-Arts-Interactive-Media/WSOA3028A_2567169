@@ -36,6 +36,7 @@ let is_open_arr = [];
 export function initialise() {
     initialise_buttons();
     //read_entry(`${root}/blogs/Blog 1.txt`);
+    resize_buttons()
 }
 
 function initialise_buttons() {
@@ -49,7 +50,8 @@ function initialise_buttons() {
 
     const close_all_button = document.createElement("button");
     close_all_button.innerText = "Close all";
-    close_all_button.classList.add("bordered_entry")
+    close_all_button.classList.add("bordered_entry");
+    close_all_button.id = "close_all_button";
     close_all_button.addEventListener('click', () => close_all());
     button_holder.appendChild(close_all_button);
     button_holder.appendChild(document.createElement("br"));
@@ -60,7 +62,8 @@ function initialise_buttons() {
         new_button.id = `blog_button_${index}`;
         new_button.classList.add("bordered_entry");
         new_button.classList.add('seperated_entry');
-        new_button.innerHTML = `<span class='green'>${bName}</span><br>${(index < button_keywords.length) ? `<span class='darkBlue'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
+        new_button.classList.add('entry_button');
+        new_button.innerHTML = `<span class='green floated_text'>${bName}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
 
         populate_summary(`${root}/blogs/blog-summaries/Blog-${index + 1}-Summary.txt`);
 
@@ -163,12 +166,12 @@ function checker(file_text, index) {
     if (is_open_arr[index]) {
         blog_holder.innerHTML = "";
         //corresponding_button.innerText = `${button_names[index]}${(index < button_keywords.length) ? `\nKeywords: ${button_keywords[index]}` : ``}`;
-        corresponding_button.innerHTML = `<span class='green'>${button_names[index]}</span><br>${(index < button_keywords.length) ? `<span class='darkBlue'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
+        //corresponding_button.innerHTML = `<span class='green floated_text'>${button_names[index]}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
         blog_holder.classList.remove("bordered_entry");
         blog_holder.classList.remove("sub_entry");
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
-        corresponding_button.innerHTML = `<span class='purple'>Close ${button_names[index]}</span>`;
+        //corresponding_button.innerHTML = `<span class='purple'>Close ${button_names[index]}</span>`;
         blog_holder.classList.add("bordered_entry");
         blog_holder.classList.add("sub_entry");
     }
@@ -181,4 +184,16 @@ window.onscroll = function () {
         //console.log("test")
         scrollBy(0, -1);
     }
+}
+
+function resize_buttons() {
+    button_names.forEach(function(name, index) {
+        let temp_button = document.getElementById(`blog_button_${index}`);
+        console.log(temp_button.offsetWidth);
+        temp_button.style.paddingRight = `${60-px_to_vw(temp_button.offsetWidth)}vw`;
+    });
+}
+
+function px_to_vw(pixel_amount) {
+    return 100*pixel_amount/document.documentElement.clientWidth;
 }

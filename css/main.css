@@ -114,6 +114,11 @@ article {
     line-height: 15pt;
 }
 
+#close_all_button {
+    display: block;
+    margin: auto;
+}
+
 .bordered_entry {
     font-family: "JetBrains mono", monospace;
     font-style: normal;
@@ -127,9 +132,13 @@ article {
 }
 
 .seperated_entry{
-    margin-top: 2vh;
-    margin-left: 13vw;
-    margin-right: 13vw;
+    display: block;
+    margin-top: 3vh;
+    margin: 3vh auto 0;
+}
+
+.floated_text {
+    float: left;
 }
 
 .purple{
@@ -151,6 +160,10 @@ article {
     color: #6c95eb;
 }
 
+.entry_button {
+    padding: auto;
+}
+
 .bordered_entry p{
     padding-left: 5vw;
     padding-right: 5vw;
@@ -158,6 +171,7 @@ article {
 
 .bordered_entry.sub_entry {
     margin-top: 0.5vh;
+    margin-inline: 14vw;
 }
 
 /* Targeting buttons whose class includes bordered entry */
