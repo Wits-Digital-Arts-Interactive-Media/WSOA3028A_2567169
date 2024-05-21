@@ -1,5 +1,20 @@
 import { is_mobile } from "./mobile_handling.js";
 
+//svg code from https://www.svgrepo.com/svg/34350/left-arrow
+function create_arrow_icon(rotation = 0) {
+    const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    svgIcon.setAttribute('fill','#f0ead6');
+    svgIcon.setAttribute('viewBox', '0 0 330.002 330.002');
+    svgIcon.setAttribute('transform',`rotate(${rotation})`);
+    svgIcon.classList.add('dropdown_arrow');
+    svgIcon.innerHTML = `
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier"> 
+    <path id="XMLID_24_" d="M229.966,0.847c-6.011-2.109-12.698-0.19-16.678,4.784L93.288,155.635 c-4.382,5.478-4.382,13.263,0.001,18.741l120,149.996c2.902,3.628,7.245,5.63,11.716,5.63c1.658,0,3.336-0.276,4.962-0.847 c6.012-2.108,10.035-7.784,10.035-14.154v-300C240.001,8.63,235.978,2.955,229.966,0.847z M210.001,272.24l-85.79-107.235 l85.79-107.241V272.24z">
+    </path> </g>`;
+    return svgIcon;
+}
+
 //const holder so mobile checker method is only called once
 const is_mobile_check = is_mobile(navigator.userAgent || navigator.vendor || window.opera);
 
@@ -13,7 +28,7 @@ const button_names = [
     "Blog 6: Racial Justice, Gender Equality, and the Internet",
     "Blog 7: Web Dev as a South African",
     "Blog 8: A Close Reading on a Feminist Internet",
-    "Blog 9: Colonialism and Modernity: How can they be reconciled?"
+    "Blog 9: Colonialism and Modernity: How can they be reconciled?",
 ];
 
 const button_keywords = [
@@ -36,7 +51,6 @@ let is_open_arr = [];
 export function initialise() {
     initialise_buttons();
     //read_entry(`${root}/blogs/Blog 1.txt`);
-    resize_buttons()
 }
 
 function initialise_buttons() {
@@ -63,7 +77,25 @@ function initialise_buttons() {
         new_button.classList.add("bordered_entry");
         new_button.classList.add('seperated_entry');
         new_button.classList.add('entry_button');
-        new_button.innerHTML = `<span class='green floated_text'>${bName}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
+        //new_button.innerHTML = `<span class='green floated_text'>${bName}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
+        
+        new_button.appendChild(create_arrow_icon(0));
+        const title_text = document.createElement('span');
+        title_text.classList.add('green', 'floated_text');
+        title_text.innerText = bName;
+        new_button.appendChild(title_text);
+        new_button.appendChild(document.createElement('br'));
+        
+        if (index < button_keywords.length) {
+            const keyword_text = document.createElement('span');
+            keyword_text.classList.add('darkBlue', 'floated_text');
+            keyword_text.innerText = 'Keywords:';
+            const lighter_keywords = document.createElement('span');
+            lighter_keywords.classList.add('lightBlue', 'floated_text');
+            lighter_keywords.innerText = `${button_keywords[index]}`;
+            new_button.appendChild(keyword_text);
+            new_button.appendChild(lighter_keywords);
+        }
 
         populate_summary(`${root}/blogs/blog-summaries/Blog-${index + 1}-Summary.txt`);
 
@@ -162,21 +194,38 @@ function checker(file_text, index) {
 
     //TODO: Fix issue of mouseover events breaking when the user gets pushed upwards due to a blog being collapsed - DONE
     const blog_holder = document.getElementById(`Blog_Holder_${index}`);
-    let corresponding_button = document.getElementById(`blog_button_${index}`);
+    const corresponding_button = document.getElementById(`blog_button_${index}`);
+    const dropdown_svg = corresponding_button.getElementsByClassName('dropdown_arrow')[0];
     if (is_open_arr[index]) {
         blog_holder.innerHTML = "";
         //corresponding_button.innerText = `${button_names[index]}${(index < button_keywords.length) ? `\nKeywords: ${button_keywords[index]}` : ``}`;
         //corresponding_button.innerHTML = `<span class='green floated_text'>${button_names[index]}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
         blog_holder.classList.remove("bordered_entry");
         blog_holder.classList.remove("sub_entry");
+        dropdown_svg.setAttribute('transform', 'rotate(0)');
     } else {
         blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
         //corresponding_button.innerHTML = `<span class='purple'>Close ${button_names[index]}</span>`;
         blog_holder.classList.add("bordered_entry");
         blog_holder.classList.add("sub_entry");
+        dropdown_svg.setAttribute('transform', 'rotate(-90)');
     }
     is_open_arr[index] = !is_open_arr[index];
 }
+
+//THIS IS A PERFECT EXAMPLE OF THE SUNK COST FALLACY
+
+// function resize_buttons() {
+//     button_names.forEach(function (name, index) {
+//         let temp_button = document.getElementById(`blog_button_${index}`);
+//         console.log(temp_button.offsetWidth);
+//         temp_button.style.paddingRight = `${71.5 - px_to_vw(temp_button.offsetWidth)}vw`;
+//     });
+// }
+
+// function px_to_vw(pixel_amount) {
+//     return 100 * pixel_amount / document.documentElement.clientWidth;
+// }
 
 //When the page was at the very bottom, sometimes content would be loaded and push everything upwards, this is a workaround
 window.onscroll = function () {
@@ -186,14 +235,4 @@ window.onscroll = function () {
     }
 }
 
-function resize_buttons() {
-    button_names.forEach(function(name, index) {
-        let temp_button = document.getElementById(`blog_button_${index}`);
-        console.log(temp_button.offsetWidth);
-        temp_button.style.paddingRight = `${60-px_to_vw(temp_button.offsetWidth)}vw`;
-    });
-}
-
-function px_to_vw(pixel_amount) {
-    return 100*pixel_amount/document.documentElement.clientWidth;
-}
+//window.onload = resize_buttons;

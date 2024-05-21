@@ -141,6 +141,14 @@ article {
     float: left;
 }
 
+.entry_button .dropdown_arrow {
+    float: right;
+    position: absolute;
+    right: 15vw;
+    width: 1.5rem;
+    height: 2.5rem;
+}
+
 .purple{
     color: #c191ff;
 }
@@ -161,7 +169,7 @@ article {
 }
 
 .entry_button {
-    padding: auto;
+    width: 70.8vw;
 }
 
 .bordered_entry p{

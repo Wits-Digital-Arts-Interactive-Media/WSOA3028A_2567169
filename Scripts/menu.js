@@ -10,13 +10,6 @@ const menu_items = [
 
 export function initialise(currentPage = "") {
     if (!(typeof currentPage === 'string' || currentPage instanceof String)) return;
-    // const title = document.querySelector("header > h1");
-    // // Title styling here in the future
-    // const title_anchor = document.createElement("a");
-    // title_anchor.innerText = "2024 WSOA3028A";
-    // title_anchor.setAttribute("id", "Top");
-
-    // title.appendChild(title_anchor);
     const nav = document.querySelector("header > nav");
 
     const icon_checkbox = document.createElement("input");
