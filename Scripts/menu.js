@@ -10,7 +10,9 @@ const menu_items = [
 
 export function initialise(currentPage = "") {
     if (!(typeof currentPage === 'string' || currentPage instanceof String)) return;
-    const nav = document.querySelector("header > nav");
+    const main = document.querySelector('header');
+    const nav = document.createElement("nav");
+    main.appendChild(nav);
 
     const icon_checkbox = document.createElement("input");
     icon_checkbox.type = 'checkbox';
@@ -25,6 +27,7 @@ export function initialise(currentPage = "") {
     const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     svgIcon.setAttribute("viewBox", "0 0 24 24");
     svgIcon.setAttribute("class", "svg-bars"); // Set a new class for the SVG icon
+    svgIcon.id = 'nav_menu_icon';
     svgIcon.innerHTML = `
         <path fill="#f0ead6" d="M3 12h18v2H3v-2zm0 6h18v2H3v-2zm0-12h18v2H3V6z"/>
     `;

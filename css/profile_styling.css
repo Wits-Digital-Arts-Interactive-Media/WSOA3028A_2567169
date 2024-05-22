@@ -73,6 +73,9 @@ h3 {
 .profile_header {
     display: flex;
     color: #39cc8f;
+    font-size: 365%;
+    margin-top: 0%;
+    margin-bottom: 12%;
 }
 
 /* Add this CSS to fade out the main content when scrolling down */

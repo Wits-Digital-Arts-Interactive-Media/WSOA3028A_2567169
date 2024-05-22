@@ -68,7 +68,6 @@ function initialise_buttons() {
     close_all_button.id = "close_all_button";
     close_all_button.addEventListener('click', () => close_all());
     button_holder.appendChild(close_all_button);
-    button_holder.appendChild(document.createElement("br"));
 
     button_names.forEach(function (bName, index) {
         is_open_arr.push(false);

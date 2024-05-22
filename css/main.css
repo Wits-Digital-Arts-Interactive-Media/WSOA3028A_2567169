@@ -1,4 +1,4 @@
-html, 
+html,
 body {
     margin: 0;
     font-size: 12pt;
@@ -9,13 +9,17 @@ body {
     color: #f0ead6;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3,
-h4, 
+h4,
 h5,
 h6 {
     text-align: center;
+}
+
+h1 {
+    margin-bottom: 10vh;
 }
 
 .svg-bars {
@@ -24,7 +28,7 @@ h6 {
     width: 4.5rem;
     height: 4.5rem;
     font-size: 30pt;
-    margin: 0.5vh 0 0 2.5vw;
+    margin: 0.5vh 0 0 2.1vw;
     color: #f0ead6;
     background-color: #79766dc0;
     border-width: 2px;
@@ -34,7 +38,7 @@ h6 {
     cursor: pointer;
     position: fixed;
     z-index: 3;
-    top:21px;
+    top: 21px;
     backdrop-filter: blur(5px);
 }
 
@@ -43,7 +47,7 @@ h6 {
 }
 
 .nav_menu {
-    top:21px;
+    top: 21px;
     padding-left: 0;
     line-height: 80px;
     margin-left: 8rem;
@@ -61,21 +65,61 @@ h6 {
     transition-duration: 0.3s;
 }
 
+.wiggle_scale {
+    animation-name: wiggle_scale;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes wiggle_scale {
+    0% {
+        scale: 1;
+        transform: rotateZ(0deg);
+    }
+    16% {
+        transform: rotateZ(15deg);
+    }
+    33% {
+        transform: rotateZ(-15deg);
+    }
+    50% {
+        scale: 1.1;
+    }
+    66% {
+        transform: rotateZ(15deg);
+    }
+    84% {
+        transform: rotateZ(-15deg);
+    }
+    100% {
+        scale: 1;
+        transform: rotateZ(0deg);
+    }
+}
+
 .flashing {
     animation: opacity_flip 1s infinite steps(1);
 }
 
 @keyframes opacity_flip {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-.nav_menu li:first-child{
+.nav_menu li:first-child {
     margin-left: 1rem;
 }
 
-.nav_menu li:last-child{
+.nav_menu li:last-child {
     margin-right: 1rem;
 }
 
@@ -102,8 +146,8 @@ h6 {
     display: none;
 }
 
-#navigation_checkbox:checked ~ .nav_menu,
-#navigation_checkbox:checked ~ .nav_menu a {
+#navigation_checkbox:checked~.nav_menu,
+#navigation_checkbox:checked~.nav_menu a {
     /*color: blue;*/
     opacity: 1;
     visibility: visible;
@@ -131,7 +175,7 @@ article {
     border-radius: 1vh;
 }
 
-.seperated_entry{
+.seperated_entry {
     display: block;
     margin-top: 3vh;
     margin: 3vh auto 0;
@@ -149,7 +193,7 @@ article {
     height: 2.5rem;
 }
 
-.purple{
+.purple {
     color: #c191ff;
 }
 
@@ -172,7 +216,19 @@ article {
     width: 70.8vw;
 }
 
-.bordered_entry p{
+#essay_buttons {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+
+.essay_entry {
+    width: 18vw;
+    margin-bottom: 0.4vh;
+}
+
+.bordered_entry p {
     padding-left: 5vw;
     padding-right: 5vw;
 }
@@ -187,7 +243,8 @@ button[class~="bordered_entry"] {
     cursor: pointer;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
     color: #f0ead6;
     text-decoration-color: #c191ff;
 }
