@@ -22,6 +22,7 @@ h1 {
     margin-bottom: 10vh;
 }
 
+/*menu*/
 .svg-bars {
     padding-bottom: 0.3rem;
     padding-inline: 0.2rem;
@@ -153,6 +154,108 @@ h1 {
     visibility: visible;
 }
 
+/*Footer*/
+
+footer hr {
+    border-color: #79766D;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#icon_holder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+
+#icon_holder svg {
+    padding-right: 1vw;
+}
+
+.svg_github {
+    width: 3vw;
+    height: 3vw;
+}
+
+.svg_insta {
+    width: 3vw;
+    height: 3vw;
+}
+
+.svg_itch {
+    width: 3vw;
+    height: 3vw;
+}
+
+.svg_github:hover,
+.svg_insta:hover,
+.svg_itch:hover {
+    cursor: pointer;
+}
+
+/*Blog Jumper*/
+
+#blog_jumper {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #79766d;
+    width: 10vw;
+    z-index: 3;
+    left: 2vw;
+    border-style: solid;
+    border-color: #f0ead6;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#blog_jumper menu {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    padding-inline: 0;
+    width: 100%;
+    max-height: 20vh;
+    overflow-y: auto;
+    scrollbar-width: 10px;
+    scrollbar-color: #f0ead6 #27262500;
+}
+
+#blog_jumper .top_bookmark {
+    background-color: #79766D;
+    border-style: solid;
+    border-color: #f0ead6;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    height: 2rem;
+}
+
+#blog_jumper p {
+    background-color: #79766D;
+    margin: 0;
+}
+
+#blog_jumper li {
+    display: block;
+    margin-left: 0;
+    padding-inline: 3.5rem;
+    padding-block: 1vh;
+    background-color: #79766D;
+    border-style: solid;
+    border-color: #f0ead6;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#blog_jumper li:hover {
+    background-color: #272625;
+}
+
 article {
     font-size: 12pt;
     line-height: 15pt;
@@ -217,8 +320,9 @@ article {
 }
 
 #essay_buttons {
+    min-height: 100vh;
     display: flex;
-    width: 100vw;
+    width: 98vw;
     flex-direction: column;
     align-items: center;
 }

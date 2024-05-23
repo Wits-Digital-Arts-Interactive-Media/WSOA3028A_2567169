@@ -15,6 +15,7 @@
     <script src="https://kit.fontawesome.com/b64c1bed5e.js" crossorigin="anonymous"></script>
     <script type="module"> import {initialise} from "../Scripts/menu.js"; initialise("Blogs")</script>
     <script type ="module">import {initialise} from "../Scripts/blog_display.js"; initialise()</script>
+    <script type="module">import {initialise} from "../Scripts/inject_footer.js"; initialise()</script>
 </head>
 <body>
     <header>
@@ -26,7 +27,7 @@
         
         <h1><span class='purple'>Blogs:<span class='flashing'>&UnderBar;</span></span></h1>
         <nav id="blog_jumper">
-            <p>Jump to a specific post:</p>
+            <p>Jump to post:</p>
         </nav>
         <article id = "button_holder" class = "h-feed">
         </article>
@@ -48,6 +49,7 @@
         <br>
         <br>
         <br>
+        <footer></footer>
     </main>
 </body>
 </html>

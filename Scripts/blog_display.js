@@ -59,6 +59,15 @@ function initialise_buttons() {
     const button_holder = document.getElementById("button_holder");
 
     const nav_bar = document.getElementById('blog_jumper');
+
+    //Jump to top link
+    const top_anchor = document.createElement('a');
+    top_anchor.innerText = `Top`;
+    top_anchor.href = `#top`;
+    top_anchor.rel = "bookmark";
+    top_anchor.classList.add('top_bookmark')
+    nav_bar.appendChild(top_anchor);
+
     const button_menu = document.createElement("menu");
     nav_bar.appendChild(button_menu);
 
@@ -126,7 +135,7 @@ function initialise_buttons() {
 
         let corresponding_nav = document.createElement("li");
         let nav_anchor = document.createElement("a");
-        nav_anchor.innerText = `${bName}`;
+        nav_anchor.innerText = `${bName.substring(0, bName.indexOf(':'))}`;
         nav_anchor.href = `#${article_holder.id}`;
         nav_anchor.rel = "bookmark";
         corresponding_nav.appendChild(nav_anchor);
