@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 1</h2>
+<h2 style="text-align: center;">Week 1:Blog 1</h2>
         <h3 style="text-align: center;" class = "p-name">The Rise of AI</h3>
         <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> AI, Turing Test, Twitter</em></h4>
 

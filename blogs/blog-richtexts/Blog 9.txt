@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 9</h2>
+<h2 style="text-align: center;">Week 11:Blog 9</h2>
             <h3 style="text-align: center;", class="p-name">Colonialism and Modernity: How can they be reconciled?</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Decoloniality, Social Justice</em></h4>
             <div class="e-content">

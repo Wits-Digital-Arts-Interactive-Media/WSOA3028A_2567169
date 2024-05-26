@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name = 'language' content="EN">
-    <meta name = 'rating' content="General">
-    <meta name = "author" content="Yoav Lipshitz">
+    <meta name='language' content="EN">
+    <meta name='rating' content="General">
+    <meta name="author" content="Yoav Lipshitz">
     <meta name="description" content="Yoav Lipshitz Blog posts">
     <title>Blogs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
     <link rel="stylesheet" href="../css/main.css">
     <script src="https://kit.fontawesome.com/b64c1bed5e.js" crossorigin="anonymous"></script>
-    <script type="module"> import {initialise} from "../Scripts/menu.js"; initialise("Blogs")</script>
-    <script type ="module">import {initialise} from "../Scripts/blog_display.js"; initialise()</script>
-    <script type="module">import {initialise} from "../Scripts/inject_footer.js"; initialise()</script>
+    <script type="module"> import { initialise } from "../Scripts/menu.js"; initialise("Blogs")</script>
+    <script type="module">import { initialise } from "../Scripts/blog_display.js"; initialise()</script>
+    <script type="module">import { initialise } from "../Scripts/inject_footer.js"; initialise()</script>
 </head>
+
 <body>
     <header>
 
@@ -24,23 +27,24 @@
 
     <main>
         <!-- this is an issue because it's a second nav, it is being considered -->
-        
+
         <h1><span class='purple'>Blogs:<span class='flashing'>&UnderBar;</span></span></h1>
         <nav id="blog_jumper">
             <p>Jump to post:</p>
         </nav>
-        <article id = "button_holder" class = "h-feed">
+        <article id="button_holder" class="h-feed">
         </article>
 
         <!--duplicate this to write posts in-editor with preview before migrating them to txt files; the rest of the microformats are embedded on script injection -->
-        <!-- <div class="WIP-writings">
-            <h2 style="text-align: center;">Blog post *</h2>
+        <!-- <div class="WIP-writings bordered_entry sub_entry">
+            <h2 style="text-align: center;">Week *:Blog post *</h2>
             <h3 style="text-align: center;", class="p-name"></h3>
-            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span></em></h4>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords: </span></em></h4>
             <div class="e-content">
-                
+                <h5 class="p-name">subtopic 1</h5>
             </div>
         </div> -->
+
 
         <!--This is padding so that you can scroll low enough to see the summaries of blogs at the bottom of the page-->
         <br>
@@ -52,4 +56,5 @@
         <footer></footer>
     </main>
 </body>
+
 </html>

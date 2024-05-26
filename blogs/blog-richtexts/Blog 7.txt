@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 7</h2>
+<h2 style="text-align: center;">Week 9:Blog 7</h2>
             <h3 style="text-align: center;", class="p-name">Web Dev as a South African</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Social Justice, Internet Access, Systemic Bias, AI</em></h4>
             <div class="e-content">

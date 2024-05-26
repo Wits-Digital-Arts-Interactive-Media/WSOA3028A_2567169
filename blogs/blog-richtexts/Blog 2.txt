@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 2</h2>
+<h2 style="text-align: center;">Week 2:Blog 2</h2>
             <h3 style="text-align: center;" class = "p-name">Design Wireframes and Plans</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Design, Art, Wireframes</em></h4>
 

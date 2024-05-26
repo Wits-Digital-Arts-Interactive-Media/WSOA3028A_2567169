@@ -200,7 +200,7 @@ footer hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #79766d;
+    background-color: #272625;
     width: 10vw;
     z-index: 3;
     left: 2vw;
@@ -212,19 +212,20 @@ footer hr {
 
 #blog_jumper menu {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin: 0;
     padding-inline: 0;
     width: 100%;
-    max-height: 20vh;
+    max-height: 25vh;
     overflow-y: auto;
-    scrollbar-width: 10px;
+    overflow-x: hidden;
+    scrollbar-width: 0;
     scrollbar-color: #f0ead6 #27262500;
 }
 
 #blog_jumper .top_bookmark {
-    background-color: #79766D;
+    background-color: #272625;
     border-style: solid;
     border-color: #f0ead6;
     border-width: 1px;
@@ -235,25 +236,39 @@ footer hr {
     height: 2rem;
 }
 
+#blog_jumper a[href]:hover {
+    background-color: #c191ff;
+}
+
+#blog_jumper a {
+    text-decoration: none;
+}
+
 #blog_jumper p {
-    background-color: #79766D;
+    background-color: #272625;
     margin: 0;
+}
+
+#blog_jumper li:hover {
+    background-color: #c191ff;
+    color: #010203;
+    cursor: pointer;
 }
 
 #blog_jumper li {
     display: block;
     margin-left: 0;
-    padding-inline: 3.5rem;
+    padding-inline: 3.6rem;
+    margin: auto;
+    text-align: center;
     padding-block: 1vh;
-    background-color: #79766D;
-    border-style: solid;
+    background-color: #272625;
+    /* border-style: solid; */
     border-color: #f0ead6;
     border-width: 1px;
-    border-radius: 5px;
-}
-
-#blog_jumper li:hover {
-    background-color: #272625;
+    border-style: inset;
+    border-inline-width: 0;
+    /*border-radius: 5px;*/
 }
 
 article {
@@ -296,7 +311,8 @@ article {
     height: 2.5rem;
 }
 
-.purple {
+.purple,
+h5 {
     color: #c191ff;
 }
 
@@ -304,6 +320,11 @@ article {
 .sub_entry h2,
 .green {
     color: #39cc8f;
+}
+
+.sub_entry ul,
+.sub_entry ol {
+    padding-inline: 5vw;
 }
 
 .sub_entry h4,

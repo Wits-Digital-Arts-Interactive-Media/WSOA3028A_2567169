@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 3</h2>
+<h2 style="text-align: center;">Week 3:Blog 3</h2>
             <h3 style="text-align: center;" class = "p-name">Semantic Markup and More Plans</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Semantic Markup, website design, html5</em></h4>
             <div class = "e-content">

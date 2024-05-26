@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 6</h2>
+<h2 style="text-align: center;">Week 8:Blog 6</h2>
             <h3 style="text-align: center;", class="p-name">Racial Justice, Gender Equality, and the Internet</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:<span> Social Justice, Internet Access, Systemic Bias</em></h4>
             <div class="e-content">

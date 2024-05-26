@@ -3,9 +3,9 @@ import { is_mobile } from "./mobile_handling.js";
 //svg code from https://www.svgrepo.com/svg/34350/left-arrow
 function create_arrow_icon(rotation = 0) {
     const svgIcon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svgIcon.setAttribute('fill','#f0ead6');
+    svgIcon.setAttribute('fill', '#f0ead6');
     svgIcon.setAttribute('viewBox', '0 0 330.002 330.002');
-    svgIcon.setAttribute('transform',`rotate(${rotation})`);
+    svgIcon.setAttribute('transform', `rotate(${rotation})`);
     svgIcon.classList.add('dropdown_arrow');
     svgIcon.innerHTML = `
     <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -29,6 +29,8 @@ const button_names = [
     "Blog 7: Web Dev as a South African",
     "Blog 8: A Close Reading on a Feminist Internet",
     "Blog 9: Colonialism and Modernity: How can they be reconciled?",
+    "Blog 10: Digital Colonialities",
+    "Blog 11: CSS Integration"
 ];
 
 const button_keywords = [
@@ -41,6 +43,8 @@ const button_keywords = [
     'Internet Access, Systemic Bias, Human Rights',
     'Feminism, Gender equality, Social justice, Social media',
     'Decoloniality, Social Justice',
+    'Discrimination, AGR',
+    'CSS, Responsive Design, Accessibility',
 ];
 
 let richtexts_arr = [];
@@ -86,14 +90,14 @@ function initialise_buttons() {
         new_button.classList.add('seperated_entry');
         new_button.classList.add('entry_button');
         //new_button.innerHTML = `<span class='green floated_text'>${bName}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
-        
+
         new_button.appendChild(create_arrow_icon(0));
         const title_text = document.createElement('span');
         title_text.classList.add('green', 'floated_text');
         title_text.innerText = bName;
         new_button.appendChild(title_text);
         new_button.appendChild(document.createElement('br'));
-        
+
         if (index < button_keywords.length) {
             const keyword_text = document.createElement('span');
             keyword_text.classList.add('darkBlue', 'floated_text');
@@ -134,13 +138,23 @@ function initialise_buttons() {
         button_holder.appendChild(article_holder);
 
         let corresponding_nav = document.createElement("li");
-        let nav_anchor = document.createElement("a");
+        /*let nav_anchor = document.createElement("a");
         nav_anchor.innerText = `${bName.substring(0, bName.indexOf(':'))}`;
         nav_anchor.href = `#${article_holder.id}`;
         nav_anchor.rel = "bookmark";
-        corresponding_nav.appendChild(nav_anchor);
+        corresponding_nav.appendChild(nav_anchor);*/
+        corresponding_nav.innerText = `${bName.substring(0, bName.indexOf(':'))}`;
+        corresponding_nav.addEventListener('click', () => jump_to_bookmark(article_holder.id));
         button_menu.appendChild(corresponding_nav);
     });
+}
+
+function jump_to_bookmark(holder_id) {
+    const nav_anchor = document.createElement("a");
+    nav_anchor.href = `#${holder_id}`;
+    nav_anchor.rel = "bookmark";
+
+    nav_anchor.click();
 }
 
 function clear_text(index) {
@@ -212,7 +226,7 @@ function checker(file_text, index) {
         blog_holder.classList.remove("sub_entry");
         dropdown_svg.setAttribute('transform', 'rotate(0)');
     } else {
-        blog_holder.innerHTML = file_text + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
+        blog_holder.innerHTML = file_text// + `<nav style="text-align: center;"><a href = "#Top">Jump to top</a></nav>`;
         //corresponding_button.innerHTML = `<span class='purple'>Close ${button_names[index]}</span>`;
         blog_holder.classList.add("bordered_entry");
         blog_holder.classList.add("sub_entry");
@@ -235,11 +249,22 @@ function checker(file_text, index) {
 //     return 100 * pixel_amount / document.documentElement.clientWidth;
 // }
 
-//When the page was at the very bottom, sometimes content would be loaded and push everything upwards, this is a workaround
-window.onscroll = function () {
-    if (document.documentElement.clientHeight + window.scrollY >= (document.documentElement.scrollHeight || document.documentElement.clientHeight)) {
-        //console.log("test")
-        scrollBy(0, -1);
+//racer function
+if (document.readyState === "loading") {
+    // If the document is still loading, add an event listener for DOMContentLoaded
+    document.addEventListener("DOMContentLoaded", doDomSetup());
+} else {
+    // If the document has already loaded, call the function directly
+    doDomSetup();
+}
+
+function doDomSetup() {
+    //When the page was at the very bottom, sometimes content would be loaded and push everything upwards, this is a workaround
+    window.onscroll = function () {
+        if (document.documentElement.clientHeight + window.scrollY >= (document.documentElement.scrollHeight || document.documentElement.clientHeight)) {
+            //console.log("test")
+            scrollBy(0, -1);
+        }
     }
 }
 

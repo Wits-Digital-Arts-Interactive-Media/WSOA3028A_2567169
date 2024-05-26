@@ -1,0 +1,90 @@
+<h2 style="text-align: center;">Week 11:Blog 10</h2>
+<h3 style="text-align: center;" , class="p-name">Digital Colonialities</h3>
+<h4 style="text-align: center;"><em><span class="darkBlue">Keywords: </span>Discrimination, AGR</em></h4>
+<div class="e-content">
+    <p>
+        I just realised that I wrote 2 blog posts for this week ;-; been a long one I guess... I still think they're
+        good writings though
+    </p>
+    <h5 class="p-name">Javascript Integration</h5>
+    <p>
+        At this point, the majority of my site is being run off of javascript. All of my blog post entries
+        are stored as html richtexts that are injected into the page from a fetch function in my blog
+        display code. All I need to do to add a new post is add the title and keywords to some arrays and
+        they get injected automatically. Similarly, my essays are embedded in iframes when requested from
+        the essay display function. All my navigation is injected, as well as my footer and menus.
+        Additionally, the parallax scrolling on the main page is driven by my own custom code. I have also
+        started on the backend for media queries in js that disable some of my blog page listeners
+        if the user is on mobile.
+    </p>
+    <h5 class="p-name">Interaction Design</h5>
+    <p>
+        All of this javascript integration means that I have quite precise control of how and when things
+        are being injected into my pages. This means that, in most cases, I am able to diagnose and fix
+        problems before they become something to really worry about. Additionally, since I don't have a
+        ton of content directly on my pages, I can put more focus on my actual interactions and do a lot
+        of quick iterative testing and design.
+    </p>
+    <h5 class="p-name">Digital Colonialities</h5>
+    <p>
+        Again in this reading, I came across a comment that initially rubbed me the wrong way, but I ended
+        up doing some extra research and want to reconcile the understanding I had initially and the one I
+        do now, and walk through my own clarifying process.
+    </p>
+    <figure>
+        <blockquote>
+            <p>
+                &quot;At the time of writing, for example, we identified 47 papers published
+                this year (2020) alone by Springer Link, all claiming to have
+                built algorithmic systems that “predict gender” even though
+                the very idea of predicting gender has been demonstrated to
+                rest on scientifically fallacious and ethically dubious grounds&quot;
+            </p>
+        </blockquote>
+        <cite>
+            Birhane and Guest - 2020 - Towards decolonising computational sciences pg 3
+        </cite>
+    </figure>
+    <p>
+        Now, as is probably evidenced in some of my other posts, I'm always wary of sweeping statements like this,
+        so I decided to look more into the paper that they linked, <cite>&quot;<a
+                href="https://dl.acm.org/doi/pdf/10.1145/3274357" target='_blank'>The Misgendering Machines</a>,&quot;
+            witten
+            by OS Keyes.</cite> The paper was a very interesting read, breaking down the flaws both fundamentally and in
+        application of Automatic Gender Recognition systems. In short, they are fundamentally flawed because the only
+        real application of gender-recognising systems would lead to dangerously bad outcomes for trans and gender
+        non-conforming
+        people, as it is <q>likely to misclassify (and so discriminate against) trans people.</q> This is the ethically
+        dubious
+        ground on which the idea of predicting gender rests.
+    </p>
+    <p>
+        On the front of scientific inaccuracy, I believe the authors were referring to the concept of gender being a
+        social
+        construct rather than a simple binary, an idea echoed by Anna Lindqvista, Marie Gustafsson Sendénband and Emma
+        A. Renström
+        in <a href="https://www.tandfonline.com/doi/epdf/10.1080/19419899.2020.1729844?src=getftr" target="_blank">this
+            paper on that same concept</a>.
+        Back in the paper authored by Keyes, they classify 12 papers by their gender operationalisation, particularly in how they view
+        3 categories, and for each category,
+        how many papers had that view.
+    </p>
+    <ul>
+        <li>Binary: 94.8&percnt;</li>
+        <li>Immutable: 72.4&percnt;</li>
+        <li>Physiological: 60.3&percnt;</li>
+    </ul>
+    <p>
+        Clearly, this is a huge hole in the scientific understanding of gender when it comes to this field, and so for
+        that reason, the
+        authors of the original paper also assert that if not completely fallacious, the scientific grounding for
+        prediction of gender
+        is shaky and clearly ignorant of the reality of transgender people.
+    </p>
+    <p>
+        In conclusion, my initial skepticism was resolved through extra research, revealing that the critique by
+        Birhane and Guest stands on solid ground. The scientific and ethical critiques of AGR systems are well-founded,
+        emphasizing the need for a more nuanced and inclusive approach to understanding gender in computational
+        sciences.
+    </p>
+</div>

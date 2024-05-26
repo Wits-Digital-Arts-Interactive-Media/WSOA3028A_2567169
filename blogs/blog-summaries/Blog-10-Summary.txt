@@ -1,0 +1,3 @@
+<p class="p-summary">
+This blog is a deep dive into the reality of discrimination within Automatic Gender Recognition protocols and their fallacious fundamental grounding
+</p>

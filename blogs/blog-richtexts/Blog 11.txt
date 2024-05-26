@@ -1,0 +1,48 @@
+<h2 style="text-align: center;">Week 12:Blog 11</h2>
+            <h3 style="text-align: center;" , class="p-name">CSS Integration</h3>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords: </span>CSS, Responsive Design, Accessibility</em></h4>
+            <div class="e-content">
+                <h5 class="p-name">How CSS relates to everything</h5>
+                    <p>
+                        Javascript, CSS, and HTML are commonly referred to as the &quot;holy trinity&quot; of
+                        web design, and in my understanding, that's because it's all you need to create almost
+                        any kind of webpage you could imagine. In my case, it lets me lay out and structure all
+                        of my content in a proper, logical manner. On this page, for example, I have been able
+                        to lay out my buttons and blog posts in an easy, readable way, color them, give them
+                        fonts and styling, move my bookmarks to the side of the page, and tons more. Essentially,
+                        I see CSS as the coat of paint that covers my functionality from Javascript and structure
+                        from HTML. As a note, I did most of my styling before I was aware of grid structuring, and
+                        I'll talk more about that in a bit.
+                    </p>
+                <h5 class="p-name">Responsive Design</h5>
+                    <p>
+                        In my opinion, the benefits of responsive design are self-evident. Making a website that's 
+                        able to be moved and scaled for more screens than one means that more people with different 
+                        levels of access will be able to see your website and interact with it. For important 
+                        things such as voter registration and university sites, this becomes a must-have if you 
+                        want people to be able to have equitable outcomes. On the other side of it, there are some 
+                        challenges for responsive design that must be overcome. First off, it is more difficult to
+                        design for multiple screens, especially if there is more functionality that needs to be
+                        changed than expected. On this site, for example, the blog page doesn't add hover-over or
+                        mouse exit listeners to the posts if the user is on mobile. This makes sure that there are 
+                        no strange or unexpected outcomes when it comes to how they scroll or interact with the 
+                        content. Of course, the major thing to look out for in responsive design is the time investment.
+                        We must be cognizant of what elements are being placed where, otherwise we are at risk of having
+                        to completely overhaul the website for different aspect ratios.
+                    </p>
+                <h5 class="p-name">Decolonial Code</h5>
+                    <p>
+                        The major decolonial aspect of my code that I'm attempting to focus on is accessibility,
+                        particularly for the visually impaired. This, as I mention in my design section, precipitates
+                        in two major areas. First, I have been using a
+                        <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/" target="_blank" rel="noopener noreferrer">
+                        colorblindness simulator</a> 
+                        to ensure that my website is high-contrast and readable for all types of colorblindness. Additionally,
+                        I have been paying close attention to best practices for screen-reader friendly implementations for 
+                        all my pages, such as removing the a links from my buttons, as this messes with screen readers, and
+                        replacing them with proper event listeners. Currently, I am aware of one accessibility issue on this page,
+                        which is that I have two navigation elements, which is a fairly severe issue, but I am not sure how
+                        to remedy it at this point. I will continue to develop for accessibility and do my best to incorporate
+                        everything I can into achieving a good outcome.
+                    </p>
+            </div>

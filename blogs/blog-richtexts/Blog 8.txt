@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 8</h2>
+<h2 style="text-align: center;">Week 10:Blog 8</h2>
             <h3 style="text-align: center;", class="p-name">A Close Reading on a Feminist Internet</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> Feminism, Gender equality, Social justice, Social media</em></h4>
             <div class="e-content">

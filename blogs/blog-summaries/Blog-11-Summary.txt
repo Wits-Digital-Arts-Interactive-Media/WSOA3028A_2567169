@@ -1,0 +1,3 @@
+<p class="p-summary">
+    This post goes into the thought process behind my CSS a little bit in regards to accessibility
+</p>

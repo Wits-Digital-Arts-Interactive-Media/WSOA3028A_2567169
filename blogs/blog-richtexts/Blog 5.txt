@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Blog post 5</h2>
+<h2 style="text-align: center;">Week 6:Blog 5</h2>
             <h3 style="text-align: center;", class="p-name">Sites for UI and UX analysis</h3>
             <h4 style="text-align: center;"><em><span class="darkBlue">Keywords:</span> UI, UX, IxD, Design Analysis</em></h4>
             <div class="e-content">
