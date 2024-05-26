@@ -1,0 +1,62 @@
+<h2 style="text-align: center;">Week 13:Blog post 12</h2>
+            <h3 style="text-align: center;" , class="p-name">Proper Distance: Why is it important?</h3>
+            <h4 style="text-align: center;"><em><span class="darkBlue">Keywords: </span>Twitter, Leftism</em></h4>
+            <div class="e-content">
+                <p>
+                    In my reading of the 2007 writing by Orgad on the internet as a moral space, a concept that I
+                    found interesting was that of 'Proper distance'. It may be because I was just struggling to 
+                    process anything that I read this week, but I couldn't quite understand how the concept was 
+                    being described in that particular writing and so, for this week's blog, I want to unpack 
+                    exactly what proper distance is, and why it was such a fundamentally important concept to
+                    understand. I do know that this was a primary purpose of the paper, but I still think it will 
+                    be valuable to create my own understanding through research.
+                    To this end, I decided to start with
+                    &quot;<a href="https://www.infoamerica.org/documentos_pdf/silverstone05.pdf" target="_blank" rel="noopener noreferrer">Proper Distance: Towards an ethics for cyberspace</a>,&quot;
+                    the 2003 essay on media ethics that the reading cites, written by <cite>Roger Silverstone</cite>.
+                </p>
+                <p>
+                    The essay opens by explaining that it's purpose is not to create a perscriptive ethical framework
+                    but rather to critique <q>the increasingly intense and interactive mediation
+                    of social relations by information and communication technologies</q>
+                    In other words, the purpose of the essay seems to be to break down the problems inherent in 
+                    social interactions being tempered by a website like twitter, tumblr, or heavens forbid,
+                    4Chan.
+                </p>
+                <p>
+                    Here, Silverstone introduces the concept of proper distance. Essentially, as I understand it, he believes
+                    that the maintenance and understanding of the distance between online and real-world interactions is key 
+                    to maintaining an ethical and good life. In essence then, the concept of proper distance is the knowledge and 
+                    understanding that you maintain as a buffer between real life and the online space. I want to stop the essay 
+                    there and relate it more to a personal observation about the state of the online space as a whole,
+                    but more particularly in regards to the myopia that seems to be present in a lot of discourse I've personally
+                    seen on twitter. This may seem a little out of nowhere, but bear with me, I'll explain why it's important later.
+                </p>
+                <p>
+                    So in general, if you've spent any time in left-leaning spaces on the internet, you may have come across outwardly
+                    queer-positive accounts that act very... Uninclusive to say the least. For the purposes of this blog, I want 
+                    to talk about the seemingly new rise of biphobia in places that I really didn't expect. For anyone not aware,
+                    biphobia is most commonly referred to as the dismissal, hatred and erasure of bi- or pansexual identites from any number
+                    of pieces of discourse. I do want to quickly acknowledge that I myself am bisexual, so this may not be an entirely 
+                    unbiased recollection of the discourse, but I will do my best to remain impartial.
+                </p>
+                <p>
+                    There seems to be a sentiment on some parts of twitter that just through the act of being bisexual and in a relationship
+                    with a specific gender, this removes or invalidates the existence of the bisexual identity, such as this comment
+                    captured by a user on reddit:
+                    <img src="./images/Twitter/Comment_2.png" title="Twitter post" alt="A post from a user on Twitter. The post reads: 'Since you are married, may I ask what openly bisexual means? You don't have to answer'">
+                </p>
+                <p>
+                    I don't want to talk about this ad nauseum, but the point I want to make here is that this erasure of certain 
+                    queer identities is exemplary of intra-community discourse that does nothing but weaken us from the inside.
+                    Even the very act of focusing on it detracts from the optical strength of our movement, even though it is 
+                    something that must be pushed back on.
+                    So why did I even bring this subject up? Well, I think that we can come out of it with a better understanding of
+                    proper space. At the end of the day, it is clear that discourse like this is myopic and only breeds dissatisfaction.
+                    To use a modern paraphrasing of the same idea, users like this need to touch grass. They are far too focused on the 
+                    lives of others and litigating the internal identities of people they will never know or understand. This is the 
+                    reason that, especially nowadays, we must remember the principle of proper space. We must recognize the impact that 
+                    interactions on social media have on our real lives, but more importantly, we must learn to separate ourselves 
+                    from it in order to pursue better activism and outcomes for the people who live here with us, instead of just 
+                    in viral posts on our apps.
+                </p>
+            </div>

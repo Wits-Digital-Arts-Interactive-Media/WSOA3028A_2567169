@@ -30,7 +30,8 @@ const button_names = [
     "Blog 8: A Close Reading on a Feminist Internet",
     "Blog 9: Colonialism and Modernity: How can they be reconciled?",
     "Blog 10: Digital Colonialities",
-    "Blog 11: CSS Integration"
+    "Blog 11: CSS Integration",
+    "Blog 12: Proper Distance: Why is it Important?",
 ];
 
 const button_keywords = [
@@ -45,6 +46,7 @@ const button_keywords = [
     'Decoloniality, Social Justice',
     'Discrimination, AGR',
     'CSS, Responsive Design, Accessibility',
+    'Twitter, Leftism'
 ];
 
 let richtexts_arr = [];
