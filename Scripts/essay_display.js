@@ -2,8 +2,7 @@ let is_open_arr = [];
 
 let button_names = [
     'Essay 1: UI and UX',
-    'Essay 2: Untitled',
-    'Tiling Tester',
+    'Essay 2: Digital Colonialities',
 ];
 
 const root = "/WSOA3028A_2567169";
