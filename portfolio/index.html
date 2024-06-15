@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Yoav Lipshitz' portfolio">
-    <meta name = 'language' content="EN">
-    <meta name = 'rating' content="General">
-    <meta name = "author" content="Yoav Lipshitz">
+    <meta name='language' content="EN">
+    <meta name='rating' content="General">
+    <meta name="author" content="Yoav Lipshitz">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/b64c1bed5e.js" crossorigin="anonymous"></script>
-    <script type="module">import {initialise} from "../Scripts/menu.js"; initialise("Portfolio")</script>
-    <script type="module">import {initialise} from "../Scripts/inject_footer.js"; initialise()</script>
+    <script type="module">import { initialise } from "../Scripts/menu.js"; initialise("Portfolio")</script>
+    <script type="module">import { initialise } from "../Scripts/inject_footer.js"; initialise()</script>
+    <script type="module">import { initialise } from "../Scripts/portfolio_handler.js"; initialise();</script>
+    <!--Imports a model-viewer JavaScript code -->
+    <!--It helps to handle how the 3D Object would be displayed -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <body>
@@ -25,15 +33,60 @@
     </header>
 
 
-    <main>
+    <div class="grid_container">
         <h1><span class="purple">Portfolio:<span class='flashing'>&UnderBar;</span></span></h1>
-        <h2>examples</h2>
-        <p>here's an example picture</p>
-        <img src="images/Khopesh-side-view.png" alt="An image of an Egyptian Khopesh, made in blender 3D">
-    </main>
+        <!-- Using id for easier js targeting -->
+        <div id="button_container">
+        </div>
+        <div class="gallery">
+            <!-- <img src="images/Khopesh-side-view.png" alt="An image of an Egyptian Khopesh, made in blender 3D"> -->
+            <style>
+                #lazy-load-poster {
+                  position: absolute;
+                  left: 0;
+                  right: 0;
+                  top: 0;
+                  bottom: 0;
+                  background-image: url("../../assets/poster-damagedhelmet.webp");
+                  background-size: contain;
+                  background-repeat: no-repeat;
+                  background-position: center;
+                }
+                #button-load {
+                  background-image: url("../../assets/ic_get_app_white_24dp.svg");
+                  background-repeat: no-repeat;
+                  background-size: 24px 24px;
+                  background-position: 6% 50%;
+                  background-color: #000;
+                  color: white;
+                  cursor: pointer;
+                  border-radius: 6px;
+                  display: inline-block;
+                  padding: 10px 18px 9px 40px;
+                  font-weight: 500;
+                  box-shadow: 0 0 8px rgba(0,0,0,.2), 0 0 4px rgba(0,0,0,.25);
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate3d(-50%, -50%, 0);
+                  z-index: 100;
+                }
+              </style>
+            <model-viewer id="lazy-load" camera-controls touch-action="pan-y" reveal="manual"
+                src="./models/Revolver/Revolver_display.gltf" ios-src="./models/Revolver/Revolver_display.gltf" alt="Revolver Model"
+                camera-controls ar>
+                <div id="lazy-load-poster" slot="poster"></div>
+                <div id="button-load" slot="poster">Load 3D Model</div>
+            </model-viewer>
+            <script>
+                document.querySelector('#button-load').addEventListener('click',
+                  () => document.querySelector('#lazy-load').dismissPoster());
+              </script>
+        </div>
 
-    <footer>
-    </footer>
+        <footer>
+        </footer>
+    </div>
 </body>
 
 </html>
