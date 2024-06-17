@@ -6,6 +6,7 @@
     --brightest: #f0ead6; 
     --blue_light: #66c3cc;
     --purple: #c191ff;
+    --div_amount: 2;
 }
 
 .grid_container {
@@ -33,10 +34,31 @@ h1 {
     border-radius: 1rem;
     border-style: solid;
     border-color: var(--bright);
-    padding: 1%;
+    padding-block: 1%;
+    padding-inline: 2%;
     grid-area: gallery;
     overflow-y: auto;
     background-color: var(--dark);
+    display: grid;
+    grid-template: repeat(var(--div_amount), 85%) / 50% 50%;
+    scrollbar-width: 0;
+    scrollbar-color: #f0ead6 #00000000;
+}
+
+.gallery_item {
+    display: grid;
+    grid-template: 90% 10% / 100%;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 5vh;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(to right, transparent 25%, --brightest 50%, transparent 25%) 100% 1;
+}
+
+.gallery_item img,
+.gallery_item model-viewer{
+    height: 100%;
+    max-width: 60%;
 }
 
 footer {

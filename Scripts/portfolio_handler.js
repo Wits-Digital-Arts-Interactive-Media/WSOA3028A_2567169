@@ -12,6 +12,7 @@ export function initialise() {
         is_art_open = true;
         button_art.classList.add('selected_tab');
         button_models.classList.remove('selected_tab');
+        set_gallery_amount(Math.ceil(displayGalleryImages.length/2));
         clear_gallery();
         populate_gallery_images();
     });
@@ -23,6 +24,7 @@ export function initialise() {
         is_art_open = false;
         button_models.classList.add('selected_tab');
         button_art.classList.remove('selected_tab');
+        set_gallery_amount(Math.ceil(displayGalleryModels.length/2));
         clear_gallery();
         populate_gallery_models();
     });
@@ -37,6 +39,13 @@ function clear_gallery() {
     while (gallery.firstChild) {
         gallery.removeChild(gallery.lastChild);
     }
+}
+
+function set_gallery_amount(display_amount) {
+    //gettting the root for css variable access
+    let root = document.querySelector(':root');
+
+    root.style.setProperty('--div_amount', display_amount);
 }
 
 //#region Image Display
@@ -54,20 +63,34 @@ class gallery_image {
 }
 
 const displayGalleryImages = [
-    new gallery_image(`${root}/portfolio/images/Khopesh-side-view.png`, "A 3D Image of an Egyptian Khopesh, made in blender", "Khopesh"),
-    new gallery_image(`${root}/portfolio/images/Self_portrait.png`, "A self portrait of Yoav Lipshitz", "Self Portrait")
+    new gallery_image(`${root}/portfolio/images/Self_portrait.png`, "A self portrait of Yoav Lipshitz", "Self Portrait"),
+    new gallery_image(`${root}/portfolio/images/Escaping-the-fire.jpg`, "A digital drawing of a hand reaching up, sorrounded by embers", "Escaping the Fire"),
+    new gallery_image(`${root}/portfolio/images/Flower.jpg`, "A traditional drawing of a metal flower", "Metallic Petals"),
+    new gallery_image(`${root}/portfolio/images/Adoption.jpg`, "A traditional drawing of a mother and her adopted son", "Adoption"),
+    new gallery_image(`${root}/portfolio/images/eye.jpg`, 'A traditional drawing of an eye', "Eye"),
+    new gallery_image(`${root}/portfolio/images/Mother's-day.jpg`, 'A watercolour painting of a rose', "Birthday")
+
 ]
 
 function populate_gallery_images() {
     const gallery = document.getElementById('gallery');
     displayGalleryImages.forEach((el) => {
+        const container = document.createElement('div');
+        container.classList.add('gallery_item');
+
         const image = document.createElement('img');
         image.src = el.href;
         image.alt = el.alt_text;
         if (el.title !== "") {
             image.title = el.title;
         }
-        gallery.appendChild(image);
+
+        const image_title = document.createElement('p');
+        image_title.innerText = el.title;
+
+        container.appendChild(image);
+        container.appendChild(image_title);
+        gallery.appendChild(container);
     });
 }
 
@@ -76,15 +99,16 @@ function populate_gallery_images() {
 //#region Model Display
 
 class gallery_model {
-    constructor(href, alt_text, poster_href) {
+    constructor(href, alt_text, poster_href, title) {
         this.href = href;
         this.alt_text = alt_text;
         this.poster_href = poster_href;
+        this.title = title;
     }
 }
 
 const displayGalleryModels = [
-    new gallery_model(`${root}/portfolio/models/Revolver_display.gltf`, "A 3D model of a golden revolver", `${root}/portfolio/models/posters/revolver_poster.png`)
+    new gallery_model(`${root}/portfolio/models/Revolver_display.gltf`, "A 3D model of a golden revolver", `${root}/portfolio/models/posters/revolver_poster.png`, 'Golden Revolver')
 ]
 
 {/* <model-viewer id="lazy-load" camera-controls touch-action="pan-y" reveal="manual"
@@ -101,6 +125,9 @@ const displayGalleryModels = [
 function populate_gallery_models() {
     const gallery = document.getElementById('gallery');
     displayGalleryModels.forEach((el) => {
+        const container = document.createElement('div');
+        container.classList.add('gallery_item');
+
         const model = document.createElement('model-viewer');
         model.classList.add('lazy-load');
         model.setAttribute('camera-controls', true);
@@ -126,7 +153,12 @@ function populate_gallery_models() {
 
         model.appendChild(load_button);
 
-        gallery.appendChild(model);
+        const image_title = document.createElement('p');
+        image_title.innerText = el.title;
+
+        container.appendChild(model);
+        container.appendChild(image_title);
+        gallery.appendChild(container);
     });
 }
 
