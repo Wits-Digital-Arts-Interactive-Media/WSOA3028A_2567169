@@ -3,7 +3,7 @@
     --darkest: #010203;
     --dark: #272625;
     --bright: #79766d;
-    --brightest: #f0ead6; 
+    --brightest: #f0ead6;
     --blue_light: #66c3cc;
     --purple: #c191ff;
     --div_amount: 2;
@@ -52,11 +52,18 @@ h1 {
     justify-items: center;
     margin-bottom: 5vh;
     border-bottom: 1px solid;
-    border-image: linear-gradient(to right, transparent 25%, --brightest 50%, transparent 25%) 100% 1;
+    border-image-repeat: stretch;
+    border-image: linear-gradient(to right, transparent, var(--brightest), transparent) 100% 1;
+}
+
+.gallery_item:nth-child(1),
+.gallery_item:nth-child(2) {
+    border-top: 1px solid;
+    padding-top: 5%;
 }
 
 .gallery_item img,
-.gallery_item model-viewer{
+.gallery_item model-viewer {
     height: 100%;
     max-width: 60%;
 }
