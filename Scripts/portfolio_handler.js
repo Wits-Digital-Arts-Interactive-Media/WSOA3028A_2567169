@@ -15,6 +15,10 @@ export function initialise() {
         button_art.classList.add('selected_tab');
         button_models.classList.remove('selected_tab');
         let divisions = 2;
+        if (window.matchMedia('only screen and (max-width: 780px)').matches) {
+            divisions = 1;
+        }
+        applyTopBorderToFirstChildren('.gallery_item', divisions);
         set_gallery_amount_horizontal(divisions);
         set_gallery_amount_vertical(Math.ceil(displayGalleryImages.length/divisions));
         clear_gallery();
@@ -29,6 +33,7 @@ export function initialise() {
         button_models.classList.add('selected_tab');
         button_art.classList.remove('selected_tab');
         let divisions = 1;
+        applyTopBorderToFirstChildren('.gallery_item', divisions);
         set_gallery_amount_horizontal(divisions);
         set_gallery_amount_vertical(Math.ceil(displayGalleryModels.length/divisions));
         clear_gallery();
@@ -38,6 +43,31 @@ export function initialise() {
     button_container.appendChild(button_art);
     button_container.appendChild(button_models);
     button_art.click();
+}
+
+function applyTopBorderToFirstChildren(selector, x) {
+    //creating or finding a stylesheet that we can add rules to
+    let styleSheet = document.getElementById('var_stylesheet');
+    if (!styleSheet) {
+        styleSheet = document.createElement('style');
+        styleSheet.id = 'var_stylesheet';
+        styleSheet.setAttribute('type', "text/css");
+        document.head.appendChild(styleSheet);
+    }
+
+    let rules = '';
+
+    for (let i=1; i<=x; i++) {
+        rules += `${selector}:nth-child(${i}), `;
+    }
+
+    //removing last two characters
+    rules = rules.slice(0, -2) + `{
+    border-top: 1px solid; 
+    padding-top: 5%;
+    }`;
+
+    styleSheet.innerText = rules;
 }
 
 function clear_gallery() {

@@ -7,6 +7,12 @@ img {
     margin-bottom: 1vh;
 }
 
+@media only screen and (max-width: 780px) {
+    img {
+        width: 100%;
+    }
+}
+
 /* body .nav_menu {
     padding-left: 0;
 } */

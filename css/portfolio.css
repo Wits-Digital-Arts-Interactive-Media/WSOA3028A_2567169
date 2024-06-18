@@ -57,11 +57,10 @@ h1 {
     border-image: linear-gradient(to right, transparent, var(--brightest), transparent) 100% 1;
 }
 
-.gallery_item:nth-child(1),
-.gallery_item:nth-child(2) {
+/* .gallery_item:nth-child(-n+2) {
     border-top: 1px solid;
     padding-top: 5%;
-}
+} */
 
 .gallery_item img,
 .gallery_item model-viewer {
@@ -144,4 +143,37 @@ button {
 button:hover:not(.selected_tab) {
     color: var(--darkest);
     background-color: var(--purple);
+}
+
+@media only screen and (max-width: 780px) {
+    #gallery {
+        grid-template: repeat(var(--div_amount_vertical), 85%) / repeat(1, auto);
+    }
+
+    .gallery_item img {
+        max-height: 90%;
+        max-width: 90%;
+        height: auto;
+        width: auto;
+    }
+
+    .gallery_item:nth-child(2) {
+        border-top: none;
+        padding-top: 0;
+    }
+
+    #button_container button {
+        width: 50%;
+    }
+
+    .grid_container {
+        grid-template: 10fr 0vh 80fr 10fr 5vh / var(--sideMargin) 100fr var(--sideMargin);
+        grid-template-areas:
+            '. heading .'
+            '. . .'
+            '. gallery .'
+            '. buttons .'
+            'footer footer footer'
+        ;
+    }
 }

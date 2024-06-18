@@ -7,6 +7,7 @@ body {
     font-style: normal;
     background-color: #010203;
     color: #f0ead6;
+    scrollbar-color: #f0ead6 #27262500;
 }
 
 h1,
@@ -22,7 +23,7 @@ h1 {
     margin-bottom: 10vh;
 }
 
-/*menu*/
+/* Nav menu */
 .svg-bars {
     padding-bottom: 0.3rem;
     padding-inline: 0.2rem;
@@ -77,21 +78,27 @@ h1 {
         scale: 1;
         transform: rotateZ(0deg);
     }
+
     16% {
         transform: rotateZ(15deg);
     }
+
     33% {
         transform: rotateZ(-15deg);
     }
+
     50% {
         scale: 1.1;
     }
+
     66% {
         transform: rotateZ(15deg);
     }
+
     84% {
         transform: rotateZ(-15deg);
     }
+
     100% {
         scale: 1;
         transform: rotateZ(0deg);
@@ -154,6 +161,29 @@ h1 {
     visibility: visible;
 }
 
+/* Nav menu Mobile */
+
+@media only screen and (max-width: 780px) {
+    .svg-bars:hover {
+        background-color: #79766dc0;
+    }
+
+    /* SVG width: 4.5rem, margin left 2.1vw */
+    .nav_menu {
+        height: 72vh;
+        width: 60vw;
+        top: 14vh;
+        left: -7.4rem;
+        display: flex;
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .nav_menu li:first-child {
+        margin-left: 0;
+    }
+}
+
 /*Footer*/
 
 footer hr {
@@ -165,7 +195,7 @@ footer hr {
 #icon_holder {
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 #icon_holder svg {
@@ -173,18 +203,18 @@ footer hr {
 }
 
 .svg_github {
-    width: 3vw;
-    height: 3vw;
+    width: 5%;
+    height: 5%;
 }
 
 .svg_insta {
-    width: 3vw;
-    height: 3vw;
+    width: 5%;
+    height: 5%;
 }
 
 .svg_itch {
-    width: 3vw;
-    height: 3vw;
+    width: 5%;
+    height: 5%;
 }
 
 .svg_github:hover,
@@ -271,6 +301,10 @@ footer hr {
     /*border-radius: 5px;*/
 }
 
+.entry_button {
+    width: 73vw;
+}
+
 article {
     font-size: 12pt;
     line-height: 15pt;
@@ -293,6 +327,10 @@ article {
     border-radius: 1vh;
 }
 
+.sub_entry img {
+    width: 90%;
+}
+
 .seperated_entry {
     display: block;
     margin-top: 3vh;
@@ -303,10 +341,13 @@ article {
     float: left;
 }
 
+.arrow_wrapper {
+    position: relative;
+}
+
 .entry_button .dropdown_arrow {
-    float: right;
     position: absolute;
-    right: 15vw;
+    right: 0;
     width: 1.5rem;
     height: 2.5rem;
 }
@@ -336,10 +377,6 @@ h5 {
     color: #6c95eb;
 }
 
-.entry_button {
-    width: 70.8vw;
-}
-
 #essay_buttons {
     min-height: 100vh;
     display: flex;
@@ -360,7 +397,8 @@ h5 {
 
 .bordered_entry.sub_entry {
     margin-top: 0.5vh;
-    margin-inline: 14vw;
+    margin-inline: auto;
+    width: 73vw;
 }
 
 /* Targeting buttons whose class includes bordered entry */
@@ -378,4 +416,38 @@ li:has(a[href]:hover),
 a[href]:hover {
     color: #010203;
     background-color: #c191ff;
+}
+
+@media only screen and (max-width: 780px) {
+    #blog_jumper {
+        visibility: hidden;
+    }
+
+    .entry_button {
+        width: 90vw;
+    }
+
+    .bordered_entry.sub_entry {
+        margin-inline: auto;
+        width: 90vw;
+    }
+
+    .svg_github {
+        width: 10%;
+        height: 10%;
+    }
+
+    .svg_insta {
+        width: 10%;
+        height: 10%;
+    }
+
+    .svg_itch {
+        width: 10%;
+        height: 10%;
+    }
+
+    .essay_entry {
+        width: 50vw;
+    }
 }

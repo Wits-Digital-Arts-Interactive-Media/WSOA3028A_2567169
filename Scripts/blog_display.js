@@ -93,7 +93,11 @@ function initialise_buttons() {
         new_button.classList.add('entry_button');
         //new_button.innerHTML = `<span class='green floated_text'>${bName}</span>${(index < button_keywords.length) ? `<br><span class='darkBlue floated_text'>Keywords:</span> <span class='lightBlue'>${button_keywords[index]}</span>` : ``}`;
 
-        new_button.appendChild(create_arrow_icon(0));
+        const arrow_wrapper = document.createElement('div');
+        arrow_wrapper.classList.add('arrow_wrapper');
+        arrow_wrapper.appendChild(create_arrow_icon(0));
+        new_button.appendChild(arrow_wrapper);
+    
         const title_text = document.createElement('span');
         title_text.classList.add('green', 'floated_text');
         title_text.innerText = bName;
