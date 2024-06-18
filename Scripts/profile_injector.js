@@ -4,11 +4,13 @@ let profile_rich_html =
             <img class="pfp u-photo" src="/WSOA3028A_2567169/portfolio/images/Self_portrait.png" width=100vw alt="A self portrait of Yoav" title="Yoav Lipshitz">
             <div class = "text_info">
                 <h1 class = "profile_header">Profile:<span class="flashing">_</span></h1>
-                <span class="item"><span class="dBlue">Name</span>&nbsp;:&nbsp;<span class="lBlue p-name">Yoav Lipshitz</span></span>
-                <a class="item" id = "mailto_link" href="mailto:2567169@students.wits.ac.za"><span class="dBlue u-email">Email</span>&nbsp;:&nbsp;<span class="lBlue">2567169@students.wits.ac.za</span></a>
-                <span class="item"><span class="dBlue">Location</span>&nbsp;:&nbsp;<span class="lBlue p-org">University of the Witwatersrand</span></span>
-                <span class="item"><span class="dBlue">City</span>&nbsp;:&nbsp;<span class="lBlue p-locality">Johannesburg</span></span>
-                <span class="item"><span class="dBlue">Country</span>&nbsp;:&nbsp;<span class="lBlue p-country-name">South Africa</span></span>
+                <div class = "text_items">
+                    <span class="item"><span class="dBlue">Name</span>&nbsp;:&nbsp;<span class="lBlue p-name">Yoav Lipshitz</span></span>
+                    <a class="item" id = "mailto_link" href="mailto:2567169@students.wits.ac.za"><span class="dBlue u-email">Email</span>&nbsp;:&nbsp;<span class="lBlue">2567169@students.wits.ac.za</span></a>
+                    <span class="item"><span class="dBlue">Location</span>&nbsp;:&nbsp;<span class="lBlue p-org">University of the Witwatersrand</span></span>
+                    <span class="item"><span class="dBlue">City</span>&nbsp;:&nbsp;<span class="lBlue p-locality">Johannesburg</span></span>
+                    <span class="item"><span class="dBlue">Country</span>&nbsp;:&nbsp;<span class="lBlue p-country-name">South Africa</span></span>
+                </div>
             </div>
         </div>
     </div>`;

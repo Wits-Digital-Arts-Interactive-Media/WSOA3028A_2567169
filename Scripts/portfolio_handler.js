@@ -1,3 +1,5 @@
+import { is_mobile } from "./mobile_handling.js";
+
 const root = "/WSOA3028A_2567169";
 
 let is_art_open = false;

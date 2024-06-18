@@ -17,6 +17,22 @@ h3 {
     font-size: 2.5rem;
 }
 
+/* Styling for mobile */
+@media only screen and (max-width: 780px) {
+    .intros {
+        line-height: 40pt;
+    }
+
+    .profile_info {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text_items .item{
+        padding-left: 5%;
+    }
+}
+
 .intros h1, 
 .intros h2,
 .intros h3,
@@ -33,6 +49,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-self: center;
+}
+
+.text_items {
+    display: flex;
+    flex-direction: column;
 }
 
 .profile_holder {
@@ -71,7 +92,7 @@ h3 {
 }
 
 .profile_header {
-    display: flex;
+    padding-top: 5vh;
     color: #39cc8f;
     font-size: 365%;
     margin-top: 0%;
