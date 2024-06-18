@@ -17,7 +17,11 @@ export function initialise(currentPage = "") {
     const icon_checkbox = document.createElement("input");
     icon_checkbox.type = 'checkbox';
     icon_checkbox.id = 'navigation_checkbox';
-    icon_checkbox.checked = localStorage.getItem('navbar_open_state') === 'open';
+    if (window.matchMedia('only screen and (max-width: 780px)').matches) {
+        icon_checkbox.checked = false;
+    } else {
+        icon_checkbox.checked = localStorage.getItem('navbar_open_state') === 'open';
+    }
     icon_checkbox.addEventListener('change', () => toggle_open());
 
     nav.appendChild(icon_checkbox);
@@ -50,17 +54,32 @@ export function initialise(currentPage = "") {
     //populating list of pages with entries from menuItems array
     for (let menuItem of menu_items) {
         const li = document.createElement("li");
+
         if (currentPage != menuItem.name) {
-            const a = document.createElement("a");
-            a.innerText = menuItem.name;
-            a.setAttribute("href", menuItem.href);
-            li.appendChild(a);
+            const associated_button = document.createElement('button');
+            associated_button.innerText = menuItem.name;
+            associated_button.addEventListener('click', () => {
+                const a = document.createElement('a');
+                a.href = menuItem.href;
+                a.click();
+            });
+            li.appendChild(associated_button);
         } else {
-            const a = document.createElement("a");
-            a.innerText = menuItem.name;
-            li.setAttribute('class', 'current_page_button');
-            li.appendChild(a);
+            const p = document.createElement('span');
+            p.innerText = menuItem.name;
+            li.appendChild(p);
         }
+        // if (currentPage != menuItem.name) {
+        //     const a = document.createElement("a");
+        //     a.innerText = menuItem.name;
+        //     a.setAttribute("href", menuItem.href);
+        //     li.appendChild(a);
+        // } else {
+        //     const a = document.createElement("a");
+        //     a.innerText = menuItem.name;
+        //     li.setAttribute('class', 'current_page_button');
+        //     li.appendChild(a);
+        // }
         menu.appendChild(li);
     }
 
