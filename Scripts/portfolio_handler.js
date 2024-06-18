@@ -45,7 +45,7 @@ function set_gallery_amount(display_amount) {
     //gettting the root for css variable access
     let root = document.querySelector(':root');
 
-    root.style.setProperty('--div_amount', display_amount);
+    root.style.setProperty('--div_amount_vertical', display_amount);
 }
 
 //#region Image Display
@@ -55,10 +55,6 @@ class gallery_image {
         this.title = title;
         this.alt_text = alt_text;
         this.href = href;
-    }
-
-    generateHTML() {
-        return `<img src="${href}" alt="${alt_text}" ${(title !== "") ? `title="${title}"` : ""}>`;
     }
 }
 
@@ -99,28 +95,21 @@ function populate_gallery_images() {
 //#region Model Display
 
 class gallery_model {
-    constructor(href, alt_text, poster_href, title) {
+    constructor(href, alt_text, poster_href, title, has_animation) {
         this.href = href;
         this.alt_text = alt_text;
         this.poster_href = poster_href;
         this.title = title;
+        this.has_animation = has_animation;
     }
 }
 
 const displayGalleryModels = [
-    new gallery_model(`${root}/portfolio/models/Revolver_display.gltf`, "A 3D model of a golden revolver", `${root}/portfolio/models/posters/revolver_poster.png`, 'Golden Revolver')
+    new gallery_model(`${root}/portfolio/models/Revolver_display.gltf`, "A 3D model of a golden revolver", `${root}/portfolio/models/posters/revolver_poster.png`, 'Golden Revolver'),
+    new gallery_model(`${root}/portfolio/models/Cigar_Case_display.glb`, "A 3D model of a cigar case", `${root}/portfolio/models/posters/Cigar_Case_Flame.png`, 'Cigar Case'),
+    new gallery_model(`${root}/portfolio/models/SkullDrake_display.glb`, "A 3D model of a Skull Drake", `${root}/portfolio/models/posters/SkullDrake_poster.jpg`, 'Skull Drake', true),
+    new gallery_model(`${root}/portfolio/models/khopesh_display.glb`, "A 3D model of an Egyptian Khopesh", `${root}/portfolio/models/posters/Khopesh_poster.png`, 'Khopesh'),
 ]
-
-{/* <model-viewer id="lazy-load" camera-controls touch-action="pan-y" reveal="manual"
-                src="./models/Revolver/Revolver_display.gltf" ios-src="./models/Revolver/Revolver_display.gltf" alt="Revolver Model"
-                camera-controls style="background-color: white;">
-                <div id="lazy-load-poster" slot="poster" style="background-image: url('../../assets/poster-damagedhelmet.webp');"></div>
-                <div id="button-load" slot="poster">Load 3D Model</div>
-            </model-viewer>
-            <script>
-                document.querySelector('#button-load').addEventListener('click',
-                  () => document.querySelector('#lazy-load').dismissPoster());
-              </script> */}
 
 function populate_gallery_models() {
     const gallery = document.getElementById('gallery');
@@ -135,6 +124,8 @@ function populate_gallery_models() {
         model.setAttribute('ios-src', el.href);
         model.alt = el.alt_text;
         model.setAttribute('reveal', 'manual');
+        model.setAttribute('autoplay', el.has_animation);
+        model.setAttribute('shadow-intensity', 1)
         
         const placeholder_poster = document.createElement('div');
         placeholder_poster.classList.add('lazy-load-poster');
