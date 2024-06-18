@@ -159,11 +159,12 @@ button:hover:not(.selected_tab) {
     }
 
     #button_container button {
+        font-size: 16pt;
         width: 50%;
     }
 
     .grid_container {
-        grid-template: 10fr 0vh 80fr 10fr 20vh / var(--sideMargin) 100fr var(--sideMargin);
+        grid-template: 10fr 0vh 80fr 10fr 23vh / var(--sideMargin) 100fr var(--sideMargin);
         grid-template-areas:
             '. heading .'
             '. . .'
