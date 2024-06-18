@@ -163,7 +163,7 @@ button:hover:not(.selected_tab) {
     }
 
     .grid_container {
-        grid-template: 10fr 0vh 80fr 10fr 10vh / var(--sideMargin) 100fr var(--sideMargin);
+        grid-template: 10fr 0vh 80fr 10fr 20vh / var(--sideMargin) 100fr var(--sideMargin);
         grid-template-areas:
             '. heading .'
             '. . .'
