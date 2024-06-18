@@ -116,7 +116,7 @@ footer {
 }
 
 model-viewer {
-    width: 50%;
+    width: 75%;
     height: 50%;
     background-color: var(--brightest)
 }
