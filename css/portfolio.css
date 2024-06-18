@@ -17,7 +17,7 @@
     top: 0px;
     left: 0px;
     display: grid;
-    grid-template: 10fr 0vh 10fr 80fr 5vh / var(--sideMargin) 100fr var(--sideMargin);
+    grid-template: 10fr 0vh 10fr 80fr 10vh / var(--sideMargin) 100fr var(--sideMargin);
     grid-template-areas:
         '. heading .'
         '. . .'
@@ -29,6 +29,7 @@
 
 h1 {
     grid-area: heading;
+    margin-bottom: 0;
 }
 
 #gallery {
@@ -167,7 +168,7 @@ button:hover:not(.selected_tab) {
     }
 
     .grid_container {
-        grid-template: 10fr 0vh 80fr 10fr 5vh / var(--sideMargin) 100fr var(--sideMargin);
+        grid-template: 10fr 0vh 80fr 10fr 10vh / var(--sideMargin) 100fr var(--sideMargin);
         grid-template-areas:
             '. heading .'
             '. . .'
