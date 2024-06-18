@@ -176,6 +176,11 @@ h1 {
 /* Nav menu Mobile */
 
 @media only screen and (max-width: 780px) {
+    .svg-bars {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
     .svg-bars:hover {
         background-color: #79766dc0;
     }
@@ -184,7 +189,7 @@ h1 {
     .nav_menu {
         height: 66.7vh;
         width: 60vw;
-        top: 14vh;
+        top: 11vh;
         left: -7.4rem;
         display: flex;
         flex-direction: column;
