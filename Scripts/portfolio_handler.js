@@ -12,7 +12,9 @@ export function initialise() {
         is_art_open = true;
         button_art.classList.add('selected_tab');
         button_models.classList.remove('selected_tab');
-        set_gallery_amount(Math.ceil(displayGalleryImages.length/2));
+        let divisions = 2;
+        set_gallery_amount_horizontal(divisions);
+        set_gallery_amount_vertical(Math.ceil(displayGalleryImages.length/divisions));
         clear_gallery();
         populate_gallery_images();
     });
@@ -24,7 +26,9 @@ export function initialise() {
         is_art_open = false;
         button_models.classList.add('selected_tab');
         button_art.classList.remove('selected_tab');
-        set_gallery_amount(Math.ceil(displayGalleryModels.length/2));
+        let divisions = 1;
+        set_gallery_amount_horizontal(divisions);
+        set_gallery_amount_vertical(Math.ceil(displayGalleryModels.length/divisions));
         clear_gallery();
         populate_gallery_models();
     });
@@ -41,11 +45,17 @@ function clear_gallery() {
     }
 }
 
-function set_gallery_amount(display_amount) {
+function set_gallery_amount_vertical(display_amount) {
     //gettting the root for css variable access
     let root = document.querySelector(':root');
 
     root.style.setProperty('--div_amount_vertical', display_amount);
+}
+
+function set_gallery_amount_horizontal(display_amount) {
+    let root = document.querySelector(':root');
+
+    root.style.setProperty('--div_amount_horizontal', display_amount);
 }
 
 //#region Image Display
