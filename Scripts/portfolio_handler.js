@@ -105,7 +105,7 @@ const displayGalleryImages = [
     new gallery_image(`${root}/portfolio/images/Escaping-the-fire.jpg`, "A digital drawing of a hand reaching up, sorrounded by embers", "Escaping the Fire"),
     new gallery_image(`${root}/portfolio/images/Flower.jpg`, "A traditional drawing of a metal flower", "Metallic Petals"),
     new gallery_image(`${root}/portfolio/images/Adoption.jpg`, "A traditional drawing of a mother and her adopted son", "Adoption"),
-    new gallery_image(`${root}/portfolio/images/eye.jpg`, 'A traditional drawing of an eye', "Eye"),
+    new gallery_image(`${root}/portfolio/images/Eye.jpg`, 'A traditional drawing of an eye', "Eye"),
     new gallery_image(`${root}/portfolio/images/Mother's-day.jpg`, 'A watercolour painting of a rose', "Birthday")
 
 ]
