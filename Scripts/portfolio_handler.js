@@ -148,7 +148,7 @@ class gallery_model {
 
 const displayGalleryModels = [
     new gallery_model(`${root}/portfolio/models/Revolver_display.gltf`, "A 3D model of a golden revolver", `${root}/portfolio/models/posters/revolver_poster.png`, 'Golden Revolver'),
-    new gallery_model(`${root}/portfolio/models/Cigar_Case_display.glb`, "A 3D model of a cigar case", `${root}/portfolio/models/posters/Cigar_Case_Flame.png`, 'Cigar Case'),
+    new gallery_model(`${root}/portfolio/models/Cigar_Case_Display.glb`, "A 3D model of a cigar case", `${root}/portfolio/models/posters/Cigar_Case_Flame.png`, 'Cigar Case'),
     new gallery_model(`${root}/portfolio/models/SkullDrake_display.glb`, "A 3D model of a Skull Drake", `${root}/portfolio/models/posters/SkullDrake_poster.jpg`, 'Skull Drake', true),
     new gallery_model(`${root}/portfolio/models/khopesh_display.glb`, "A 3D model of an Egyptian Khopesh", `${root}/portfolio/models/posters/Khopesh_poster.png`, 'Khopesh'),
 ]
