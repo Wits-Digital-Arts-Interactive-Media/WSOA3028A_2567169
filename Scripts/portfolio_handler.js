@@ -112,6 +112,7 @@ const displayGalleryImages = [
 
 function populate_gallery_images() {
     const gallery = document.getElementById('gallery');
+    gallery.scrollTop = 0;
     displayGalleryImages.forEach((el) => {
         const container = document.createElement('div');
         container.classList.add('gallery_item');
@@ -155,6 +156,7 @@ const displayGalleryModels = [
 
 function populate_gallery_models() {
     const gallery = document.getElementById('gallery');
+    gallery.scrollTop = 0;
     displayGalleryModels.forEach((el) => {
         const container = document.createElement('div');
         container.classList.add('gallery_item');
